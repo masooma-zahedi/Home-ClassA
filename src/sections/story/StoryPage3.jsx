@@ -36,7 +36,7 @@ const StoryPage = ({ title, content, vocab, qa }) => {
   return (
     <div className="p-5 m-3 border rounded shadow-sm bg-light" dir="rtl">
       {/* اینپوت برای نوشتن حرف یا کلمه */}
-      {shoHighLight && 
+      {/* {shoHighLight && 
       <div className="mb-5">
         <input
           type="text"
@@ -46,7 +46,7 @@ const StoryPage = ({ title, content, vocab, qa }) => {
           onChange={(e) => setHighlightWord(e.target.value)}
         />
       </div>
-      }
+      } */}
 
       <h2 className="mb-4 text-center h2" onClick={()=>{setShowHighLight(!shoHighLight)}} style={{ fontFamily: "Tahoma", cursor:'pointer' }}>
         {title}
@@ -55,7 +55,7 @@ const StoryPage = ({ title, content, vocab, qa }) => {
       {/* متن داستان */}
       {content.map((item, idx) =>
         item.type === "text" ? (
-          <p key={idx} style={{ fontSize: "1.8rem", lineHeight: "1.8" }}>
+          <p key={idx} style={{fontSize: window.innerWidth < 768 ? "20px" : "1.8rem", lineHeight: "1.8" }}>
             {highlightText(item.content)}
           </p>
         ) : (
