@@ -34,7 +34,7 @@ const StoryPage = ({ title, content, vocab, qa }) => {
   };
 
   return (
-    <div className="p-5 m-3 border rounded shadow-sm bg-light" dir="rtl">
+    <div className="p-2  border rounded shadow-sm bg-light" dir="rtl">
       <div className='text-primary h3 mb-5 d-inline-block p-2 mb-3 border-bottom border-info'>روان خوانی:</div>
       {/* اینپوت برای نوشتن حرف یا کلمه */}
       {/* {shoHighLight && 
@@ -84,7 +84,7 @@ const StoryPage = ({ title, content, vocab, qa }) => {
                 {vocab.map((v, i) => (
                   <button
                     key={i}
-                    className="btn btn-outline-dark fs-4 btn-sm bg-info px-3"
+                    className="btn btn-outline-dark fs-6  btn-sm bg-info px-3"
                     onClick={() => setSelectedWord(v)}
                   >
                     {v.word}

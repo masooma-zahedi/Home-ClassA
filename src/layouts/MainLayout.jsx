@@ -53,7 +53,7 @@ export default function MainLayout() {
       </header>
 
       {/* محتوای صفحه */}
-      <main className="flex-fill container border border-danger my-4">
+      <main className="flex-fill container p-0 border border-danger my-4">
         {/* <Outlet /> */}
         <Home/>
       </main>
