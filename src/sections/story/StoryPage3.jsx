@@ -35,6 +35,7 @@ const StoryPage = ({ title, content, vocab, qa }) => {
 
   return (
     <div className="p-5 m-3 border rounded shadow-sm bg-light" dir="rtl">
+      <div className='text-primary h3 mb-5 d-inline-block p-2 mb-3 border-bottom border-info'>روان خوانی:</div>
       {/* اینپوت برای نوشتن حرف یا کلمه */}
       {/* {shoHighLight && 
       <div className="mb-5">
