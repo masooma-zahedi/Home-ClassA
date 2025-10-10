@@ -10,6 +10,12 @@ export default function Home() {
     <StoryPage3 groupKey="alefba" wantedTitle="خارپُشت وَ پاییز"/>
     {/* <WordGameWithCategories initialCategory="وسایل مدرسه" /> */}
     <SpellingGame/>
+    <div>
+      <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان </h5>
+          <StoryPage3 groupKey="kalemat" wantedTitle="باغِ وَحش"/>
+    </div>
+
+
   </div>
 
   </>)
