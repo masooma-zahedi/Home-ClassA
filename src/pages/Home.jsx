@@ -2,6 +2,7 @@ import React from "react";
 import StoryPage3 from "../sections/story/StoryPage3";
 import WordGameWithCategories from "../sections/alphabet/WordGameWithCategories";
 import SpellingGame from "../sections/alphabet/SpellingGame";
+import DragDropQuiz from "../sections/word/DragDropQuiz";
 
 export default function Home() {
   return (<>
@@ -10,6 +11,7 @@ export default function Home() {
     <SpellingGame/>
     <StoryPage3 groupKey="alefba" wantedTitle="خارپُشت وَ پاییز"/>
     {/* <WordGameWithCategories initialCategory="وسایل مدرسه" /> */}
+    <DragDropQuiz/>
     <div>
       <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان </h5>
           <StoryPage3 groupKey="kalemat" wantedTitle="پیک نیک"/>
