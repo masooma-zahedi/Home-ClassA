@@ -125,6 +125,7 @@ const questions1 = [
   }
 ]
 
+// باید عکس ها را وارد کنی
 const questions2 = [
     // masooma
       {
@@ -208,6 +209,7 @@ const questions2 = [
     
 ]
 
+// باید عکس ها را وارد کنی 
 const questions3 = [
   {
     sentence: 'او جَعبِه را از روی ___ بُلَند کَرد.',

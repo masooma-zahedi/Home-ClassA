@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import { Link, Outlet } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "../pages/Home";
+import BiographySlide from "./BiographySlide";
 
 export default function MainLayout() {
   const [isOpen, setIsOpen] = useState(false);
+  const [showContact,setShowContact] = useState(false);
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
@@ -32,6 +34,9 @@ export default function MainLayout() {
                 <Link className="nav-link" to="/Home-ClassA/" onClick={() => setIsOpen(false)}>Home</Link>
               </li>
               <li className="nav-item">
+                <span className="nav-link" style={{cursor:"pointer"}} onClick={()=>setShowContact(!showContact)}>contact</span>
+              </li>
+              {/* <li className="nav-item">
                 <Link className="nav-link" to="/Home-ClassA/" onClick={() => setIsOpen(false)}>Alphabet</Link>
               </li>
               <li className="nav-item">
@@ -42,7 +47,7 @@ export default function MainLayout() {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/Home-ClassA/" onClick={() => setIsOpen(false)}>TodayPlan</Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </nav>
@@ -55,6 +60,8 @@ export default function MainLayout() {
       {/* محتوای صفحه */}
       <main className="flex-fill container p-0 border border-danger my-4">
         {/* <Outlet /> */}
+        {showContact && <BiographySlide/> }
+        
         <Home/>
       </main>
 
