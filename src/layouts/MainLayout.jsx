@@ -79,7 +79,9 @@ export default function MainLayout() {
               <li><Link className="text-white" to={'/Home-ClassA/'} >Alphabet</Link></li>
               <li><Link className="text-white" to={'/Home-ClassA/'} >Word</Link></li>
               <li><Link className="text-white" to={'/Home-ClassA/'} >Story</Link></li>
-              <li><Link className="text-white" to={'/Home-ClassA/'} >Contact</Link></li>
+              <li className="nav-item">
+                <span className="nav-link" style={{cursor:"pointer"}} onClick={()=>setShowContact(!showContact)}>contact</span>
+              </li>
             </ul>
           </div>
           <div className="col-md-4">
