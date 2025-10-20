@@ -11,13 +11,11 @@ export default function Home() {
     <SpellingGame/>
     <StoryPage3 groupKey="alefba" wantedTitle="خارپُشت وَ پاییز"/>
     {/* <WordGameWithCategories initialCategory="وسایل مدرسه" /> */}
-    <DragDropQuiz/>
+    {/* <DragDropQuiz/> */}
     <div>
       <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان </h5>
           <StoryPage3 groupKey="kalemat" wantedTitle="پیک نیک"/>
     </div>
-
-
   </div>
 
   </>)

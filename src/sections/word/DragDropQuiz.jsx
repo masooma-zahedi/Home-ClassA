@@ -5,8 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const questions1 = [
       {
         sentence: 'مَن هَر روز به ___ می‌رَوَم.',
-        correctWord: 'مدرسه',
-        options: ['مدرسه', 'سیب', 'باران'],
+        correctWord: 'مَدرِسه',
+        options: ['مَدرِسه', 'سیب', 'باران'],
         image: 'https://i.pinimg.com/736x/28/07/eb/2807eb52c3035c3caa48347167545cd4.jpg'
       },
       {
