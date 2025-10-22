@@ -3,6 +3,8 @@ import StoryPage3 from "../sections/story/StoryPage3";
 import WordGameWithCategories from "../sections/alphabet/WordGameWithCategories";
 import SpellingGame from "../sections/alphabet/SpellingGame";
 import DragDropQuiz from "../sections/word/DragDropQuiz";
+import SortableSentencesApp from "../sections/word/SortableSentencesApp";
+import SentenceObject from "../sections/word/SentenceObject";
 
 export default function Home() {
   return (<>
@@ -11,10 +13,14 @@ export default function Home() {
     <SpellingGame/>
     <StoryPage3 groupKey="alefba" wantedTitle="خارپُشت وَ پاییز"/>
     {/* <WordGameWithCategories initialCategory="وسایل مدرسه" /> */}
-    {/* <DragDropQuiz/> */}
+    <SentenceObject/>
+        <StoryPage3 groupKey="alefba" wantedTitle="روباه وَ رُودخانه"/>
+        {/* <DragDropQuiz/> */}
+
     <div>
-      <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان </h5>
-          <StoryPage3 groupKey="kalemat" wantedTitle="پیک نیک"/>
+      <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : جملات زیر را بر اساس زمان اتفاق مرتب کند.  </h5>
+          <SortableSentencesApp/>
+          {/* <StoryPage3 groupKey="kalemat" wantedTitle="پیک نیک"/> */}
     </div>
   </div>
 
