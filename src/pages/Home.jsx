@@ -9,9 +9,8 @@ import SentenceObject from "../sections/word/SentenceObject";
 export default function Home() {
   return (<>
   <div >
-    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">لطفا بچه ها قسمت پایین عکس داستان را به همراه کلمات و معنی آن بنویسند. </div>
-    <SpellingGame/>
-    <StoryPage3 groupKey="alefba" wantedTitle="خارپُشت وَ پاییز"/>
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">لطفا بچه ها از روی 5 جمله به دلخواه بنویسند و برای شما بخوانند. . </div>
+    {/* <SpellingGame/> */}
     {/* <WordGameWithCategories initialCategory="وسایل مدرسه" /> */}
     <SentenceObject/>
         <StoryPage3 groupKey="alefba" wantedTitle="روباه وَ رُودخانه"/>
