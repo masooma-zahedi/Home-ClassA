@@ -140,6 +140,40 @@ export  const cards = [
   { id: nanoid(), image: 'https://image.shutterstock.com/image-vector/seamstress-work-tailoring-vector-illustration-260nw-2485708901.jpg', englishWord: 'Tailor', persianWord: 'خَیّاط', category: 'شغل‌ها' },
   { id: nanoid(), image: 'https://img.freepik.com/free-vector/simple-sketch-waiter_1308-84157.jpg?semt=ais_hybrid&w=740&q=80', englishWord: 'Waiter', persianWord: 'گارسون', category: 'شغل‌ها' },
 
+    // وسایل خانه ******
+   { id: nanoid(), image: "https://img.freepik.com/premium-vector/vector-cartoon-wooden-chair-white_756535-6813.jpg?semt=ais_incoming&w=740&q=80", englishWord: "Chair", persianWord: "صَندَلی", category: "وسایل خانه" },
+  { id: nanoid(), image: "https://icon2.cleanpng.com/lnd/20250213/t/6c1d397b11d4f63fa09dc2904c5c75.webp", englishWord: "Table", persianWord: "میز", category: "وسایل خانه" },
+  { id: nanoid(), image: "https://thumbs.dreamstime.com/b/cartoon-couch-smiling-face-brown-orange-polka-dots-three-colorful-cushions-rest-yellow-one-smiley-red-bear-blue-368037647.jpg", englishWord: "Sofa", persianWord: "کاناپه", category: "وسایل خانه" },
+  { id: nanoid(), image: "https://t4.ftcdn.net/jpg/00/89/35/35/360_F_89353593_1gvsjf4dyoxIzhyR31uh0l5ifJ4T3WHv.jpg", englishWord: "Bed", persianWord: "تَخت", category: "وسایل خانه" },
+  { id: nanoid(), image: "https://i.pinimg.com/564x/2f/9f/69/2f9f69bb1b33e6e6bc0b561107dac5fc.jpg", englishWord: "Lamp", persianWord: "چِراغ", category: "وسایل خانه" },
+  { id: nanoid(), image: "https://img.freepik.com/premium-vector/cartoon-icon-illustration-colorful-animated-alarm-clock_1263357-22214.jpg", englishWord: "Clock", persianWord: "ساعَت", category: "وسایل خانه" },
+  { id: nanoid(), image: "https://static.vecteezy.com/system/resources/previews/067/222/602/non_2x/hand-drawn-cartoon-illustration-of-a-carpet-free-png.png", englishWord: "Carpet", persianWord: "فَرش", category: "وسایل خانه" },
+  { id: nanoid(), image: "https://c0.klipartz.com/pngpicture/666/751/sticker-png-drawing-%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81-%D0%A4%D0%BE%D1%82%D0%BA%D0%B8-others-albom-mirror-cartoon-picture-frame-%D1%8F%D0%BD%D0%B4%D0%B5%D0%BA%D1%81-%D1%84%D0%BE%D1%82%D0%BA%D0%B8.png", englishWord: "Mirror", persianWord: "آیِنه", category: "وسایل خانه" },
+  { id: nanoid(), image: "https://www.shutterstock.com/image-vector/cozy-home-interior-pillows-textile-260nw-2479600727.jpg", englishWord: "Pillow", persianWord: "بالِشت", category: "وسایل خانه" },
+  { id: nanoid(), image: "https://png.pngtree.com/png-clipart/20230930/original/pngtree-folded-blanket-doodle-png-image_13023864.png", englishWord: "Blanket", persianWord: "پَتو", category: "وسایل خانه" },
+  { id: nanoid(), image: "https://thumbs.dreamstime.com/b/red-theatre-curtain-3515194.jpg", englishWord: "Curtain", persianWord: "پَردِه", category: "وسایل خانه" },
+  { id: nanoid(), image: "https://img.freepik.com/premium-photo/flat-screen-tv-with-cartoon-characters-it_1257811-9723.jpg", englishWord: "TV", persianWord: "تِلویزیون", category: "وسایل خانه" },
+  { id: nanoid(), image: "https://as1.ftcdn.net/jpg/01/06/76/72/1000_F_106767219_GNtr1M0AYhZcr5jBdMkqRnPycNzQn1Fu.jpg", englishWord: "Refrigerator", persianWord: "یَخچال", category: "وسایل خانه" },
+  { id: nanoid(), image: "https://img.freepik.com/premium-vector/cartoon-image-stove-with-red-top_858664-28651.jpg", englishWord: "Stove", persianWord: "اُجاق", category: "وسایل خانه" },
+  { id: nanoid(), image: "https://t3.ftcdn.net/jpg/15/38/32/70/360_F_1538327025_qQfiuRB6nzpDYSPofY4fVUq8jbYqDj5u.jpg", englishWord: "Washing Machine", persianWord: "ماشینِ لِباسشویی", category: "وسایل خانه" },
+
+  // بخش های خانه**********
+  { id: nanoid(), image: "https://thumbs.dreamstime.com/b/vector-cartoon-kitchen-counter-appliances-furniture-set-fridge-microwave-oven-kettle-blender-stove-exhaust-cupboard-114160344.jpg", englishWord: "Kitchen", persianWord: "آشپَزخانه", category: "بخش‌های خانه" },
+  { id: nanoid(), image: "https://t4.ftcdn.net/jpg/01/58/57/41/360_F_158574152_sojV4O8PjcvOc1CsGfSeqFnb4Lx26kRp.jpg", englishWord: "Living Room", persianWord: "اتاق نِشیمَن", category: "بخش‌های خانه" },
+  { id: nanoid(), image: "https://png.pngtree.com/background/20250612/original/pngtree-cartoon-kids-bedroom-with-space-theme-decor-picture-image_16652439.jpg", englishWord: "Bedroom", persianWord: "اتاق خواب", category: "بخش‌های خانه" },
+  { id: nanoid(), image: "https://img.freepik.com/premium-photo/bathroom-bathtub-cartoon-toilet_53876-440965.jpg", englishWord: "Bathroom", persianWord: "حمّام", category: "بخش‌های خانه" },
+  { id: nanoid(), image: "https://www.shutterstock.com/image-vector/scene-backyard-fence-illustration-260nw-2140989857.jpg", englishWord: "Yard", persianWord: "حَیاط", category: "بخش‌های خانه" },
+  { id: nanoid(), image: "https://img.freepik.com/premium-photo/garage-car-vehicle-cartoon_53876-403477.jpg", englishWord: "Garage", persianWord: "گَاراج", category: "بخش‌های خانه" },
+  { id: nanoid(), image: "https://img.freepik.com/premium-photo/kitchen-cartoon-vector-classic-home-dining-room-kitchen-interior-design-dining-table-fruits-refrigerator-flat-illustration_1028938-218665.jpg", englishWord: "Dining Room", persianWord: "اتاق ناهارخوری", category: "بخش‌های خانه" },
+  { id: nanoid(), image: "https://t3.ftcdn.net/jpg/03/34/23/42/360_F_334234241_9Q7HP4dRbrB34XWuMldzcWhFaohCpxco.jpg", englishWord: "Hallway", persianWord: "راهرو", category: "بخش‌های خانه" },
+  { id: nanoid(), image: "https://png.pngtree.com/png-vector/20240518/ourmid/pngtree-vector-image-of-a-balcony-with-flowers-png-image_12483228.png", englishWord: "Balcony", persianWord: "بالکن", category: "بخش‌های خانه" },
+  { id: nanoid(), image: "https://thumbs.dreamstime.com/b/cartoon-illustration-construction-worker-fixing-rooftop-worker-wearing-cartoon-illustration-construction-415619243.jpg", englishWord: "Roof", persianWord: "پشت‌ بام", category: "بخش‌های خانه" },
+  { id: nanoid(), image: "https://thumbs.dreamstime.com/b/cartoon-garden-vegetables-fruit-trees-cartoon-garden-vegetables-like-cabbage-carrots-cauliflower-pepper-114918152.jpg", englishWord: "Garden", persianWord: "باغچه", category: "بخش‌های خانه" },
+  { id: nanoid(), image: "https://img.freepik.com/premium-photo/wardrobe-clip-art-cartoon-illustration-isolated-white-background_15083-9269.jpg?semt=ais_incoming&w=740&q=80", englishWord: "Closet", persianWord: "کمد", category: "بخش‌های خانه" },
+  { id: nanoid(), image: "https://img.freepik.com/premium-vector/vector-interior-with-staircase-living-room_734543-66.jpg?semt=ais_incoming&w=740&q=80", englishWord: "Stairs", persianWord: "پله‌ها", category: "بخش‌های خانه" },
+  { id: nanoid(), image: "https://www.shutterstock.com/image-vector/basement-room-interior-house-storage-260nw-2447486161.jpg", englishWord: "Basement", persianWord: "زیرزمین", category: "بخش‌های خانه" },
+  { id: nanoid(), image: "https://t3.ftcdn.net/jpg/03/14/62/92/360_F_314629223_hk1iDQiUWjsvdMZwPeZLjWAVQKBhMd4u.jpg", englishWord: "Attic", persianWord: "زیرشیروانی", category: "بخش‌های خانه" },
+
   ];
 
 

@@ -13,11 +13,11 @@ import SentenceBuilder from "../sections/word/SentenceBuilder";
 export default function Home() {
   return (<>
   <div >
-    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها داستان زیر را بخوانند و تا بالای عکس بنویسند.  </div>
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها داستان زیر را بخوانند و اسامی وسایل خانه را یاد بگیرند و از روی آن یکبار بنویسند.  </div>
+          <SpellingGame/>
     {/* <WordGameWithCategories initialCategory="وسایل مدرسه" /> */}
     {/* <SentenceObject/> */}
-        <StoryPage3 groupKey="alefba" wantedTitle="اَمـانَـتِ مینا"/>
-        {/* <DragDropQuiz/> */}
+        <StoryPage3 groupKey="alefba" wantedTitle="سَفَر با کَشـتی"/>
         {/* <ObjectSentenceGame/> */}
         {/* <VideoWithCaptions/> */}
       {/* <VideoCard
@@ -25,14 +25,14 @@ export default function Home() {
         description="متن فارسی داستان زیر را بخوانید."
         videoFileName={`${process.env.PUBLIC_URL}/video/chick.mp4`}  // فقط اسم فایل ویدیوی mp4
       /> */}
-      <SpellingGame/>
 {/* ****************************************************** */}
     <div>
-      <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : داستان زیر را بخواند و به سوالات درک مطلب جواب دهد.  </h5>
+      <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : فعالیت زیر را تمرین و از روی هفت جمله آن بنویسد.  </h5>
+            <DragDropQuiz/>
           {/* <SortableSentencesApp/> */}
           {/* <SentenceBuilder/> */}
           {/* <StoryPage3 groupKey="kalemat" wantedTitle="مینا و راستگویی"/> */}
-          <StoryPage3 groupKey="dastan" wantedTitle="آهوی یک‌چشم *"/>
+          {/* <StoryPage3 groupKey="dastan" wantedTitle="آهوی یک‌چشم *"/> */}
     </div>
   </div>
 

@@ -333,12 +333,156 @@ const questions3 = [
   }
 ];
 
+const action4 = [
+  {
+    sentence: 'او دَر ___ کِتاب می‌خوانَد.',
+    correctWord: 'کِتاب‌خانِه',
+    meaning: 'library',
+    options: ['خانِه', 'کِتاب‌خانِه', 'خِیابان'],
+    image: 'https://img.freepik.com/premium-photo/there-is-cartoon-picture-library-with-books-shelves_1035769-31453.jpg'
+  },
+  {
+    sentence: 'پِدَرَم دَر ___ کار می‌کُنَد.',
+    correctWord: 'بیمارِستان',
+    meaning: 'hospital',
+    options: ['مَدرَسِه', 'پارک', 'بیمارِستان'],
+    image: 'https://thumbs.dreamstime.com/b/young-doctor-standing-front-hospital-building-cartoon-155998765.jpg'
+  },
+  {
+    sentence: 'ما بَرای خَریدِ گُل به ___ رَفتیم.',
+    correctWord: 'گُل‌فُروشی',
+    meaning: 'flower shop',
+    options: ['مَدرَسِه', 'گُل‌فُروشی', 'کِتاب‌خانِه'],
+    image: 'https://thumbs.dreamstime.com/b/flower-shop-interior-green-natural-decorations-woman-florist-seller-cartoon-design-vector-illustration-flower-shop-interior-green-139043276.jpg'
+  },
+  {
+    sentence: 'سارا با ___ به پارک رَفت.',
+    correctWord: 'دوچَرخه',
+    meaning: 'bicycle',
+    options: ['ماشین', 'مِداد', 'دوچَرخه'],
+    image: 'https://img.freepik.com/premium-vector/cute-girl-cycling-bicycle-cartoon-vector-illustration_1080480-151956.jpg'
+  },
+  {
+    sentence: 'او اَز ___ بَرای خوردَنِ سوپ اِستِفادِه کَرد.',
+    correctWord: 'قاشُق',
+    meaning: 'spoon',
+    options: ['چاقو', 'ماهیتابِه', 'قاشُق'],
+    image: 'https://www.shutterstock.com/image-vector/cute-boy-having-lunch-preschool-600nw-1705328893.jpg'
+  },
+  {
+    sentence: 'مادَر بَرای ناهار ___ پُخت.',
+    correctWord: 'قُورمِه‌سَبزی',
+    meaning: 'ghormeh sabzi',
+    options: ['قُورمِه‌سَبزی', 'شیرینی', 'ساندویچ'],
+    image: 'https://cdn.nody.ir/files/2021/06/12/nody-%D8%B9%DA%A9%D8%B3-%D8%AA%D8%B2%DB%8C%DB%8C%D9%86-%D9%82%D9%88%D8%B1%D9%85%D9%87-%D8%B3%D8%A8%D8%B2%DB%8C-1623479060.jpg'
+  },
+  {
+    sentence: 'دَر فَصلِ تابِستان هَوا بِسیار ___ اَست.',
+    correctWord: 'گَرم',
+    meaning: 'hot',
+    options: ['بارانی', 'سَرد', 'گَرم'],
+    image: 'https://static.vecteezy.com/system/resources/previews/002/695/317/non_2x/stickman-businessman-character-walks-in-hot-weather-and-his-tongue-is-out-cartoon-illustration-free-vector.jpg'
+  },
+  {
+    sentence: 'ما دَر ___ ناهار می‌خوریم.',
+    correctWord: 'سالُنِ‌غذاخوری',
+    meaning: 'cafeteria / dining hall',
+    options: ['مَدرَسِه', 'کِتاب‌خانِه', 'سالُنِ‌غذاخوری'],
+    image: 'https://images.stockcake.com/public/6/f/7/6f73e604-1c31-4278-a8e7-64f5c5e1ee52_large/school-cafeteria-buzz-stockcake.jpg'
+  },
+  {
+    sentence: 'پِدَر مَن یِک ___ جَدید خَرید.',
+    correctWord: 'ماشین',
+    meaning: 'car',
+    options: ['دوچَرخه‌سواری', 'مِداد', 'ماشین'],
+    image: 'https://t4.ftcdn.net/jpg/01/75/41/99/360_F_175419966_DvmsbkV48YXpByUUcbFamnYq7KEvDTuG.jpg'
+  },
+  {
+    sentence: 'کودَکان دَر ___ بازی می‌کُنَند.',
+    correctWord: 'زَمین‌بازی',
+    meaning: 'playground',
+    options: ['زَمین‌بازی', 'مَدرَسِه', 'اتاق'],
+    image: 'https://thumbs.dreamstime.com/b/autumn-playground-children-playing-park-illustration-390011742.jpg'
+  },
+  {
+    sentence: 'او دَر ___ کار می‌کُنَد و نان می‌پَزد.',
+    correctWord: 'نانوایی',
+    meaning: 'bakery',
+    options: ['مَدرَسِه', 'نانوایی', 'بیمارِستان'],
+    image: 'https://t3.ftcdn.net/jpg/09/11/65/24/360_F_911652488_Sa0cd8hU0NFrrHiVPZ9T1H4behczTFhT.jpg'
+  },
+  {
+    sentence: 'ما دیشَب به ___ رَفتیم و شام خُوردیم.',
+    correctWord: 'رِستُوران',
+    meaning: 'restaurant',
+    options: ['خانِه', 'رِستُوران', 'مَدرَسِه'],
+    image: 'https://thumbs.dreamstime.com/b/vibrant-cartoon-restaurant-interior-diners-waiters-ai-generated-illustration-lively-cartoon-illustration-modern-323741928.jpg'
+  },
+  {
+    sentence: 'دَر ___ می‌توانیم دارو بِخَریم.',
+    correctWord: 'داروخانِه',
+    meaning: 'pharmacy',
+    options: ['کِتاب‌خانِه', 'داروخانِه', 'بیمارِستان'],
+    image: 'https://thumbs.dreamstime.com/b/pharmacist-preparing-medication-pharmacy-counter-shelves-medicine-vector-pharmacist-preparing-medication-410663409.jpg'
+  },
+  {
+    sentence: 'او دَر ___ می‌نِشینَد وَ نَقّاشی می‌کِشَد.',
+    correctWord: 'اتاقِ‌خواب',
+    meaning: 'bedroom',
+    options: ['مَدرَسِه', 'اتاقِ‌خواب', 'رِستُوران'],
+    image: 'https://static.vecteezy.com/system/resources/previews/000/432/331/non_2x/boy-and-girl-drawing-picture-in-bedroom-vector.jpg'
+  },
+    {
+    sentence: 'مَن هَر روز با دوستَم به ___ می‌رَوَم.',
+    correctWord: 'مَدرَسِه',
+    meaning: 'school',
+    options: ['گُل‌فُروشّی', 'مَدرَسِه', 'کِتاب‌خانِه'],
+    image: 'https://media.istockphoto.com/id/537076949/vector/school-building-in-flat-style.jpg?s=612x612&w=0&k=20&c=RWzAsSEFxbT5mm1QUzvgqliqEVYrnY0Rvybhjbjj3jE='
+  },
+
+  {
+    sentence: 'دَر ___ فیلم تَماشا کَردیم.',
+    correctWord: 'سینَما',
+    meaning: 'cinema',
+    options: ['خانِه', 'مَدرَسِه', 'سینَما'],
+    image: 'https://images.stockcake.com/public/1/2/4/12430b33-bb89-4a00-b88f-81547b76107a_large/animated-cinema-experience-stockcake.jpg'
+  },
+  {
+    sentence: 'او با دوستانَش دَر ___ فوتبَال بازی کَرد.',
+    correctWord: 'وَرزِشگاه',
+    meaning: 'stadium',
+    options: ['رِستُوران', 'وَرزِشگاه', 'کِتاب‌خانِه'],
+    image: 'https://c8.alamy.com/comp/2J031DA/cartoon-gym-interior-room-with-sport-fitness-equipment-sport-elements-fitness-room-interior-vector-illustration-dumbbells-treadmill-and-exercise-2J031DA.jpg'
+  },
+  {
+    sentence: 'دَر ___ وَسایِل زیادی مِثل میز وَ صَندَلی می‌سازَند.',
+    correctWord: 'کارگاه',
+    meaning: 'workshop',
+    options: ['مَدرَسِه', 'کارگاه', 'خانِه'],
+    image: 'https://t3.ftcdn.net/jpg/00/70/92/30/360_F_70923061_CIbmHC9Tx2pbfIWHJzv6UeAMWw54YNIb.jpg'
+  },
+  {
+    sentence: 'اِمروز به ___ بَرای خَرید رَفتیم.',
+    correctWord: 'بازار',
+    meaning: 'market',
+    options: ['بازار', 'مَدرَسِه', 'کِتاب‌خانِه'],
+    image: 'https://imgcdn.stablediffusionweb.com/2024/12/10/59da0982-3def-41f7-a3bd-ffde20377b5b.jpg'
+  },
+  {
+    sentence: 'کودَکان دَر روزِ تَعطیل به ___ می‌رَوَند.',
+    correctWord: 'پارک',
+    meaning: 'park',
+    options: ['مَدرَسِه', 'پارک', 'کارگاه'],
+    image: 'https://thumbs.dreamstime.com/b/autumn-playground-children-playing-park-illustration-390011742.jpg'
+  }
+];
+
 
 // توجه: فرض شده questions1, questions2, questions3 در همین فایل یا در بالاتر وارد شده‌اند.
 // اگر در جای دیگری هستند، آنها را ایمپورت کنید یا به صورت props ارسال کنید.
 
 const DragDropQuiz = () => {
-  const [questions, setQuestions] = useState(questions1);
+  const [questions, setQuestions] = useState(action4);
   const [idModal, setIdModal] = useState("question1");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [droppedWord, setDroppedWord] = useState(null); // در این نسخه "کلمهٔ انتخاب‌شده"
