@@ -9,6 +9,7 @@ import ObjectSentenceGame from "../sections/alphabet/ObjectSentenceGame";
 import VideoWithCaptions from "../sections/alphabet/VideoCard";
 import VideoCard from "../sections/alphabet/VideoCard";
 import SentenceBuilder from "../sections/word/SentenceBuilder";
+import DragWriteBoxWithGuides from "../sections/alphabet/DragWriteBoxWithGuides ";
 
 export default function Home() {
   return (<>
@@ -35,6 +36,16 @@ export default function Home() {
           {/* <StoryPage3 groupKey="dastan" wantedTitle="آهوی یک‌چشم *"/> */}
     </div>
   </div>
+
+  <div className="container mt-4">
+      <h5>تمرین نوشتن — با خطوط راهنما و دانلود</h5>
+      <DragWriteBoxWithGuides
+        width={740}
+        height={520}
+        showGuides={true}
+        downloadName="persian_practice.png"
+      />
+    </div>
 
   </>)
 }
