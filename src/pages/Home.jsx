@@ -12,6 +12,7 @@ import SentenceBuilder from "../sections/word/SentenceBuilder";
 import DragWriteBoxWithGuides from "../sections/alphabet/DragWriteBoxWithGuides ";
 import TypingQAImageSlider from "../sections/word/TypingQAImageSlider";
 import TypingImageText from "../sections/word/TypingImageText";
+import MatchingLettersPicturs from "../sections/alphabet/MatchingLettersPicturs";
 
 export default function Home() {
   return (<>
@@ -19,6 +20,7 @@ export default function Home() {
     <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها همه اسلایدها را بخوانند و از روی 6 اسلاید زیر بنویسند. جمله نمونه را هم بنویسند. </div>
           {/* <SpellingGame/> */}
           <TypingQAImageSlider/>
+          <MatchingLettersPicturs/>
     <div className="container  mt-4" dir="rtl">
       <DragWriteBoxWithGuides textTitle="ما دَر مَدرِسه چیزهای زیادی یاد می گیریم" width={840} height={520} showGuides={true} downloadName="persian_practice.png"/>
     </div>
