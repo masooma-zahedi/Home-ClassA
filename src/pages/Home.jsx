@@ -18,14 +18,20 @@ import ColoringCanvasPro from "../sections/alphabet/ColoringCanvasPro ";
 export default function Home() {
   return (<>
   <div >
-    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها داستان زیر را بخوانند و تا سه خط آن را بنویسند. </div>
-    <ColoringCanvasPro
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها فارسی داستان زیر را بخوانند و از روی 5 جمله آن بنویسند. </div>
+        <VideoCard
+      title="قصه کوتاه امروز"
+      description="متن فارسی داستان زیر را بخوانید."
+      videoFileName={`${process.env.PUBLIC_URL}/video/anty-1.mp4`}  // فقط اسم فایل ویدیوی mp4
+    />
+
+    {/* <ColoringCanvasPro
   imageSrc={`${process.env.PUBLIC_URL}/images/test/mouse1.png`}
   // imageSrc={`${process.env.PUBLIC_URL}/images/assetWord/designPage/girlSitting.png`}
   colors={["#ff0000", "#00ccff", "#ffaa00", "#8800ff","#10902eff", "#ff9500", "#ffcc00", "#34c759", "#0c09b7ff", "#5856d6", "#a0364aff"]}
-/>
+/> */}
 
-        <StoryPage3 groupKey="alefba" wantedTitle="بَـرادَرِ کوچکِ مَن"/>
+        {/* <StoryPage3 groupKey="alefba" wantedTitle="بَـرادَرِ کوچکِ مَن"/> */}
           {/* <SpellingGame/> */}
           {/* <TypingQAImageSlider/> */}
           <MatchingLettersPicturs/>
@@ -36,14 +42,9 @@ export default function Home() {
     {/* <SentenceObject/> */}
     {/* <ObjectSentenceGame/> */}
     {/* <VideoWithCaptions/> */}
-    {/* <VideoCard
-      title="قصه کوتاه امروز"
-      description="متن فارسی داستان زیر را بخوانید."
-      videoFileName={`${process.env.PUBLIC_URL}/video/chick.mp4`}  // فقط اسم فایل ویدیوی mp4
-    /> */}
 {/* ****************************************************** */}
     <div>
-      <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : داستان زیر را بخواند و تا بالای عکس بنویسد.  </h5>
+      <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : داستان زیر را بخواند و خلاصه داستان را بنویسد.  </h5>
             {/* <DragDropQuiz/> */}
           {/* <SortableSentencesApp/> */}
           {/* <SentenceBuilder/> */}

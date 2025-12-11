@@ -29,7 +29,7 @@ const VideoCard = ({ title, description, videoFileName }) => {
           <Card.Title className="fs-4 fw-bold mb-2">{title}</Card.Title>
           <Card.Text className="mb-3">{description}</Card.Text>
             <div className="container mt-4">
-              <div className="position-relative" style={{ maxWidth: "700px",maxHeight:"600px", margin: "auto" }}>
+              <div className="position-relative" style={{ maxWidth: "700px",maxHeight:"900px", margin: "auto" }}>
                 <video ref={videoRef} width="100%" height="100%" controls className="rounded ">
                   <source src={videoFileName} type="video/mp4" />
                   مرورگر شما ویدیو را پشتیبانی نمی‌کند.
