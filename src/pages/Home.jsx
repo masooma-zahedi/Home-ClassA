@@ -18,12 +18,12 @@ import ColoringCanvasPro from "../sections/alphabet/ColoringCanvasPro ";
 export default function Home() {
   return (<>
   <div >
-    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها فارسی داستان زیر را بخوانند و از روی 5 جمله آن بنویسند. </div>
-        <VideoCard
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها داستان زیر را بخوانند و تا بالای عکس بنویسند. </div>
+        {/* <VideoCard
       title="قصه کوتاه امروز"
       description="متن فارسی داستان زیر را بخوانید."
       videoFileName={`${process.env.PUBLIC_URL}/video/anty-1.mp4`}  // فقط اسم فایل ویدیوی mp4
-    />
+    /> */}
 
     {/* <ColoringCanvasPro
   imageSrc={`${process.env.PUBLIC_URL}/images/test/mouse1.png`}
@@ -31,24 +31,24 @@ export default function Home() {
   colors={["#ff0000", "#00ccff", "#ffaa00", "#8800ff","#10902eff", "#ff9500", "#ffcc00", "#34c759", "#0c09b7ff", "#5856d6", "#a0364aff"]}
 /> */}
 
-        {/* <StoryPage3 groupKey="alefba" wantedTitle="بَـرادَرِ کوچکِ مَن"/> */}
+        <StoryPage3 groupKey="alefba" wantedTitle="بازی در بَرف"/>
           {/* <SpellingGame/> */}
           {/* <TypingQAImageSlider/> */}
-          <MatchingLettersPicturs/>
-    <div className="container  mt-4" dir="rtl">
+          {/* <MatchingLettersPicturs/> */}
+    {/* <div className="container  mt-4" dir="rtl">
       <DragWriteBoxWithGuides textTitle="ما دَر مَدرِسه چیزهای زیادی یاد می گیریم" width={840} height={520} showGuides={true} downloadName="persian_practice.png"/>
-    </div>
+    </div> */}
     {/* <WordGameWithCategories initialCategory="وسایل مدرسه" /> */}
     {/* <SentenceObject/> */}
     {/* <ObjectSentenceGame/> */}
     {/* <VideoWithCaptions/> */}
 {/* ****************************************************** */}
     <div>
-      <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : داستان زیر را بخواند و خلاصه داستان را بنویسد.  </h5>
+      <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : کلمات مترادف داستان را با معنی انگلیسی آن یکبار بنویسد.  </h5>
             {/* <DragDropQuiz/> */}
           {/* <SortableSentencesApp/> */}
           {/* <SentenceBuilder/> */}
-          <StoryPage3 groupKey="kalemat" wantedTitle="عَلی و تَنبلی"/>
+          <StoryPage3 groupKey="kalemat" wantedTitle="پَروانه وَ گُل"/>
           {/* <StoryPage3 groupKey="dastan" wantedTitle="آهوی یک‌چشم *"/> */}
           {/* <TypingImageText srcImg="https://www.shutterstock.com/image-photo/cartoon-artistic-image-boy-9-260nw-2600592373.jpg"/> */}
     </div>
