@@ -637,10 +637,7 @@ const typeText = (fullText, callback) => {
           </div>
         </div>
       </div>
-      {/* <div className="container">
-        <TypingImageText/>
-      </div> */}
-    </>
+      </>
   );
 };
 
