@@ -94,113 +94,113 @@ import React, { useEffect, useState } from 'react';
 //     meaning: 'ladder'
 //   },
 // ]
-const action1 =[
-  {
-    image: 'https://thumbs.dreamstime.com/b/illustration-cute-little-boy-eating-red-apple-isolated-white-background-kid-eats-red-apple-good-appetite-healthy-331433166.jpg',
-    correct: 'بَچِه سیب می‌خورَد',
-    options: ['بَچِه توپ بازی می‌کُنَد', 'بَچِه سیب می‌خورَد', 'بَچِه می‌خوابَد'],
-    word: 'سیب',
-    meaning: 'apple'
-  },
-  {
-    image: 'https://img.freepik.com/premium-vector/cute-boy-eating-ramen-noodle-cartoon-vector-icon-illustration-people-food-icon-concept-isolated-premium-vector-flat-cartoon-style_138676-3943.jpg',
-    correct: 'پَسر نودِل می‌خورَد',
-    options: ['پَسر خَوابیده اَست', 'پَسر نودِل می‌خورَد', 'پَسر می‌دَوَد'],
-    word: 'نودِل',
-    meaning: 'noodle'
-  },
-  {
-    image: 'https://cdn.vectorstock.com/i/500p/93/71/young-cartoon-student-writing-vector-1149371.jpg',
-    correct: 'اِلیاس دَر حال نِوِشتَن اَست',
-    options: ['اِلیاس دَر حال نِوِشتَن اَست', 'اِلیاس دَر حال خَواب اَست', 'اِلیاس دَر حال دویدن اَست'],
-    word: 'نِوِشتَن',
-    meaning: 'writing'
-  },
-  {
-    image: 'https://png.pngtree.com/png-clipart/20241106/original/pngtree-happy-girl-reading-book-clipart-illustration-png-image_16698789.png',
-    correct: 'اِلناز دَر حالِ خواندَن اَست',
-    options: ['اِلناز دَر حالِ خواندَن اَست', 'اِلناز دَر حالِ نِوِشتَن اَست', 'اِلناز دَر حالِ نِشِستن اَست'],
-    word: 'خواندَن',
-    meaning: 'reading'
-  },
-  {
-    image: 'https://png.pngtree.com/png-clipart/20241128/original/pngtree-the-little-cartoon-girl-drinks-water-png-image_17338893.png',
-    correct: 'ثَنا آب می‌نوشَد',
-    options: ['ثَنا آب می‌نوشَد', 'ثَنا با دوستَش حَرف می‌زَنَد', 'ثَنا نِقاشی می‌کِشَد'],
-    word: 'آب',
-    meaning: 'water'
-  },
-  {
-    image: 'https://media.craiyon.com/2025-04-27/RGZNQMV3TySXtvyvna7Ahg.webp',
-    correct: 'رایان فوتبَال بازی می‌کُنَد',
-    options: ['رایان کتاب می‌خوانَد', 'رایان فوتبَال بازی می‌کُنَد', 'رایان دَر آشپَزخانه اَست'],
-    word: 'فوتبَال',
-    meaning: 'football'
-  },
-  {
-    image: 'https://thumb.ac-illust.com/8b/8bf2db3079bb61f16432d86299f3678f_t.jpeg',
-    correct: 'بَهار پَنجَره را پاک می‌کُنَد',
-    options: ['بَهار پَنجَره را پاک می‌کُنَد', 'بَهار دَرس می‌خوانَد', 'بَهار رَنگ می‌کِشَد'],
-    word: 'پَنجَره',
-    meaning: 'window'
-  },
-  {
-    image: 'https://i.etsystatic.com/17675358/r/il/418fd2/3470834387/il_fullxfull.3470834387_pf6y.jpg',
-    correct: 'مِلیکا بستَنی می‌خورَد',
-    options: ['مِلیکا بستَنی می‌خورَد', 'مِلیکا می‌نویسَد', 'مِلیکا می‌شوید'],
-    word: 'بستَنی',
-    meaning: 'ice cream'
-  },
-  {
-    image: 'https://thumb.ac-illust.com/43/43eb28381357d2977d672e2f1cadc1a1_t.jpeg',
-    correct: 'هِلیا دَر حالِ شُست‌وشو اَست',
-    options: ['هِلیا دَر حالِ بازی اَست', 'هِلیا دَر حالِ خَواب اَست', 'هِلیا دَر حالِ شُست‌وشو اَست'],
-    word: 'شُست‌وشو',
-    meaning: 'washing'
-  },
-  {
-    image: 'https://www.shutterstock.com/image-vector/cute-family-feeding-cats-vectorchildren-260nw-2336242187.jpg',
-    correct: 'بابا گُربه را غذا می‌دَهَد',
-    options: ['بابا گُربه را غذا می‌دَهَد', 'بابا با گُربه می‌دوَد', 'بابا گُربه را می‌شوید'],
-    word: 'گُربه',
-    meaning: 'cat'
-  },
-   {
-    image: 'https://png.pngtree.com/png-clipart/20241114/original/pngtree-cute-cartoon-boy-brushing-his-teeth-clipart-illustration-png-image_17057243.png',
-    correct: 'مُرتِضی دَندان‌هایش را مِسواک می‌زَنَد',
-    options: ['مُرتِضی دَندان‌هایش را مِسواک می‌زَنَد', 'مُرتِضی دَر حالِ بازی اَست', 'مُرتِضی مِی‌خوانَد'],
-    word: 'مِسواک',
-    meaning: 'toothbrush'
-  },
-  {
-    image: 'https://thumbs.dreamstime.com/b/happy-cute-little-kid-girl-jump-bed-room-172532649.jpg',
-    correct: 'مُرسَل دَرحالِ پَریدَن اَست',
-    options: ['مُرسَل دَرحالِ پَریدَن اَست', 'مُرسَل دَرحالِ خوابیدن اَست', 'مُرسَل دَرحالِ نوشیدَن اَست'],
-    word: 'پَریدَن',
-    meaning: 'jumping'
-  },
-  {
-    image: 'https://st5.depositphotos.com/20923550/70471/v/450/depositphotos_704711734-stock-illustration-cartoon-little-boy-running-park.jpg',
-    correct: 'یوسُف می‌دَوَد',
-    options: ['یوسُف می‌دَوَد', 'یوسُف می‌خوانَد', 'یوسُف می‌نوشَد'],
-    word: 'دویدن',
-    meaning: 'running'
-  },
-  {
-    image: 'https://i.pinimg.com/736x/91/82/32/91823265f2fc00bd4d91098767bf13cb.jpg',
-    correct: 'ایلیا خوابیده اَست',
-    options: ['ایلیا خوابیده اَست', 'ایلیا می‌دَوَد', 'ایلیا می‌خورد'],
-    word: 'خوابیدن',
-    meaning: 'sleeping'
-  },
-  {
-    image: 'https://png.pngtree.com/png-clipart/20240725/original/pngtree-cute-happy-baby-holding-milk-bottle-cartoon-vector-png-image_15631056.png',
-    correct: 'رایان شیر می‌نوشَد',
-    options: ['رایان شیر می‌نوشَد', 'رایان بازی می‌کُنَد', 'رایان کتاب می‌خوانَد'],
-    word: 'شیر',
-    meaning: 'milk'
-  }
-];
+// const action1 =[
+//   {
+//     image: 'https://thumbs.dreamstime.com/b/illustration-cute-little-boy-eating-red-apple-isolated-white-background-kid-eats-red-apple-good-appetite-healthy-331433166.jpg',
+//     correct: 'بَچِه سیب می‌خورَد',
+//     options: ['بَچِه توپ بازی می‌کُنَد', 'بَچِه سیب می‌خورَد', 'بَچِه می‌خوابَد'],
+//     word: 'سیب',
+//     meaning: 'apple'
+//   },
+//   {
+//     image: 'https://img.freepik.com/premium-vector/cute-boy-eating-ramen-noodle-cartoon-vector-icon-illustration-people-food-icon-concept-isolated-premium-vector-flat-cartoon-style_138676-3943.jpg',
+//     correct: 'پَسر نودِل می‌خورَد',
+//     options: ['پَسر خَوابیده اَست', 'پَسر نودِل می‌خورَد', 'پَسر می‌دَوَد'],
+//     word: 'نودِل',
+//     meaning: 'noodle'
+//   },
+//   {
+//     image: 'https://cdn.vectorstock.com/i/500p/93/71/young-cartoon-student-writing-vector-1149371.jpg',
+//     correct: 'اِلیاس دَر حال نِوِشتَن اَست',
+//     options: ['اِلیاس دَر حال نِوِشتَن اَست', 'اِلیاس دَر حال خَواب اَست', 'اِلیاس دَر حال دویدن اَست'],
+//     word: 'نِوِشتَن',
+//     meaning: 'writing'
+//   },
+//   {
+//     image: 'https://png.pngtree.com/png-clipart/20241106/original/pngtree-happy-girl-reading-book-clipart-illustration-png-image_16698789.png',
+//     correct: 'اِلناز دَر حالِ خواندَن اَست',
+//     options: ['اِلناز دَر حالِ خواندَن اَست', 'اِلناز دَر حالِ نِوِشتَن اَست', 'اِلناز دَر حالِ نِشِستن اَست'],
+//     word: 'خواندَن',
+//     meaning: 'reading'
+//   },
+//   {
+//     image: 'https://png.pngtree.com/png-clipart/20241128/original/pngtree-the-little-cartoon-girl-drinks-water-png-image_17338893.png',
+//     correct: 'ثَنا آب می‌نوشَد',
+//     options: ['ثَنا آب می‌نوشَد', 'ثَنا با دوستَش حَرف می‌زَنَد', 'ثَنا نِقاشی می‌کِشَد'],
+//     word: 'آب',
+//     meaning: 'water'
+//   },
+//   {
+//     image: 'https://media.craiyon.com/2025-04-27/RGZNQMV3TySXtvyvna7Ahg.webp',
+//     correct: 'رایان فوتبَال بازی می‌کُنَد',
+//     options: ['رایان کتاب می‌خوانَد', 'رایان فوتبَال بازی می‌کُنَد', 'رایان دَر آشپَزخانه اَست'],
+//     word: 'فوتبَال',
+//     meaning: 'football'
+//   },
+//   {
+//     image: 'https://thumb.ac-illust.com/8b/8bf2db3079bb61f16432d86299f3678f_t.jpeg',
+//     correct: 'بَهار پَنجَره را پاک می‌کُنَد',
+//     options: ['بَهار پَنجَره را پاک می‌کُنَد', 'بَهار دَرس می‌خوانَد', 'بَهار رَنگ می‌کِشَد'],
+//     word: 'پَنجَره',
+//     meaning: 'window'
+//   },
+//   {
+//     image: 'https://i.etsystatic.com/17675358/r/il/418fd2/3470834387/il_fullxfull.3470834387_pf6y.jpg',
+//     correct: 'مِلیکا بستَنی می‌خورَد',
+//     options: ['مِلیکا بستَنی می‌خورَد', 'مِلیکا می‌نویسَد', 'مِلیکا می‌شوید'],
+//     word: 'بستَنی',
+//     meaning: 'ice cream'
+//   },
+//   {
+//     image: 'https://thumb.ac-illust.com/43/43eb28381357d2977d672e2f1cadc1a1_t.jpeg',
+//     correct: 'هِلیا دَر حالِ شُست‌وشو اَست',
+//     options: ['هِلیا دَر حالِ بازی اَست', 'هِلیا دَر حالِ خَواب اَست', 'هِلیا دَر حالِ شُست‌وشو اَست'],
+//     word: 'شُست‌وشو',
+//     meaning: 'washing'
+//   },
+//   {
+//     image: 'https://www.shutterstock.com/image-vector/cute-family-feeding-cats-vectorchildren-260nw-2336242187.jpg',
+//     correct: 'بابا گُربه را غذا می‌دَهَد',
+//     options: ['بابا گُربه را غذا می‌دَهَد', 'بابا با گُربه می‌دوَد', 'بابا گُربه را می‌شوید'],
+//     word: 'گُربه',
+//     meaning: 'cat'
+//   },
+//    {
+//     image: 'https://png.pngtree.com/png-clipart/20241114/original/pngtree-cute-cartoon-boy-brushing-his-teeth-clipart-illustration-png-image_17057243.png',
+//     correct: 'مُرتِضی دَندان‌هایش را مِسواک می‌زَنَد',
+//     options: ['مُرتِضی دَندان‌هایش را مِسواک می‌زَنَد', 'مُرتِضی دَر حالِ بازی اَست', 'مُرتِضی مِی‌خوانَد'],
+//     word: 'مِسواک',
+//     meaning: 'toothbrush'
+//   },
+//   {
+//     image: 'https://thumbs.dreamstime.com/b/happy-cute-little-kid-girl-jump-bed-room-172532649.jpg',
+//     correct: 'مُرسَل دَرحالِ پَریدَن اَست',
+//     options: ['مُرسَل دَرحالِ پَریدَن اَست', 'مُرسَل دَرحالِ خوابیدن اَست', 'مُرسَل دَرحالِ نوشیدَن اَست'],
+//     word: 'پَریدَن',
+//     meaning: 'jumping'
+//   },
+//   {
+//     image: 'https://st5.depositphotos.com/20923550/70471/v/450/depositphotos_704711734-stock-illustration-cartoon-little-boy-running-park.jpg',
+//     correct: 'یوسُف می‌دَوَد',
+//     options: ['یوسُف می‌دَوَد', 'یوسُف می‌خوانَد', 'یوسُف می‌نوشَد'],
+//     word: 'دویدن',
+//     meaning: 'running'
+//   },
+//   {
+//     image: 'https://i.pinimg.com/736x/91/82/32/91823265f2fc00bd4d91098767bf13cb.jpg',
+//     correct: 'ایلیا خوابیده اَست',
+//     options: ['ایلیا خوابیده اَست', 'ایلیا می‌دَوَد', 'ایلیا می‌خورد'],
+//     word: 'خوابیدن',
+//     meaning: 'sleeping'
+//   },
+//   {
+//     image: 'https://png.pngtree.com/png-clipart/20240725/original/pngtree-cute-happy-baby-holding-milk-bottle-cartoon-vector-png-image_15631056.png',
+//     correct: 'رایان شیر می‌نوشَد',
+//     options: ['رایان شیر می‌نوشَد', 'رایان بازی می‌کُنَد', 'رایان کتاب می‌خوانَد'],
+//     word: 'شیر',
+//     meaning: 'milk'
+//   }
+// ];
 
 
 // const weather = [
@@ -385,113 +385,113 @@ const action1 =[
 //   }
 // ];
 
-// const pantry = [
-//   {
-//     image: 'https://c8.alamy.com/comp/FTRH8J/freehand-drawn-cartoon-sugar-bowl-FTRH8J.jpg',
-//     correct: '.این شِکَر اَست',
-//     options: ['.این آرد اَست', '.این شِکَر اَست', '.این نَمَک اَست'],
-//     word: 'شِکَر',
-//     meaning: 'sugar'
-//   },
-//   {
-//     image: 'https://media.istockphoto.com/id/1314024818/vector/bag-of-wheat-flour-vector-isolated-illustration.jpg?s=612x612&w=0&k=20&c=XNUjV5muckg8HhKIUNAcj_mRmqLcUharUvFRN4macxo=',
-//     correct: '.این آرد اَست',
-//     options: ['.این آرد اَست', '.این روغَن اَست', '.این شِکَر اَست'],
-//     word: 'آرد',
-//     meaning: 'flour'
-//   },
-//   {
-//     image: 'https://media.istockphoto.com/id/1333049606/vector/salt-sprinkling-man-holds-salt-in-hand-salt-the-culinary-dish.jpg?s=612x612&w=0&k=20&c=FFMga7Vsw8odhYTzdty4ZeSvMAgsOa7RRoQP91n2SOg=',
-//     correct: '.این نَمَک اَست',
-//     options: [ '.این فِلفِل اَست','.این نَمَک اَست', '.این آرد اَست'],
-//     word: 'نَمَک',
-//     meaning: 'salt'
-//   },
-//   {
-//     image: 'https://c8.alamy.com/comp/2EGHFA5/natural-oil-cartoon-poster-with-fresh-vegetarian-ingredient-green-olive-fruit-branch-corn-vegetable-and-sunflower-with-bottle-of-organic-oil-for-foo-2EGHFA5.jpg',
-//     correct: '.این روغَن اَست',
-//     options: [ '.این نَمَک اَست','.این روغَن اَست', '.این آرد اَست'],
-//     word: 'روغَن',
-//     meaning: 'oil'
-//   },
-//   {
-//     image: 'https://img.freepik.com/premium-photo/hand-drawn-cartoon-delicious-pasta-illustration_561641-9274.jpg',
-//     correct: '.این پاستا اَست',
-//     options: ['.این پاستا اَست', '.این آرد اَست', '.این نان اَست'],
-//     word: 'پاستا',
-//     meaning: 'pasta'
-//   },
-//   {
-//     image: 'https://img.freepik.com/premium-vector/cartoon-bowl-rice-illustration-vector-cute-food-character-design_1322206-51427.jpg',
-//     correct: '.این بِرنج اَست',
-//     options: [ '.این شِکَر اَست', '.این نَمَک اَست','.این بِرنج اَست',],
-//     word: 'بِرنج',
-//     meaning: 'rice'
-//   },
-//   {
-//     image: 'https://img.pikbest.com/png-images/20250105/-coffee-love-foam-with-beans-cartoon-icon-illustration-cofee-vector_11340750.png!sw800',
-//     correct: '.این قَهوه اَست',
-//     options: ['.این چای اَست', '.این قَهوه اَست', '.این شِکَر اَست'],
-//     word: 'قَهوه',
-//     meaning: 'coffee'
-//   },
-//   {
-//     image: 'https://img.freepik.com/premium-photo/hot-tea-cup-cartoon-isolated-white-background-v-61-job-id-01b3b1726072496684962110a8afc6a0_1067267-7161.jpg',
-//     correct: '.این چای اَست',
-//     options: ['.این چای اَست', '.این قَهوه اَست', '.این آب اَست'],
-//     word: 'چای',
-//     meaning: 'tea'
-//   },
-//   {
-//     image: 'https://media.istockphoto.com/id/2197401679/vector/cartoon-cereal-products-flour-rice-or-wheat-grains-for-bread-bakery-product-ripe-seeds.jpg?s=612x612&w=0&k=20&c=MwlGoYjckKNyJbGl5PxyjNjp6jfCTIRTh7tdsUrsFFY=',
-//     correct: '.این غَلات اَست',
-//     options: [ '.این پاستا اَست', '.این نان اَست','.این غَلات اَست',],
-//     word: 'غَلات',
-//     meaning: 'cereal/grains'
-//   },
-//   {
-//     image: 'https://media.istockphoto.com/id/690350566/vector/different-cookies-in-cartoon-style-vector-icons-set-isolate-on-white.jpg?s=612x612&w=0&k=20&c=vIKMpCZFneWjCNn66RBRGTfqhfFnlgM62f-twNLYrK0=',
-//     correct: '.این بیسکویت اَست',
-//     options: ['.این بیسکویت اَست', '.این نان اَست', '.این پاستا اَست'],
-//     word: 'بیسکویت',
-//     meaning: 'biscuit/cookie'
-//   },
-//   {
-//     image: 'https://t3.ftcdn.net/jpg/08/21/11/64/360_F_821116418_RxoS6NXGpIVVbQM5AaaBTXEB4yMmhOmX.jpg',
-//     correct: '.این عَسَل اَست',
-//     options: ['.این شِکَر اَست', '.این عَسَل اَست', '.این روغَن اَست'],
-//     word: 'عَسَل',
-//     meaning: 'honey'
-//   },
-//   {
-//     image: 'https://static.vecteezy.com/system/resources/previews/014/326/978/non_2x/spice-shop-with-different-hot-spices-condiment-exotic-fresh-seasoning-and-traditional-herbs-in-flat-cartoon-hand-drawn-templates-illustration-vector.jpg',
-//     correct: '.این اَدویِه اَست',
-//     options: [ '.این بَرنَج اَست','.این اَدویِه اَست', '.این روغَن اَست'],
-//     word: 'اَدویِه',
-//     meaning: 'spices'
-//   },
-//   {
-//     image: 'https://media.istockphoto.com/id/1062795532/vector/set-of-tin-food.jpg?s=612x612&w=0&k=20&c=AS23uQ1RNPZSU5pAwWKw6tJzNIfkmfFOUYJKHbOQoR0=',
-//     correct: '.این کُنسرو اَست',
-//     options: ['.این کُنسرو اَست', '.این پاستا اَست', '.این نان اَست'],
-//     word: 'کُنسرو',
-//     meaning: 'canned food'
-//   },
-//   {
-//     image: 'https://media.istockphoto.com/id/503455552/vector/nuts-isolated-on-white-background-cartoon-vector-icon.jpg?s=612x612&w=0&k=20&c=Bcp6PLExbsM8L9XY2Kqn6dLc9ZRdEmn2tj7UgckklAk=',
-//     correct: '.این آجیل اَست',
-//     options: ['.این آجیل اَست', '.این بَرنَج اَست', '.این بیسکویت اَست'],
-//     word: 'آجیل',
-//     meaning: 'nuts'
-//   },
-//   {
-//     image: 'https://img.freepik.com/premium-vector/hand-drawn-cartoon-strawberry-jam-illustration_561641-3782.jpg',
-//     correct: '.این مُربّا اَست',
-//     options: [, '.این عَسَل اَست', '.این روغَن اَست','.این مُربّا اَست'],
-//     word: 'مُربّا',
-//     meaning: 'jam'
-//   },
-// ];
+const pantry = [
+  {
+    image: 'https://c8.alamy.com/comp/FTRH8J/freehand-drawn-cartoon-sugar-bowl-FTRH8J.jpg',
+    correct: '.این شِکَر اَست',
+    options: ['.این آرد اَست', '.این شِکَر اَست', '.این نَمَک اَست'],
+    word: 'شِکَر',
+    meaning: 'sugar'
+  },
+  {
+    image: 'https://media.istockphoto.com/id/1314024818/vector/bag-of-wheat-flour-vector-isolated-illustration.jpg?s=612x612&w=0&k=20&c=XNUjV5muckg8HhKIUNAcj_mRmqLcUharUvFRN4macxo=',
+    correct: '.این آرد اَست',
+    options: ['.این آرد اَست', '.این روغَن اَست', '.این شِکَر اَست'],
+    word: 'آرد',
+    meaning: 'flour'
+  },
+  {
+    image: 'https://media.istockphoto.com/id/1333049606/vector/salt-sprinkling-man-holds-salt-in-hand-salt-the-culinary-dish.jpg?s=612x612&w=0&k=20&c=FFMga7Vsw8odhYTzdty4ZeSvMAgsOa7RRoQP91n2SOg=',
+    correct: '.این نَمَک اَست',
+    options: [ '.این فِلفِل اَست','.این نَمَک اَست', '.این آرد اَست'],
+    word: 'نَمَک',
+    meaning: 'salt'
+  },
+  {
+    image: 'https://c8.alamy.com/comp/2EGHFA5/natural-oil-cartoon-poster-with-fresh-vegetarian-ingredient-green-olive-fruit-branch-corn-vegetable-and-sunflower-with-bottle-of-organic-oil-for-foo-2EGHFA5.jpg',
+    correct: '.این روغَن اَست',
+    options: [ '.این نَمَک اَست','.این روغَن اَست', '.این آرد اَست'],
+    word: 'روغَن',
+    meaning: 'oil'
+  },
+  {
+    image: 'https://img.freepik.com/premium-photo/hand-drawn-cartoon-delicious-pasta-illustration_561641-9274.jpg',
+    correct: '.این پاستا اَست',
+    options: ['.این پاستا اَست', '.این آرد اَست', '.این نان اَست'],
+    word: 'پاستا',
+    meaning: 'pasta'
+  },
+  {
+    image: 'https://img.freepik.com/premium-vector/cartoon-bowl-rice-illustration-vector-cute-food-character-design_1322206-51427.jpg',
+    correct: '.این بِرنج اَست',
+    options: [ '.این شِکَر اَست', '.این نَمَک اَست','.این بِرنج اَست',],
+    word: 'بِرنج',
+    meaning: 'rice'
+  },
+  {
+    image: 'https://img.pikbest.com/png-images/20250105/-coffee-love-foam-with-beans-cartoon-icon-illustration-cofee-vector_11340750.png!sw800',
+    correct: '.این قَهوه اَست',
+    options: ['.این چای اَست', '.این قَهوه اَست', '.این شِکَر اَست'],
+    word: 'قَهوه',
+    meaning: 'coffee'
+  },
+  {
+    image: 'https://img.freepik.com/premium-photo/hot-tea-cup-cartoon-isolated-white-background-v-61-job-id-01b3b1726072496684962110a8afc6a0_1067267-7161.jpg',
+    correct: '.این چای اَست',
+    options: ['.این چای اَست', '.این قَهوه اَست', '.این آب اَست'],
+    word: 'چای',
+    meaning: 'tea'
+  },
+  {
+    image: 'https://media.istockphoto.com/id/2197401679/vector/cartoon-cereal-products-flour-rice-or-wheat-grains-for-bread-bakery-product-ripe-seeds.jpg?s=612x612&w=0&k=20&c=MwlGoYjckKNyJbGl5PxyjNjp6jfCTIRTh7tdsUrsFFY=',
+    correct: '.این غَلات اَست',
+    options: [ '.این پاستا اَست', '.این نان اَست','.این غَلات اَست',],
+    word: 'غَلات',
+    meaning: 'cereal/grains'
+  },
+  {
+    image: 'https://media.istockphoto.com/id/690350566/vector/different-cookies-in-cartoon-style-vector-icons-set-isolate-on-white.jpg?s=612x612&w=0&k=20&c=vIKMpCZFneWjCNn66RBRGTfqhfFnlgM62f-twNLYrK0=',
+    correct: '.این بیسکویت اَست',
+    options: ['.این بیسکویت اَست', '.این نان اَست', '.این پاستا اَست'],
+    word: 'بیسکویت',
+    meaning: 'biscuit/cookie'
+  },
+  {
+    image: 'https://t3.ftcdn.net/jpg/08/21/11/64/360_F_821116418_RxoS6NXGpIVVbQM5AaaBTXEB4yMmhOmX.jpg',
+    correct: '.این عَسَل اَست',
+    options: ['.این شِکَر اَست', '.این عَسَل اَست', '.این روغَن اَست'],
+    word: 'عَسَل',
+    meaning: 'honey'
+  },
+  {
+    image: 'https://static.vecteezy.com/system/resources/previews/014/326/978/non_2x/spice-shop-with-different-hot-spices-condiment-exotic-fresh-seasoning-and-traditional-herbs-in-flat-cartoon-hand-drawn-templates-illustration-vector.jpg',
+    correct: '.این اَدویِه اَست',
+    options: [ '.این بَرنَج اَست','.این اَدویِه اَست', '.این روغَن اَست'],
+    word: 'اَدویِه',
+    meaning: 'spices'
+  },
+  {
+    image: 'https://media.istockphoto.com/id/1062795532/vector/set-of-tin-food.jpg?s=612x612&w=0&k=20&c=AS23uQ1RNPZSU5pAwWKw6tJzNIfkmfFOUYJKHbOQoR0=',
+    correct: '.این کُنسرو اَست',
+    options: ['.این کُنسرو اَست', '.این پاستا اَست', '.این نان اَست'],
+    word: 'کُنسرو',
+    meaning: 'canned food'
+  },
+  {
+    image: 'https://media.istockphoto.com/id/503455552/vector/nuts-isolated-on-white-background-cartoon-vector-icon.jpg?s=612x612&w=0&k=20&c=Bcp6PLExbsM8L9XY2Kqn6dLc9ZRdEmn2tj7UgckklAk=',
+    correct: '.این آجیل اَست',
+    options: ['.این آجیل اَست', '.این بَرنَج اَست', '.این بیسکویت اَست'],
+    word: 'آجیل',
+    meaning: 'nuts'
+  },
+  {
+    image: 'https://img.freepik.com/premium-vector/hand-drawn-cartoon-strawberry-jam-illustration_561641-3782.jpg',
+    correct: '.این مُربّا اَست',
+    options: [, '.این عَسَل اَست', '.این روغَن اَست','.این مُربّا اَست'],
+    word: 'مُربّا',
+    meaning: 'jam'
+  },
+];
 
 
 
@@ -502,8 +502,8 @@ const ObjectSentenceGame = () => {
   const [selected, setSelected] = useState("");
   const [score, setScore] = useState(0);
   const [isFinished, setIsFinished] = useState(false);
-  const [questions, setQuestions] = useState(action1);
-  const [idModal, setIdModal] = useState("action1");
+  const [questions, setQuestions] = useState(pantry);
+  const [idModal, setIdModal] = useState("pantry");
   const [showMeaning, setShowMeaning] = useState(false);
 
   const handleAnswer = (option) => {
@@ -597,13 +597,13 @@ const ObjectSentenceGame = () => {
                   >
                     🎯 اشیا 
                   </button> */}
-                  <button
+                  {/* <button
                     className="btn shadow-sm border mx-2 fw-bold"
                     style={stylebg}
                     onClick={() => questionsqq(action1, "question1")}
                   >
                     🎯 فعالیت ها 
-                  </button>
+                  </button> */}
                   {/* <button
                     className="btn shadow-sm border mx-2 fw-bold"
                     style={stylebg}
@@ -617,14 +617,14 @@ const ObjectSentenceGame = () => {
                     onClick={() => questionsqq(illnessSignsQuestions, "question3")}
                   >
                     🎯 بیماری ها
-                  </button>
+                  </button>*/}
                   <button
                     className="btn shadow-sm border mx-2 fw-bold"
                     style={stylebg}
                     onClick={() => questionsqq(pantry, "question4")}
                   >
                     🎯انبار آشپرخانه
-                  </button> */}
+                  </button> 
                 </div>
               </div>
               <div className="modal-footer">
