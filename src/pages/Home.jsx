@@ -18,8 +18,7 @@ import ColoringCanvasPro from "../sections/alphabet/ColoringCanvasPro ";
 export default function Home() {
   return (<>
   <div >
-    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها جملات بهم ریخته داستان بازی در برف را مرتب کنند و از روی 6 جمله درست آن بنویسند. </div>
-    <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : احسان هم همین فعالیت را انجام دهد.  </h5>
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها داستان زیر را بخوانند و تا بالای عکس بنوسند. </div>
         {/* <VideoCard
       title="قصه کوتاه امروز"
       description="متن فارسی داستان زیر را بخوانید."
@@ -31,8 +30,8 @@ export default function Home() {
   // imageSrc={`${process.env.PUBLIC_URL}/images/assetWord/designPage/girlSitting.png`}
   colors={["#ff0000", "#00ccff", "#ffaa00", "#8800ff","#10902eff", "#ff9500", "#ffcc00", "#34c759", "#0c09b7ff", "#5856d6", "#a0364aff"]}
 /> */}
-          <SentenceBuilder/>
-        <StoryPage3 groupKey="alefba" wantedTitle="بازی در بَرف"/>
+          {/* <SentenceBuilder/> */}
+        <StoryPage3 groupKey="alefba" wantedTitle="اُمید و ظَرفِ غَذا"/>
           {/* <SpellingGame/> */}
           {/* <TypingQAImageSlider/> */}
           {/* <MatchingLettersPicturs/> */}
@@ -42,14 +41,14 @@ export default function Home() {
     {/* <WordGameWithCategories initialCategory="وسایل مدرسه" /> */}
     {/* <SentenceObject/> */}
         <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها کلاس گروه B </div>
-    <ObjectSentenceGame/>
+    {/* <ObjectSentenceGame/> */}
     {/* <VideoWithCaptions/> */}
 {/* ****************************************************** */}
     <div>
-      {/* <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : احسان هم همان فعالیت بالا را انجام دهد.  </h5> */}
+      <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : داستان زیر را بخواند و از روی کلمات آن با معنی بنویسد.  </h5>
             {/* <DragDropQuiz/> */}
           {/* <SortableSentencesApp/> */}
-          {/* <StoryPage3 groupKey="kalemat" wantedTitle="پَروانه وَ گُل"/> */}
+          <StoryPage3 groupKey="kalemat" wantedTitle="یِک بویِ خُوشمَزه"/>
           {/* <StoryPage3 groupKey="dastan" wantedTitle="آهوی یک‌چشم *"/> */}
           {/* <TypingImageText srcImg="https://www.shutterstock.com/image-photo/cartoon-artistic-image-boy-9-260nw-2600592373.jpg"/> */}
     </div>
