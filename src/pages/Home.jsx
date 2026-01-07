@@ -30,8 +30,7 @@ export default function Home() {
   // imageSrc={`${process.env.PUBLIC_URL}/images/assetWord/designPage/girlSitting.png`}
   colors={["#ff0000", "#00ccff", "#ffaa00", "#8800ff","#10902eff", "#ff9500", "#ffcc00", "#34c759", "#0c09b7ff", "#5856d6", "#a0364aff"]}
 /> */}
-          {/* <SentenceBuilder/> */}
-        <StoryPage3 groupKey="alefba" wantedTitle="اُمید و ظَرفِ غَذا"/>
+        <StoryPage3 groupKey="alefba" wantedTitle="گُربه وَ باد"/>
           {/* <SpellingGame/> */}
           {/* <TypingQAImageSlider/> */}
           {/* <MatchingLettersPicturs/> */}
@@ -46,6 +45,7 @@ export default function Home() {
 {/* ****************************************************** */}
     <div>
       <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : داستان زیر را بخواند و از روی کلمات آن با معنی بنویسد.  </h5>
+          <SentenceBuilder/>
             {/* <DragDropQuiz/> */}
           {/* <SortableSentencesApp/> */}
           <StoryPage3 groupKey="kalemat" wantedTitle="یِک بویِ خُوشمَزه"/>
