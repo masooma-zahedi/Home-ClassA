@@ -39,12 +39,11 @@ export default function Home() {
     </div> */}
     {/* <WordGameWithCategories initialCategory="وسایل مدرسه" /> */}
     {/* <SentenceObject/> */}
-        <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها کلاس گروه B </div>
     {/* <ObjectSentenceGame/> */}
     {/* <VideoWithCaptions/> */}
 {/* ****************************************************** */}
     <div>
-      <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : داستان زیر را بخواند و از روی کلمات آن با معنی بنویسد.  </h5>
+      <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : جملات بهم ریخته زیر را مرتب کند و از روی شش جمله درست آن بنویسد.  </h5>
           <SentenceBuilder/>
             {/* <DragDropQuiz/> */}
           {/* <SortableSentencesApp/> */}
