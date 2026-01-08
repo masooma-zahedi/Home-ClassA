@@ -31,6 +31,9 @@ export default function Home() {
   colors={["#ff0000", "#00ccff", "#ffaa00", "#8800ff","#10902eff", "#ff9500", "#ffcc00", "#34c759", "#0c09b7ff", "#5856d6", "#a0364aff"]}
 /> */}
         <StoryPage3 groupKey="alefba" wantedTitle="گُربه وَ باد"/>
+            <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه های گروه B:داستان زیر را بخوانند و تا بالای عکس بنوسند. </div>
+
+        <StoryPage3 groupKey="alefba" wantedTitle="اُمید و ظَرفِ غَذا"/>
           {/* <SpellingGame/> */}
           {/* <TypingQAImageSlider/> */}
           {/* <MatchingLettersPicturs/> */}
