@@ -18,7 +18,7 @@ import ColoringCanvasPro from "../sections/alphabet/ColoringCanvasPro ";
 export default function Home() {
   return (<>
   <div >
-    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">کلاس A و B :بچه ها قسمت فارسی داستان زیر را بخوانند و از روی 6 جمله آن بنویسند . </div>
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">کلاس A و B :بچه ها قسمت فارسی داستان زیر را بخوانند و از روی 6 جمله آن بنویسند و کلمات مربوط به زمستان را یاد بگیرند. . </div>
         <VideoCard
       title="قصه کوتاه امروز"
       description="متن فارسی داستان زیر را بخوانید."
@@ -38,6 +38,7 @@ export default function Home() {
     {/* <div className="container  mt-4" dir="rtl">
       <DragWriteBoxWithGuides textTitle="ما دَر مَدرِسه چیزهای زیادی یاد می گیریم" width={840} height={520} showGuides={true} downloadName="persian_practice.png"/>
     </div> */}
+        <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-success text-light rounded">کلمات زمستانی </div>
     <WordGameWithCategories initialCategory="زمستان" />
     {/* <SentenceObject/> */}
     {/* <ObjectSentenceGame/> */}
