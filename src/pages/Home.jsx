@@ -19,18 +19,18 @@ export default function Home() {
   return (<>
   <div >
     <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">کلاس A و B :بچه ها قسمت فارسی داستان زیر را بخوانند و از روی 6 جمله آن بنویسند و کلمات مربوط به زمستان را یاد بگیرند. . </div>
-        <VideoCard
+        {/* <VideoCard
       title="قصه کوتاه امروز"
       description="متن فارسی داستان زیر را بخوانید."
       videoFileName={`${process.env.PUBLIC_URL}/video/fox&crew.mp4`}  // فقط اسم فایل ویدیوی mp4
-    />
+    /> */}
 
     {/* <ColoringCanvasPro
   imageSrc={`${process.env.PUBLIC_URL}/images/test/mouse1.png`}
   // imageSrc={`${process.env.PUBLIC_URL}/images/assetWord/designPage/girlSitting.png`}
   colors={["#ff0000", "#00ccff", "#ffaa00", "#8800ff","#10902eff", "#ff9500", "#ffcc00", "#34c759", "#0c09b7ff", "#5856d6", "#a0364aff"]}
 /> */}
-        {/* <StoryPage3 groupKey="alefba" wantedTitle="گُربه وَ باد"/> */}
+        <StoryPage3 groupKey="alefba" wantedTitle="کُمَک بِهتَر اَز خَندَه‌س"/>
 
           {/* <SpellingGame/> */}
           {/* <TypingQAImageSlider/> */}
@@ -38,18 +38,18 @@ export default function Home() {
     {/* <div className="container  mt-4" dir="rtl">
       <DragWriteBoxWithGuides textTitle="ما دَر مَدرِسه چیزهای زیادی یاد می گیریم" width={840} height={520} showGuides={true} downloadName="persian_practice.png"/>
     </div> */}
-        <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-success text-light rounded">کلمات زمستانی </div>
-    <WordGameWithCategories initialCategory="زمستان" />
+        {/* <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-success text-light rounded">کلمات زمستانی </div>
+    <WordGameWithCategories initialCategory="زمستان" /> */}
     {/* <SentenceObject/> */}
     {/* <ObjectSentenceGame/> */}
     {/* <VideoWithCaptions/> */}
 {/* ****************************************************** */}
     <div>
-      <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : داستان زیر را بخواند و با کلمات که در سوال آمده اند جمله بسازد.  </h5>
-          {/* <SentenceBuilder/> */}
+      <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : جملات زیر را مرتب کند و از روی 6 جمله آن بنویسد.  </h5>
+          <SentenceBuilder/>
             {/* <DragDropQuiz/> */}
           {/* <SortableSentencesApp/> */}
-          <StoryPage3 groupKey="kalemat" wantedTitle="بازا‌رِ مَحَلّی"/>
+          {/* <StoryPage3 groupKey="kalemat" wantedTitle="بازا‌رِ مَحَلّی"/> */}
           {/* <StoryPage3 groupKey="dastan" wantedTitle="آهوی یک‌چشم *"/> */}
           {/* <TypingImageText srcImg="https://www.shutterstock.com/image-photo/cartoon-artistic-image-boy-9-260nw-2600592373.jpg"/> */}
     </div>
