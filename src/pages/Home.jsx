@@ -18,7 +18,7 @@ import ColoringCanvasPro from "../sections/alphabet/ColoringCanvasPro ";
 export default function Home() {
   return (<>
   <div >
-    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : از روی 6 جمله "خانه ما" بنویسند و داستان قفل و کلید را بخوانند.  </div>
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : از روی داستان زیر بخوانند و از روی 6 جمله آن بنویسند.  </div>
         {/* <VideoCard
       title="قصه کوتاه امروز"
       description="متن فارسی داستان زیر را بخوانید."
@@ -31,9 +31,9 @@ export default function Home() {
   colors={["#ff0000", "#00ccff", "#ffaa00", "#8800ff","#10902eff", "#ff9500", "#ffcc00", "#34c759", "#0c09b7ff", "#5856d6", "#a0364aff"]}
 /> */}
           {/* <SentenceBuilder/> */}
-        <SentenceObject/>
-        <StoryPage3 groupKey="alefba" wantedTitle="قُفل و کلید"/>
-
+        {/* <SentenceObject/> */}
+        {/* <StoryPage3 groupKey="alefba" wantedTitle="دُکمه‌ی گُمشُده"/> */}
+          <StoryPage3 groupKey="kalemat" wantedTitle="دُکمه‌ی گُمشُده"/>
           {/* <SpellingGame/> */}
           {/* <TypingQAImageSlider/> */}
           {/* <MatchingLettersPicturs/> */}
@@ -46,12 +46,12 @@ export default function Home() {
     {/* <VideoWithCaptions/> */}
 {/* ****************************************************** */}
     <div>
-      <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : داستان زیر را بخواند و از روی کلمات با معنی آن بنویسد.  </h5>
+      <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : داستان زیر را بخواند و از روی دو پاراگراف آن بنویسد.  </h5>
             {/* <DragDropQuiz/> */}
-          <StoryPage3 groupKey="kalemat" wantedTitle="پَرَندِه‌ی آبی و سنجاب"/>
+          <StoryPage3 groupKey="kalemat" wantedTitle="عادَتِ خوبِ"/>
           {/* <SortableSentencesApp/> */}
           {/* <StoryPage3 groupKey="dastan" wantedTitle="آهوی یک‌چشم *"/> */}
-          <TypingImageText srcImg="https://media.istockphoto.com/id/1204470108/vector/cute-kids-reading-book-and-librarian-in-library-flat-cartoon-illustration.jpg?s=612x612&w=0&k=20&c=NnfqdhoAmTMeNTBD6cvWHwc5pf8K3W-aCrbSOj9Plag="/>
+          {/* <TypingImageText srcImg="https://media.istockphoto.com/id/1204470108/vector/cute-kids-reading-book-and-librarian-in-library-flat-cartoon-illustration.jpg?s=612x612&w=0&k=20&c=NnfqdhoAmTMeNTBD6cvWHwc5pf8K3W-aCrbSOj9Plag="/> */}
     </div>
   </div>
 
