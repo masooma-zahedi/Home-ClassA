@@ -442,188 +442,189 @@ const lessonGroups = [
     // },
 
     // بخش های خانه
-    {
-  title: "خانه‌ی ما",
-  imgSide: "/images/assetWord/house.png",
-  slides: [
-    {
-      sentence: "این آشپَزخانه‌یِ ما اَست.",
-      words: [
-        {
-          text: "آشپَزخانه",
-          pronunciation: "āshpazkhāne",
-          image: "https://thumbs.dreamstime.com/b/vector-cartoon-kitchen-counter-appliances-furniture-set-fridge-microwave-oven-kettle-blender-stove-exhaust-cupboard-114160344.jpg",
-          translation: "Kitchen"
-        }
-      ]
-    },
-    {
-      sentence: "مادَر دَر آشپَزخانه غَذا می‌پَزَد.",
-      words: [
-        {
-          text: "آشپَزخانه",
-          pronunciation: "āshpazkhāne",
-          image: "https://thumbs.dreamstime.com/b/vector-cartoon-kitchen-counter-appliances-furniture-set-fridge-microwave-oven-kettle-blender-stove-exhaust-cupboard-114160344.jpg",
-          translation: "Kitchen"
-        }
-      ]
-    },
-    {
-      sentence: "ما دَر اتاق نِشیمَن می‌نِشینیم.",
-      words: [
-        {
-          text: "اتاق نِشیمَن",
-          pronunciation: "otāgh-e neshiman",
-          image: "https://t4.ftcdn.net/jpg/01/58/57/41/360_F_158574152_sojV4O8PjcvOc1CsGfSeqFnb4Lx26kRp.jpg",
-          translation: "Living Room"
-        }
-      ]
-    },
-    {
-      sentence: "مَن دَر اتاق خواب می‌خوابَم.",
-      words: [
-        {
-          text: "اتاق خواب",
-          pronunciation: "otāgh-e khāb",
-          image: "https://png.pngtree.com/background/20250612/original/pngtree-cartoon-kids-bedroom-with-space-theme-decor-picture-image_16652439.jpg",
-          translation: "Bedroom"
-        }
-      ]
-    },
-    {
-      sentence: "مَن دَر حمّام دَست‌هایم را می‌شویَم.",
-      words: [
-        {
-          text: "حمّام",
-          pronunciation: "hammām",
-          image: "https://img.freepik.com/premium-photo/bathroom-bathtub-cartoon-toilet_53876-440965.jpg",
-          translation: "Bathroom"
-        }
-      ]
-    },
-    {
-      sentence: "بَچّه‌ها دَر حَیاط بازی می‌کُنَند.",
-      words: [
-        {
-          text: "حَیاط",
-          pronunciation: "hayāt",
-          image: "https://www.shutterstock.com/image-vector/scene-backyard-fence-illustration-260nw-2140989857.jpg",
-          translation: "Yard"
-        }
-      ]
-    },
-    {
-      sentence: "ماشین دَر گَاراج اَست.",
-      words: [
-        {
-          text: "گَاراج",
-          pronunciation: "gārāj",
-          image: "https://img.freepik.com/premium-photo/garage-car-vehicle-cartoon_53876-403477.jpg",
-          translation: "Garage"
-        }
-      ]
-    },
-    {
-      sentence: "ما دَر اتاق ناهارخوری ناهار می‌خوریم.",
-      words: [
-        {
-          text: "اتاق ناهارخوری",
-          pronunciation: "otāgh-e nāhārkhorī",
-          image: "https://img.freepik.com/premium-photo/kitchen-cartoon-vector-classic-home-dining-room-kitchen-interior-design-dining-table-fruits-refrigerator-flat-illustration_1028938-218665.jpg",
-          translation: "Dining Room"
-        }
-      ]
-    },
-    {
-      sentence: "راهرو بِینِ اُتاق‌ها اَست.",
-      words: [
-        {
-          text: "راهرو",
-          pronunciation: "rāhro",
-          image: "https://t3.ftcdn.net/jpg/03/34/23/42/360_F_334234241_9Q7HP4dRbrB34XWuMldzcWhFaohCpxco.jpg",
-          translation: "Hallway"
-        }
-      ]
-    },
-    {
-      sentence: "گُل‌ها دَر بالکُن هَستَند.",
-      words: [
-        {
-          text: "بالکن",
-          pronunciation: "bālkon",
-          image: "https://png.pngtree.com/png-vector/20240518/ourmid/pngtree-vector-image-of-a-balcony-with-flowers-png-image_12483228.png",
-          translation: "Balcony"
-        }
-      ]
-    },
-    {
-      sentence: "پُشت‌ِ بام بالایِ خانِه اَست.",
-      words: [
-        {
-          text: "پشت‌ بام",
-          pronunciation: "posht-e bām",
-          image: "https://thumbs.dreamstime.com/b/cartoon-illustration-construction-worker-fixing-rooftop-worker-wearing-cartoon-illustration-construction-415619243.jpg",
-          translation: "Roof"
-        }
-      ]
-    },
-    {
-      sentence: "بابا دَر باغچه گُل می‌کارَد.",
-      words: [
-        {
-          text: "باغچه",
-          pronunciation: "bāghche",
-          image: "https://thumbs.dreamstime.com/b/cartoon-garden-vegetables-fruit-trees-cartoon-garden-vegetables-like-cabbage-carrots-cauliflower-pepper-114918152.jpg",
-          translation: "Garden"
-        }
-      ]
-    },
-    {
-      sentence: "لِباس‌ها دَر کُمُد هَستَند.",
-      words: [
-        {
-          text: "کمد",
-          pronunciation: "komod",
-          image: "https://img.freepik.com/premium-photo/wardrobe-clip-art-cartoon-illustration-isolated-white-background_15083-9269.jpg",
-          translation: "Closet"
-        }
-      ]
-    },
-    {
-      sentence: "مَن اَز پِلِه‌ها بالا می‌رَوَم.",
-      words: [
-        {
-          text: "پله‌ها",
-          pronunciation: "pellehā",
-          image: "https://img.freepik.com/premium-vector/vector-interior-with-staircase-living-room_734543-66.jpg",
-          translation: "Stairs"
-        }
-      ]
-    },
-    {
-      sentence: "زیرزَمین خُنَک اَست.",
-      words: [
-        {
-          text: "زیرزَمین",
-          pronunciation: "zir-zamin",
-          image: "https://www.shutterstock.com/image-vector/basement-room-interior-house-storage-260nw-2447486161.jpg",
-          translation: "Basement"
-        }
-      ]
-    },
-    {
-      sentence: "وَسایل دَر زیرشیروانی هَستَند.",
-      words: [
-        {
-          text: "زیرشیروانی",
-          pronunciation: "zir-shirvāni",
-          image: "https://t3.ftcdn.net/jpg/03/14/62/92/360_F_314629223_hk1iDQiUWjsvdMZwPeZLjWAVQKBhMd4u.jpg",
-          translation: "Attic"
-        }
-      ]
-    }
-  ]
-}
+//     {
+//   title: "خانه‌ی ما",
+//   imgSide: "/images/assetWord/house.png",
+//   slides: [
+//     {
+//       sentence: "این آشپَزخانه‌یِ ما اَست.",
+//       words: [
+//         {
+//           text: "آشپَزخانه",
+//           pronunciation: "āshpazkhāne",
+//           image: "https://thumbs.dreamstime.com/b/vector-cartoon-kitchen-counter-appliances-furniture-set-fridge-microwave-oven-kettle-blender-stove-exhaust-cupboard-114160344.jpg",
+//           translation: "Kitchen"
+//         }
+//       ]
+//     },
+//     {
+//       sentence: "مادَر دَر آشپَزخانه غَذا می‌پَزَد.",
+//       words: [
+//         {
+//           text: "آشپَزخانه",
+//           pronunciation: "āshpazkhāne",
+//           image: "https://thumbs.dreamstime.com/b/vector-cartoon-kitchen-counter-appliances-furniture-set-fridge-microwave-oven-kettle-blender-stove-exhaust-cupboard-114160344.jpg",
+//           translation: "Kitchen"
+//         }
+//       ]
+//     },
+//     {
+//       sentence: "ما دَر اتاق نِشیمَن می‌نِشینیم.",
+//       words: [
+//         {
+//           text: "اتاق نِشیمَن",
+//           pronunciation: "otāgh-e neshiman",
+//           image: "https://t4.ftcdn.net/jpg/01/58/57/41/360_F_158574152_sojV4O8PjcvOc1CsGfSeqFnb4Lx26kRp.jpg",
+//           translation: "Living Room"
+//         }
+//       ]
+//     },
+//     {
+//       sentence: "مَن دَر اتاق خواب می‌خوابَم.",
+//       words: [
+//         {
+//           text: "اتاق خواب",
+//           pronunciation: "otāgh-e khāb",
+//           image: "https://png.pngtree.com/background/20250612/original/pngtree-cartoon-kids-bedroom-with-space-theme-decor-picture-image_16652439.jpg",
+//           translation: "Bedroom"
+//         }
+//       ]
+//     },
+//     {
+//       sentence: "مَن دَر حمّام دَست‌هایم را می‌شویَم.",
+//       words: [
+//         {
+//           text: "حمّام",
+//           pronunciation: "hammām",
+//           image: "https://img.freepik.com/premium-photo/bathroom-bathtub-cartoon-toilet_53876-440965.jpg",
+//           translation: "Bathroom"
+//         }
+//       ]
+//     },
+//     {
+//       sentence: "بَچّه‌ها دَر حَیاط بازی می‌کُنَند.",
+//       words: [
+//         {
+//           text: "حَیاط",
+//           pronunciation: "hayāt",
+//           image: "https://www.shutterstock.com/image-vector/scene-backyard-fence-illustration-260nw-2140989857.jpg",
+//           translation: "Yard"
+//         }
+//       ]
+//     },
+//     {
+//       sentence: "ماشین دَر گَاراج اَست.",
+//       words: [
+//         {
+//           text: "گَاراج",
+//           pronunciation: "gārāj",
+//           image: "https://img.freepik.com/premium-photo/garage-car-vehicle-cartoon_53876-403477.jpg",
+//           translation: "Garage"
+//         }
+//       ]
+//     },
+//     {
+//       sentence: "ما دَر اتاق ناهارخوری ناهار می‌خوریم.",
+//       words: [
+//         {
+//           text: "اتاق ناهارخوری",
+//           pronunciation: "otāgh-e nāhārkhorī",
+//           image: "https://img.freepik.com/premium-photo/kitchen-cartoon-vector-classic-home-dining-room-kitchen-interior-design-dining-table-fruits-refrigerator-flat-illustration_1028938-218665.jpg",
+//           translation: "Dining Room"
+//         }
+//       ]
+//     },
+//     {
+//       sentence: "راهرو بِینِ اُتاق‌ها اَست.",
+//       words: [
+//         {
+//           text: "راهرو",
+//           pronunciation: "rāhro",
+//           image: "https://t3.ftcdn.net/jpg/03/34/23/42/360_F_334234241_9Q7HP4dRbrB34XWuMldzcWhFaohCpxco.jpg",
+//           translation: "Hallway"
+//         }
+//       ]
+//     },
+//     {
+//       sentence: "گُل‌ها دَر بالکُن هَستَند.",
+//       words: [
+//         {
+//           text: "بالکن",
+//           pronunciation: "bālkon",
+//           image: "https://png.pngtree.com/png-vector/20240518/ourmid/pngtree-vector-image-of-a-balcony-with-flowers-png-image_12483228.png",
+//           translation: "Balcony"
+//         }
+//       ]
+//     },
+//     {
+//       sentence: "پُشت‌ِ بام بالایِ خانِه اَست.",
+//       words: [
+//         {
+//           text: "پشت‌ بام",
+//           pronunciation: "posht-e bām",
+//           image: "https://thumbs.dreamstime.com/b/cartoon-illustration-construction-worker-fixing-rooftop-worker-wearing-cartoon-illustration-construction-415619243.jpg",
+//           translation: "Roof"
+//         }
+//       ]
+//     },
+//     {
+//       sentence: "بابا دَر باغچه گُل می‌کارَد.",
+//       words: [
+//         {
+//           text: "باغچه",
+//           pronunciation: "bāghche",
+//           image: "https://thumbs.dreamstime.com/b/cartoon-garden-vegetables-fruit-trees-cartoon-garden-vegetables-like-cabbage-carrots-cauliflower-pepper-114918152.jpg",
+//           translation: "Garden"
+//         }
+//       ]
+//     },
+//     {
+//       sentence: "لِباس‌ها دَر کُمُد هَستَند.",
+//       words: [
+//         {
+//           text: "کمد",
+//           pronunciation: "komod",
+//           image: "https://img.freepik.com/premium-photo/wardrobe-clip-art-cartoon-illustration-isolated-white-background_15083-9269.jpg",
+//           translation: "Closet"
+//         }
+//       ]
+//     },
+//     {
+//       sentence: "مَن اَز پِلِه‌ها بالا می‌رَوَم.",
+//       words: [
+//         {
+//           text: "پله‌ها",
+//           pronunciation: "pellehā",
+//           image: "https://img.freepik.com/premium-vector/vector-interior-with-staircase-living-room_734543-66.jpg",
+//           translation: "Stairs"
+//         }
+//       ]
+//     },
+//     {
+//       sentence: "زیرزَمین خُنَک اَست.",
+//       words: [
+//         {
+//           text: "زیرزَمین",
+//           pronunciation: "zir-zamin",
+//           image: "https://www.shutterstock.com/image-vector/basement-room-interior-house-storage-260nw-2447486161.jpg",
+//           translation: "Basement"
+//         }
+//       ]
+//     },
+//     {
+//       sentence: "وَسایل دَر زیرشیروانی هَستَند.",
+//       words: [
+//         {
+//           text: "زیرشیروانی",
+//           pronunciation: "zir-shirvāni",
+//           image: "https://t3.ftcdn.net/jpg/03/14/62/92/360_F_314629223_hk1iDQiUWjsvdMZwPeZLjWAVQKBhMd4u.jpg",
+//           translation: "Attic"
+//         }
+//       ]
+//     }
+//   ]
+// }
+
 
 
 

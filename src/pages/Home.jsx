@@ -18,7 +18,7 @@ import ColoringCanvasPro from "../sections/alphabet/ColoringCanvasPro ";
 export default function Home() {
   return (<>
   <div >
-    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : از روی داستان زیر بخوانند و از روی 6 جمله آن بنویسند.  </div>
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : جاهای خالی را با کلمات مناسب پر کنند و از روی شش جمله درست بنویسند..  </div>
         {/* <VideoCard
       title="قصه کوتاه امروز"
       description="متن فارسی داستان زیر را بخوانید."
@@ -33,7 +33,8 @@ export default function Home() {
           {/* <SentenceBuilder/> */}
         {/* <SentenceObject/> */}
         {/* <StoryPage3 groupKey="alefba" wantedTitle="دُکمه‌ی گُمشُده"/> */}
-          <StoryPage3 groupKey="kalemat" wantedTitle="دُکمه‌ی گُمشُده"/>
+          {/* <StoryPage3 groupKey="kalemat" wantedTitle="دُکمه‌ی گُمشُده"/> */}
+        <DragDropQuiz/>
           {/* <SpellingGame/> */}
           {/* <TypingQAImageSlider/> */}
           {/* <MatchingLettersPicturs/> */}
@@ -47,7 +48,6 @@ export default function Home() {
 {/* ****************************************************** */}
     <div>
       <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : داستان زیر را بخواند و از روی دو پاراگراف آن بنویسد.  </h5>
-            {/* <DragDropQuiz/> */}
           <StoryPage3 groupKey="kalemat" wantedTitle="عادَتِ خوبِ"/>
           {/* <SortableSentencesApp/> */}
           {/* <StoryPage3 groupKey="dastan" wantedTitle="آهوی یک‌چشم *"/> */}
