@@ -32,9 +32,9 @@ export default function Home() {
 /> */}
           {/* <SentenceBuilder/> */}
         {/* <SentenceObject/> */}
-        {/* <StoryPage3 groupKey="alefba" wantedTitle="دُکمه‌ی گُمشُده"/> */}
+        <StoryPage3 groupKey="alefba" wantedTitle="کِشاوَرزِ مِهرَبان"/>
           {/* <StoryPage3 groupKey="kalemat" wantedTitle="دُکمه‌ی گُمشُده"/> */}
-        <DragDropQuiz/>
+        {/* <DragDropQuiz/> */}
           {/* <SpellingGame/> */}
           {/* <TypingQAImageSlider/> */}
           {/* <MatchingLettersPicturs/> */}
