@@ -33,6 +33,7 @@ export default function Home() {
           {/* <SentenceBuilder/> */}
         {/* <SentenceObject/> */}
         <StoryPage3 groupKey="alefba" wantedTitle="کِشاوَرزِ مِهرَبان"/>
+        <StoryPage3 groupKey="kalemat" wantedTitle="گربه‌یِ بازیگوش"/>
           {/* <StoryPage3 groupKey="kalemat" wantedTitle="دُکمه‌ی گُمشُده"/> */}
         {/* <DragDropQuiz/> */}
           {/* <SpellingGame/> */}
@@ -48,9 +49,9 @@ export default function Home() {
 {/* ****************************************************** */}
     <div>
       <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : داستان زیر را بخواند و از روی کلمات آن با معنی بنویسد.  </h5>
-          <StoryPage3 groupKey="kalemat" wantedTitle="یِک نِگاهِ دیگَر"/>
+          {/* <StoryPage3 groupKey="kalemat" wantedTitle="یِک نِگاهِ دیگَر"/> */}
           {/* <SortableSentencesApp/> */}
-          {/* <StoryPage3 groupKey="dastan" wantedTitle="آهوی یک‌چشم *"/> */}
+          <StoryPage3 groupKey="dastan" wantedTitle="سگ طمع کار"/>
           {/* <TypingImageText srcImg="https://media.istockphoto.com/id/1204470108/vector/cute-kids-reading-book-and-librarian-in-library-flat-cartoon-illustration.jpg?s=612x612&w=0&k=20&c=NnfqdhoAmTMeNTBD6cvWHwc5pf8K3W-aCrbSOj9Plag="/> */}
     </div>
   </div>
