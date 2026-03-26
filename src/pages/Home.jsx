@@ -18,7 +18,7 @@ import ColoringCanvasPro from "../sections/alphabet/ColoringCanvasPro ";
 export default function Home() {
   return (<>
   <div >
-    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : جملات زیر را بخوانند و از روی 5 جمله درست بنویسند..  </div>
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی کلمات آن با معنی انگلیسی بنویسند..  </div>
         {/* <VideoCard
       title="قصه کوتاه امروز"
       description="متن فارسی داستان زیر را بخوانید."
@@ -33,8 +33,8 @@ export default function Home() {
           {/* <SentenceBuilder/> */}
         {/* <SentenceObject/> */}
         {/* <StoryPage3 groupKey="alefba" wantedTitle="کِشاوَرزِ مِهرَبان"/> */}
-        {/* <StoryPage3 groupKey="kalemat" wantedTitle="گربه‌یِ بازیگوش"/> */}
-        <TypingImageText srcImg="https://media.istockphoto.com/id/1204470108/vector/cute-kids-reading-book-and-librarian-in-library-flat-cartoon-illustration.jpg?s=612x612&w=0&k=20&c=NnfqdhoAmTMeNTBD6cvWHwc5pf8K3W-aCrbSOj9Plag="/>
+        <StoryPage3 groupKey="kalemat" wantedTitle="مَریَم و آشپَزی"/>
+        {/* <TypingImageText srcImg="https://media.istockphoto.com/id/1204470108/vector/cute-kids-reading-book-and-librarian-in-library-flat-cartoon-illustration.jpg?s=612x612&w=0&k=20&c=NnfqdhoAmTMeNTBD6cvWHwc5pf8K3W-aCrbSOj9Plag="/> */}
 
           {/* <StoryPage3 groupKey="kalemat" wantedTitle="دُکمه‌ی گُمشُده"/> */}
         {/* <DragDropQuiz/> */}
@@ -51,7 +51,7 @@ export default function Home() {
 {/* ****************************************************** */}
     <div>
       <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : داستان زیر را بخواند و از روی کلمات آن با معنی بنویسد.  </h5>
-          <StoryPage3 groupKey="kalemat" wantedTitle="سِتارِهٔ یِ عَجیب"/>
+          <StoryPage3 groupKey="kalemat" wantedTitle="سَمورها‌ی آبی"/>
           {/* <SortableSentencesApp/> */}
           {/* <StoryPage3 groupKey="dastan" wantedTitle="سگ طمع کار"/> */}
     </div>
