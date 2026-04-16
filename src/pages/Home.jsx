@@ -32,8 +32,8 @@ export default function Home() {
 /> */}
           {/* <SentenceBuilder/> */}
         {/* <SentenceObject/> */}
-        {/* <StoryPage3 groupKey="alefba" wantedTitle="کِشاوَرزِ مِهرَبان"/> */}
-        <StoryPage3 groupKey="kalemat" wantedTitle="عَلی و تَنبلی"/>
+        <StoryPage3 groupKey="alefba" wantedTitle="محمد پِسر خوب"/>
+        {/* <StoryPage3 groupKey="kalemat" wantedTitle="عَلی و تَنبلی"/> */}
         {/* <TypingImageText srcImg="https://media.istockphoto.com/id/1204470108/vector/cute-kids-reading-book-and-librarian-in-library-flat-cartoon-illustration.jpg?s=612x612&w=0&k=20&c=NnfqdhoAmTMeNTBD6cvWHwc5pf8K3W-aCrbSOj9Plag="/> */}
 
           {/* <StoryPage3 groupKey="kalemat" wantedTitle="دُکمه‌ی گُمشُده"/> */}
@@ -51,9 +51,9 @@ export default function Home() {
 {/* ****************************************************** */}
     <div>
       <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : داستان زیر را بخواند و از روی کلمات آن با معنی بنویسد.  </h5>
-          {/* <StoryPage3 groupKey="kalemat" wantedTitle="سَمورها‌ی آبی"/> */}
+          <StoryPage3 groupKey="kalemat" wantedTitle="قورباغه آوازخوان"/>
           {/* <SortableSentencesApp/> */}
-          <StoryPage3 groupKey="dastan" wantedTitle="نگاهی متفاوت"/>
+          {/* <StoryPage3 groupKey="dastan" wantedTitle="قورباغه آوازخوان"/> */}
     </div>
   </div>
 
