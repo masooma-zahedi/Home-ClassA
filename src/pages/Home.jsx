@@ -18,12 +18,12 @@ import ColoringCanvasPro from "../sections/alphabet/ColoringCanvasPro ";
 export default function Home() {
   return (<>
   <div >
-    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی 4 جمله آن بنویسند..  </div>
-        <VideoCard
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی کلمات آن دوبار با معنی بنویسند..  </div>
+        {/* <VideoCard
       title="قصه کوتاه امروز"
       description="متن فارسی داستان زیر را بخوانید."
       videoFileName={`${process.env.PUBLIC_URL}/video/elephent&ball.mp4`}  // فقط اسم فایل ویدیوی mp4
-    />
+    /> */}
 
     {/* <ColoringCanvasPro
   imageSrc={`${process.env.PUBLIC_URL}/images/test/mouse1.png`}
@@ -32,7 +32,7 @@ export default function Home() {
 /> */}
           {/* <SentenceBuilder/> */}
         {/* <SentenceObject/> */}
-        {/* <StoryPage3 groupKey="alefba" wantedTitle="مُورچِه و کَبوتَر"/> */}
+        <StoryPage3 groupKey="alefba" wantedTitle="چوپان دروغ‌گو"/>
         {/* <StoryPage3 groupKey="kalemat" wantedTitle="فیلِ مِهرَبان"/> */}
         {/* <TypingImageText srcImg="https://media.istockphoto.com/id/1204470108/vector/cute-kids-reading-book-and-librarian-in-library-flat-cartoon-illustration.jpg?s=612x612&w=0&k=20&c=NnfqdhoAmTMeNTBD6cvWHwc5pf8K3W-aCrbSOj9Plag="/> */}
 
@@ -50,8 +50,8 @@ export default function Home() {
     {/* <VideoWithCaptions/> */}
 {/* ****************************************************** */}
     <div>
-      <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : داستان زیر را بخواند و خلاصه داستان را بنویسد.  </h5>
-          <StoryPage3 groupKey="kalemat" wantedTitle="پیکو، کَبوتَرِ کوچولو"/>
+      <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : داستان زیر را بخواند و کلمات داستان را بنویسد.  </h5>
+          <StoryPage3 groupKey="kalemat" wantedTitle="گُنجِشکِ فَراموش‌کار"/>
           {/* <SortableSentencesApp/> */}
           {/* <StoryPage3 groupKey="dastan" wantedTitle="قورباغه آوازخوان"/> */}
     </div>
