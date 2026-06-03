@@ -624,7 +624,74 @@ const lessonGroups = [
 //     }
 //   ]
 // }
-
+{
+  title: "مکان یابی",
+  imgSide: "https://static.vecteezy.com/system/resources/previews/045/880/923/non_2x/little-boy-having-good-idea-a-bubble-with-idea-lamp-sign-isolated-on-white-background-vector.jpg",
+  slides: [
+    {
+      sentence: "کِتابِ بُزُرگ رویِ میزِ چوبی قَرار دارد.",
+      words: [
+        { text: "کِتاب", pronunciation: "ketāb", image: "https://previews.123rf.com/images/djvstock/djvstock1807/djvstock180702273/115035827-table-with-books-icon-over-white-background-vector-illustration.jpg", translation: "Book" },
+        { text: "میز", pronunciation: "miz", image: "https://t3.ftcdn.net/jpg/00/84/20/22/360_F_84202236_8ytMkN6KUdcuUlFUSSRsyZc1p05jqDuo.jpg", translation: "Table" }
+      ]
+    },
+    {
+      sentence: "گُربِه‌ی کوچَک زیرِ صَندَلی نِشَستِه است.",
+      words: [
+        { text: "گُربِه", pronunciation: "gorbe", image: "https://thumbs.dreamstime.com/b/adorable-orange-tabby-cat-peeking-out-under-table-cute-wide-eyed-bathed-warm-sunlight-410117793.jpg", translation: "Cat" },
+        { text: "صَندَلی", pronunciation: "sandali", image: "https://img.magnific.com/premium-vector/vector-cartoon-wooden-chair-white_756535-6813.jpg?semt=ais_hybrid&w=740&q=80", translation: "Chair" }
+      ]
+    },
+    {
+      sentence: "مِدادِ زَرد داخِلِ کیفِ مَدرَسِه است.",
+      words: [
+        { text: "مِداد", pronunciation: "medād", image: "https://img.magnific.com/premium-vector/school-bag-with-pencil-pen-illustration_1220218-11590.jpg", translation: "Pencil" },
+        { text: "کیف", pronunciation: "kif", image: "https://thumbs.dreamstime.com/z/blue-backpack-vector-illustration-school-bag-cartoon-art-playful-colorful-designed-to-represent-design-350581124.jpg", translation: "Bag" }
+      ]
+    },
+    {
+      sentence: "توپِ قِرمِز کِنارِ دِرَختِ بُلَند قَرار گِرِفتِه است.",
+      words: [
+        { text: "توپ", pronunciation: "tup", image: "https://thumbs.dreamstime.com/b/tree-ball-182748968.jpg", translation: "Ball" },
+      ]
+    },
+    {
+      sentence: "ماشینِ سِفید جِلویِ خانِه پارک شُدِه است.",
+      words: [
+        { text: "ماشین", pronunciation: "māshin", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Y77Fu9XD-R27MqNg03zyaU4MCTIUGV0WeA&s", translation: "Car" },
+      ]
+    },
+    {
+      sentence: "بَچِه‌ها بیرونِ مَدرَسِه با هَم بازی می‌کُنَند.",
+      words: [
+        { text: "بَچِه‌ها", pronunciation: "bachehā", image: "https://thumbs.dreamstime.com/b/happy-school-children-playing-front-school-building-illustration-96500743.jpg", translation: "Kids" },
+      ]
+    },
+    {
+      sentence: "پَرَندِه‌ی رَنگارَنگ بالایِ دِرَخت پَرواز می‌کُنَد.",
+      words: [
+        { text: "پَرَندِه", pronunciation: "parande", image: "https://i.pinimg.com/736x/23/51/16/235116e4857d8c933a1e2c71ff664004.jpg", translation: "Bird" },
+      ]
+    },
+    {
+      sentence: "توپِ آبی بینِ دو صَندَلی قَرار دارد.",
+      words: [
+        { text: "توپ", pronunciation: "tup", image: "https://thumbs.dreamstime.com/b/beach-chairs-beach-ball-computer-ggenerated-image-53846772.jpg", translation: "Ball" },
+      ]
+    },
+    {
+      sentence: "کَفش‌ها پُشتِ دَرِ اُتاق گُذاشتِه شُدِه‌اند.",
+      words: [
+        { text: "کَفش", pronunciation: "kafsh", image: "https://www.shutterstock.com/image-illustration/many-cartoon-shoes-family-front-260nw-1795778158.jpg", translation: "Shoes" },
+      ]
+    },
+    {
+      sentence: "ما جایگیری و پوزیشِن‌ها را دَر جُملِه‌ها یاد می‌گیریم.",
+      words: [
+      ]
+    }
+  ]
+}
 
 
 
