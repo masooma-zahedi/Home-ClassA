@@ -18,8 +18,7 @@ import ColoringCanvasPro from "../sections/alphabet/ColoringCanvasPro ";
 export default function Home() {
   return (<>
   <div >
-    {/* <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی کلمات آن دوبار با معنی بنویسند..  </div> */}
-    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : جملات زیر را بخوانند و از روی 5 جمله آن بنویسند..  </div>
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی کلمات آن دوبار با معنی بنویسند..  </div>
         {/* <VideoCard
       title="قصه کوتاه امروز"
       description="متن فارسی داستان زیر را بخوانید."
