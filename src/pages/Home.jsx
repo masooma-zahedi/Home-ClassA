@@ -33,9 +33,9 @@ export default function Home() {
 /> */}
           {/* <SentenceBuilder/> */}
         {/* <SentenceObject/> */}
-        {/* <StoryPage3 groupKey="alefba" wantedTitle="چوپان دروغ‌گو"/> */}
+        <StoryPage3 groupKey="alefba" wantedTitle="زِندگی مَن"/>
         {/* <StoryPage3 groupKey="kalemat" wantedTitle="فیلِ مِهرَبان"/> */}
-        <TypingImageText srcImg="https://media.istockphoto.com/id/1204470108/vector/cute-kids-reading-book-and-librarian-in-library-flat-cartoon-illustration.jpg?s=612x612&w=0&k=20&c=NnfqdhoAmTMeNTBD6cvWHwc5pf8K3W-aCrbSOj9Plag="/>
+        {/* <TypingImageText srcImg="https://media.istockphoto.com/id/1204470108/vector/cute-kids-reading-book-and-librarian-in-library-flat-cartoon-illustration.jpg?s=612x612&w=0&k=20&c=NnfqdhoAmTMeNTBD6cvWHwc5pf8K3W-aCrbSOj9Plag="/> */}
 
           {/* <StoryPage3 groupKey="kalemat" wantedTitle="دُکمه‌ی گُمشُده"/> */}
         {/* <DragDropQuiz/> */}
@@ -51,9 +51,9 @@ export default function Home() {
     {/* <VideoWithCaptions/> */}
 {/* ****************************************************** */}
     <div>
-      <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : داستان زیر را بخواند و خلاصه داستان را بنویسد.  </h5>
+      {/* <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : داستان زیر را بخواند و خلاصه داستان را بنویسد.  </h5> */}
       {/* <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : جملات زیر را مرتب کند و از روی 5 جمله درست آن بنویسد.  </h5> */}
-          <StoryPage3 groupKey="kalemat" wantedTitle="نَصیحت پِدَر"/>
+          {/* <StoryPage3 groupKey="kalemat" wantedTitle="نَصیحت پِدَر"/> */}
           {/* <SortableSentencesApp/> */}
           {/* <StoryPage3 groupKey="dastan" wantedTitle="قورباغه آوازخوان"/> */}
           {/* <SentenceBuilder/> */}
