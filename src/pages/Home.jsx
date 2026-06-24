@@ -53,11 +53,11 @@ export default function Home() {
 {/* ****************************************************** */}
     <div>
       {/* <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : داستان زیر را بخواند و خلاصه داستان را بنویسد.  </h5> */}
-      {/* <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : جملات زیر را مرتب کند و از روی 5 جمله درست آن بنویسد.  </h5> */}
+      <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : جملات زیر را مرتب کند و از روی 5 جمله درست آن بنویسد.  </h5>
           {/* <StoryPage3 groupKey="kalemat" wantedTitle="نَصیحت پِدَر"/> */}
           {/* <SortableSentencesApp/> */}
           {/* <StoryPage3 groupKey="dastan" wantedTitle="قورباغه آوازخوان"/> */}
-          {/* <SentenceBuilder/> */}
+          <SentenceBuilder/>
 
     </div>
   </div>
