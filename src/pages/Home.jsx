@@ -32,7 +32,7 @@ export default function Home() {
   colors={["#ff0000", "#00ccff", "#ffaa00", "#8800ff","#10902eff", "#ff9500", "#ffcc00", "#34c759", "#0c09b7ff", "#5856d6", "#a0364aff"]}
 /> */}
           {/* <SentenceBuilder/> */}
-        <StoryPage3 groupKey="alefba" wantedTitle="زِندگی مَن"/>
+        {/* <StoryPage3 groupKey="alefba" wantedTitle="زِندگی مَن"/> */}
         <SentenceObject/>
         <MatchGame titleGame="foodFeelingsLearning"/>
         {/* <StoryPage3 groupKey="kalemat" wantedTitle="فیلِ مِهرَبان"/> */}
