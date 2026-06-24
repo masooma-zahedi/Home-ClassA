@@ -623,75 +623,145 @@ const lessonGroups = [
 //       ]
 //     }
 //   ]
-// }
+// },
+
+// مکان یابی
+// {
+//   title: "مکان یابی",
+//   imgSide: "https://static.vecteezy.com/system/resources/previews/045/880/923/non_2x/little-boy-having-good-idea-a-bubble-with-idea-lamp-sign-isolated-on-white-background-vector.jpg",
+//   slides: [
+//     {
+//       sentence: "کِتابِ بُزُرگ رویِ میزِ چوبی قَرار دارد.",
+//       words: [
+//         { text: "کِتاب", pronunciation: "ketāb", image: "https://previews.123rf.com/images/djvstock/djvstock1807/djvstock180702273/115035827-table-with-books-icon-over-white-background-vector-illustration.jpg", translation: "Book" },
+//         { text: "میز", pronunciation: "miz", image: "https://t3.ftcdn.net/jpg/00/84/20/22/360_F_84202236_8ytMkN6KUdcuUlFUSSRsyZc1p05jqDuo.jpg", translation: "Table" }
+//       ]
+//     },
+//     {
+//       sentence: "گُربِه‌ی کوچَک زیرِ صَندَلی نِشَستِه است.",
+//       words: [
+//         { text: "گُربِه", pronunciation: "gorbe", image: "https://thumbs.dreamstime.com/b/adorable-orange-tabby-cat-peeking-out-under-table-cute-wide-eyed-bathed-warm-sunlight-410117793.jpg", translation: "Cat" },
+//         { text: "صَندَلی", pronunciation: "sandali", image: "https://img.magnific.com/premium-vector/vector-cartoon-wooden-chair-white_756535-6813.jpg?semt=ais_hybrid&w=740&q=80", translation: "Chair" }
+//       ]
+//     },
+//     {
+//       sentence: "مِدادِ زَرد داخِلِ کیفِ مَدرَسِه است.",
+//       words: [
+//         { text: "مِداد", pronunciation: "medād", image: "https://img.magnific.com/premium-vector/school-bag-with-pencil-pen-illustration_1220218-11590.jpg", translation: "Pencil" },
+//         { text: "کیف", pronunciation: "kif", image: "https://thumbs.dreamstime.com/z/blue-backpack-vector-illustration-school-bag-cartoon-art-playful-colorful-designed-to-represent-design-350581124.jpg", translation: "Bag" }
+//       ]
+//     },
+//     {
+//       sentence: "توپِ قِرمِز کِنارِ دِرَختِ بُلَند قَرار گِرِفتِه است.",
+//       words: [
+//         { text: "توپ", pronunciation: "tup", image: "https://thumbs.dreamstime.com/b/tree-ball-182748968.jpg", translation: "Ball" },
+//       ]
+//     },
+//     {
+//       sentence: "ماشینِ سِفید جِلویِ خانِه پارک شُدِه است.",
+//       words: [
+//         { text: "ماشین", pronunciation: "māshin", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Y77Fu9XD-R27MqNg03zyaU4MCTIUGV0WeA&s", translation: "Car" },
+//       ]
+//     },
+//     {
+//       sentence: "بَچِه‌ها بیرونِ مَدرَسِه با هَم بازی می‌کُنَند.",
+//       words: [
+//         { text: "بَچِه‌ها", pronunciation: "bachehā", image: "https://thumbs.dreamstime.com/b/happy-school-children-playing-front-school-building-illustration-96500743.jpg", translation: "Kids" },
+//       ]
+//     },
+//     {
+//       sentence: "پَرَندِه‌ی رَنگارَنگ بالایِ دِرَخت پَرواز می‌کُنَد.",
+//       words: [
+//         { text: "پَرَندِه", pronunciation: "parande", image: "https://i.pinimg.com/736x/23/51/16/235116e4857d8c933a1e2c71ff664004.jpg", translation: "Bird" },
+//       ]
+//     },
+//     {
+//       sentence: "توپِ آبی بینِ دو صَندَلی قَرار دارد.",
+//       words: [
+//         { text: "توپ", pronunciation: "tup", image: "https://thumbs.dreamstime.com/b/beach-chairs-beach-ball-computer-ggenerated-image-53846772.jpg", translation: "Ball" },
+//       ]
+//     },
+//     {
+//       sentence: "کَفش‌ها پُشتِ دَرِ اُتاق گُذاشتِه شُدِه‌اند.",
+//       words: [
+//         { text: "کَفش", pronunciation: "kafsh", image: "https://www.shutterstock.com/image-illustration/many-cartoon-shoes-family-front-260nw-1795778158.jpg", translation: "Shoes" },
+//       ]
+//     },
+//     {
+//       sentence: "ما جایگیری و پوزیشِن‌ها را دَر جُملِه‌ها یاد می‌گیریم.",
+//       words: [
+//       ]
+//     }
+//   ]
+// },
+
+// احساس غذا
 {
-  title: "مکان یابی",
-  imgSide: "https://static.vecteezy.com/system/resources/previews/045/880/923/non_2x/little-boy-having-good-idea-a-bubble-with-idea-lamp-sign-isolated-on-white-background-vector.jpg",
+  title: "اِحساس دَر باره‌یِ غذا",
+  imgSide: "https://i.etsystatic.com/17675358/r/il/4f6b82/3333354780/il_570xN.3333354780_m3eu.jpg",
   slides: [
     {
-      sentence: "کِتابِ بُزُرگ رویِ میزِ چوبی قَرار دارد.",
+      sentence: "بچه ها بَعد اَز خُوردَنِ یِک تِکه پیتزا خِیلی خوشحال شُدند.",
       words: [
-        { text: "کِتاب", pronunciation: "ketāb", image: "https://previews.123rf.com/images/djvstock/djvstock1807/djvstock180702273/115035827-table-with-books-icon-over-white-background-vector-illustration.jpg", translation: "Book" },
-        { text: "میز", pronunciation: "miz", image: "https://t3.ftcdn.net/jpg/00/84/20/22/360_F_84202236_8ytMkN6KUdcuUlFUSSRsyZc1p05jqDuo.jpg", translation: "Table" }
+        { text: "خوشحال", pronunciation: "khoshhāl", image: "https://thumbs.dreamstime.com/b/illustration-cartoon-kids-eating-pizza-together-cartoon-kids-eating-pizza-together-110663012.jpg", translation: "Happy" }
       ]
     },
     {
-      sentence: "گُربِه‌ی کوچَک زیرِ صَندَلی نِشَستِه است.",
+      sentence: "پِسَر خِیلی گُرسنه بود و نَمِی‌توانِست صَبر کُنَد.",
       words: [
-        { text: "گُربِه", pronunciation: "gorbe", image: "https://thumbs.dreamstime.com/b/adorable-orange-tabby-cat-peeking-out-under-table-cute-wide-eyed-bathed-warm-sunlight-410117793.jpg", translation: "Cat" },
-        { text: "صَندَلی", pronunciation: "sandali", image: "https://img.magnific.com/premium-vector/vector-cartoon-wooden-chair-white_756535-6813.jpg?semt=ais_hybrid&w=740&q=80", translation: "Chair" }
+        { text: "گُرسنه", pronunciation: "gorosne", image: "https://img.magnific.com/premium-vector/cute-boy-was-thinking-choosing-junk-food-healthy-food-vector-illustration_723224-4029.jpg?w=360",translation: "Hungry" }
       ]
     },
     {
-      sentence: "مِدادِ زَرد داخِلِ کیفِ مَدرَسِه است.",
+      sentence: "پِسَر بَعد اَز ناهار خُوردَن سیر شُد.",
       words: [
-        { text: "مِداد", pronunciation: "medād", image: "https://img.magnific.com/premium-vector/school-bag-with-pencil-pen-illustration_1220218-11590.jpg", translation: "Pencil" },
-        { text: "کیف", pronunciation: "kif", image: "https://thumbs.dreamstime.com/z/blue-backpack-vector-illustration-school-bag-cartoon-art-playful-colorful-designed-to-represent-design-350581124.jpg", translation: "Bag" }
+        { text: "سیر", pronunciation: "sir", image: "https://thumb.ac-illust.com/60/60198944d426d7f83dc2418413ff7390_w.jpeg", translation: "Full" }
       ]
     },
     {
-      sentence: "توپِ قِرمِز کِنارِ دِرَختِ بُلَند قَرار گِرِفتِه است.",
+      sentence: " دُختَر کوچَک گُفت : کِیک خِیلی لَذیذ و خوشمَزه هَست.",
       words: [
-        { text: "توپ", pronunciation: "tup", image: "https://thumbs.dreamstime.com/b/tree-ball-182748968.jpg", translation: "Ball" },
+        { text: "لَذیذ", pronunciation: "laziz", image: "https://img.magnific.com/free-photo/people-eating-sweet-delicious-cake_23-2151534316.jpg?semt=ais_hybrid&w=740&q=80", translation: "Delicious" }
       ]
     },
     {
-      sentence: "ماشینِ سِفید جِلویِ خانِه پارک شُدِه است.",
+      sentence: "پِسَر از طَعمِ تُندِ غَذا صورَتَش سُرخ شَد و آبِ زیادی خورد.",
       words: [
-        { text: "ماشین", pronunciation: "māshin", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Y77Fu9XD-R27MqNg03zyaU4MCTIUGV0WeA&s", translation: "Car" },
+        { text: "تند", pronunciation: "tond", image: "https://en.pimg.jp/080/738/220/1/80738220.jpg", translation: "Spicy" }
       ]
     },
     {
-      sentence: "بَچِه‌ها بیرونِ مَدرَسِه با هَم بازی می‌کُنَند.",
+      sentence: "دُختَر بَعد اَز خوردنِ غَذایِ شور خیلی تِشنِه شُد.",
       words: [
-        { text: "بَچِه‌ها", pronunciation: "bachehā", image: "https://thumbs.dreamstime.com/b/happy-school-children-playing-front-school-building-illustration-96500743.jpg", translation: "Kids" },
+        { text: "تشنه", pronunciation: "tashne", image: "https://thumbs.dreamstime.com/b/boy-drinking-water-21936024.jpg" , translation: "Thirsty" }
       ]
     },
     {
-      sentence: "پَرَندِه‌ی رَنگارَنگ بالایِ دِرَخت پَرواز می‌کُنَد.",
+      sentence: "بَچِّه اَز این غَذا بَدَش آمَد و ناراحَت شُد.",
       words: [
-        { text: "پَرَندِه", pronunciation: "parande", image: "https://i.pinimg.com/736x/23/51/16/235116e4857d8c933a1e2c71ff664004.jpg", translation: "Bird" },
+        { text: "بدش آمد", pronunciation: "badash āmad", image: "https://thumbs.dreamstime.com/b/vector-illustration-boy-refuse-to-eat-broccoli-tomatoes-fried-eggs-233556931.jpg", translation: "Dislike" }
       ]
     },
     {
-      sentence: "توپِ آبی بینِ دو صَندَلی قَرار دارد.",
+      sentence: "کودَک بَعد اَز خوردنِ زیاد دُچارِ دِل‌دَرد شُد.",
       words: [
-        { text: "توپ", pronunciation: "tup", image: "https://thumbs.dreamstime.com/b/beach-chairs-beach-ball-computer-ggenerated-image-53846772.jpg", translation: "Ball" },
+        { text: "دل‌درد", pronunciation: "del-dard", image: "https://media.istockphoto.com/id/2245916257/vector/child-suffering-after-eating-junk-food-vector-illustration.jpg?s=612x612&w=0&k=20&c=EiazgMJOiDMeyeIhAPSfEVNUyu1BWXNZl7HZvSxb5QI=", translation: "Stomach ache" }
       ]
     },
     {
-      sentence: "کَفش‌ها پُشتِ دَرِ اُتاق گُذاشتِه شُدِه‌اند.",
+      sentence: "دُختَر اَز خُوردنِ سوپِ خوش‌طَعم لِذَّت بُرد.",
       words: [
-        { text: "کَفش", pronunciation: "kafsh", image: "https://www.shutterstock.com/image-illustration/many-cartoon-shoes-family-front-260nw-1795778158.jpg", translation: "Shoes" },
+        { text: "لِذَت", pronunciation: "lezat", image: "https://thumbs.dreamstime.com/b/girl-eating-soup-spoon-cheerful-young-enjoys-bowl-green-displaying-happy-expression-seated-table-perfect-419464250.jpg", translation: "Enjoyment" }
       ]
     },
     {
-      sentence: "ما جایگیری و پوزیشِن‌ها را دَر جُملِه‌ها یاد می‌گیریم.",
+      sentence: "پِسَر بَچّه اَز آمادِه کَردَن ناهار با مادَرَش خُوشحال بود.",
       words: [
+        { text: "خوشحال", pronunciation: "khoshhāl", image: "https://media.istockphoto.com/id/1327389819/vector/mother-and-son-cooking-in-the-kitchen.jpg?s=612x612&w=0&k=20&c=TNibgC7TXVsKcACToxFt8O9YOfJdHfL0HnNDOAOml00=", translation: "Happy" }
       ]
     }
   ]
-}
+},
 
 
 
