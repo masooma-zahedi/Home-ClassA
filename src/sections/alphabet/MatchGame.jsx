@@ -330,7 +330,9 @@ const livingRoomLearning = [
 
 
 
-const MatchGame = ({}) => {
+const MatchGame = ({titleGame}) => {
+
+  console.log(titleGame);
     const [items,setItems] = useState(foodFeelingsLearning);
   const[idModal,setIdModal]=useState('foodFeelingsLearning');
   const [newtitle,setNewtitle] = useState(false)
@@ -601,7 +603,7 @@ const categories = [
                     </div>
                     <div className="flip-card-back bg-success text-white d-flex align-items-center h1 justify-content-center">
                       {item.type === 'word' ? (
-                        <strong>{item.word}</strong>
+                        <strong style={{fontSize: `clamp(1.2rem, 3vw, 3rem)`}}>{item.word}</strong>
                       ) : (
                         <img className='h-100 w-100' src={item.image} alt={item.word} style={{  }} />
                       )}
