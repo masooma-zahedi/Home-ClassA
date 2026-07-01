@@ -20,7 +20,7 @@ export default function Home() {
   return (<>
   <div >
     {/* <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی کلمات آن دوبار با معنی بنویسند..  </div> */}
-    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : جملات زیر را بخوانند و از روی 5 جمله آن بنویسند..  </div>
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی 5 جمله آن بنویسند..  </div>
         {/* <VideoCard
       title="قصه کوتاه امروز"
       description="متن فارسی داستان زیر را بخوانید."
@@ -32,10 +32,10 @@ export default function Home() {
   colors={["#ff0000", "#00ccff", "#ffaa00", "#8800ff","#10902eff", "#ff9500", "#ffcc00", "#34c759", "#0c09b7ff", "#5856d6", "#a0364aff"]}
 /> */}
           {/* <SentenceBuilder/> */}
-        {/* <StoryPage3 groupKey="alefba" wantedTitle="زِندگی مَن"/> */}
-        <SentenceObject/>
+        <StoryPage3 groupKey="alefba" wantedTitle="عَروسَکِ نَرمِ کریس"/>
+        {/* <SentenceObject/> */}
         <MatchGame titleGame="foodFeelingsLearning"/>
-        {/* <StoryPage3 groupKey="kalemat" wantedTitle="فیلِ مِهرَبان"/> */}
+        {/* <StoryPage3 groupKey="kalemat" wantedTitle="گُلِ آفتاب‌گَردانِ میا"/> */}
         {/* <TypingImageText srcImg="https://media.istockphoto.com/id/1204470108/vector/cute-kids-reading-book-and-librarian-in-library-flat-cartoon-illustration.jpg?s=612x612&w=0&k=20&c=NnfqdhoAmTMeNTBD6cvWHwc5pf8K3W-aCrbSOj9Plag="/> */}
 
           {/* <StoryPage3 groupKey="kalemat" wantedTitle="دُکمه‌ی گُمشُده"/> */}
@@ -52,12 +52,12 @@ export default function Home() {
     {/* <VideoWithCaptions/> */}
 {/* ****************************************************** */}
     <div>
-      {/* <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : داستان زیر را بخواند و خلاصه داستان را بنویسد.  </h5> */}
-      <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : جملات زیر را مرتب کند و از روی 5 جمله درست آن بنویسد.  </h5>
-          {/* <StoryPage3 groupKey="kalemat" wantedTitle="نَصیحت پِدَر"/> */}
+      <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : داستان زیر را بخواند و از روی کلمات داستان  دو بار را بنویسد.  </h5>
+      {/* <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : جملات زیر را مرتب کند و از روی 5 جمله درست آن بنویسد.  </h5> */}
+        <StoryPage3 groupKey="kalemat" wantedTitle="گُلِ آفتاب‌گَردانِ میا"/>
           {/* <SortableSentencesApp/> */}
           {/* <StoryPage3 groupKey="dastan" wantedTitle="قورباغه آوازخوان"/> */}
-          <SentenceBuilder/>
+          {/* <SentenceBuilder/> */}
 
     </div>
   </div>

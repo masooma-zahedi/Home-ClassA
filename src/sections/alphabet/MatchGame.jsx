@@ -332,9 +332,8 @@ const livingRoomLearning = [
 
 const MatchGame = ({titleGame}) => {
 
-  console.log(titleGame);
-    const [items,setItems] = useState(foodFeelingsLearning);
-  const[idModal,setIdModal]=useState('foodFeelingsLearning');
+  const [items,setItems] = useState(livingRoomLearning);
+  const[idModal,setIdModal]=useState('livingRoomLearning');
   const [newtitle,setNewtitle] = useState(false)
 
   const [players, setPlayers] = useState([]);
@@ -404,8 +403,8 @@ const categories = [
   // { title: "موقعیت ها", data: positionsLearning, key: "item18" },
   // { title: "احساسات", data: feelingsLearning, key: "item19" },
   // { title: "آب و هوا", data: weatherLearning, key: "item20" },
-  { title: "احساسات غذا", data: foodFeelingsLearning, key: "item21" },
-  // { title: "اتاق نشیمن", data: livingRoomLearning, key: "item22" },
+  // { title: "احساسات غذا", data: foodFeelingsLearning, key: "item21" },
+  { title: "اتاق نشیمن", data: livingRoomLearning, key: "item22" },
 ];
 
 
