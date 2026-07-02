@@ -15,6 +15,7 @@ import TypingImageText from "../sections/word/TypingImageText";
 import MatchingLettersPicturs from "../sections/alphabet/MatchingLettersPicturs";
 import ColoringCanvasPro from "../sections/alphabet/ColoringCanvasPro ";
 import MatchGame from "../sections/alphabet/MatchGame";
+import ChooseWords from "../sections/alphabet/ChooseWords";
 
 export default function Home() {
   return (<>
@@ -34,7 +35,8 @@ export default function Home() {
           {/* <SentenceBuilder/> */}
         <StoryPage3 groupKey="alefba" wantedTitle="عَروسَکِ نَرمِ کریس"/>
         {/* <SentenceObject/> */}
-        <MatchGame titleGame="foodFeelingsLearning"/>
+        <ChooseWords/>
+        <MatchGame titleGame=""/>
         {/* <StoryPage3 groupKey="kalemat" wantedTitle="گُلِ آفتاب‌گَردانِ میا"/> */}
         {/* <TypingImageText srcImg="https://media.istockphoto.com/id/1204470108/vector/cute-kids-reading-book-and-librarian-in-library-flat-cartoon-illustration.jpg?s=612x612&w=0&k=20&c=NnfqdhoAmTMeNTBD6cvWHwc5pf8K3W-aCrbSOj9Plag="/> */}
 
