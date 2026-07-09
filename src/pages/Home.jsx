@@ -32,11 +32,11 @@ export default function Home() {
   // imageSrc={`${process.env.PUBLIC_URL}/images/assetWord/designPage/girlSitting.png`}
   colors={["#ff0000", "#00ccff", "#ffaa00", "#8800ff","#10902eff", "#ff9500", "#ffcc00", "#34c759", "#0c09b7ff", "#5856d6", "#a0364aff"]}
 /> */}
-          {/* <SentenceBuilder/> */}
+          <SentenceBuilder/>
         <StoryPage3 groupKey="alefba" wantedTitle="عَروسَکِ نَرمِ کِریس"/>
         {/* <SentenceObject/> */}
-        <ChooseWords/>
-        <MatchGame titleGame=""/>
+        {/* <ChooseWords/> */}
+        {/* <MatchGame titleGame=""/> */}
         {/* <StoryPage3 groupKey="kalemat" wantedTitle="گُلِ آفتاب‌گَردانِ میا"/> */}
         {/* <TypingImageText srcImg="https://media.istockphoto.com/id/1204470108/vector/cute-kids-reading-book-and-librarian-in-library-flat-cartoon-illustration.jpg?s=612x612&w=0&k=20&c=NnfqdhoAmTMeNTBD6cvWHwc5pf8K3W-aCrbSOj9Plag="/> */}
 
