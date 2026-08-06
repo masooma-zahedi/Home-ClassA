@@ -20,7 +20,7 @@ import ChooseWords from "../sections/alphabet/ChooseWords";
 export default function Home() {
   return (<>
   <div >
-    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی کلمات آن دوبار با معنی بنویسند..  </div>
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی  آن یکبار بنویسند..  </div>
     {/* <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی 5 جمله آن بنویسند..  </div> */}
         {/* <VideoCard
       title="قصه کوتاه امروز"
@@ -32,7 +32,8 @@ export default function Home() {
   // imageSrc={`${process.env.PUBLIC_URL}/images/assetWord/designPage/girlSitting.png`}
   colors={["#ff0000", "#00ccff", "#ffaa00", "#8800ff","#10902eff", "#ff9500", "#ffcc00", "#34c759", "#0c09b7ff", "#5856d6", "#a0364aff"]}
 /> */}
-          {/* <SentenceBuilder/> */}
+        <StoryPage3 groupKey="alefba" wantedTitle="گُلِ رَنگی"/>
+          <SentenceBuilder/>
         <StoryPage3 groupKey="alefba" wantedTitle="زَنبورِ کوچَک و باغِ پُرگُل"/>
         {/* <SentenceObject/> */}
         {/* <ChooseWords/> */}
