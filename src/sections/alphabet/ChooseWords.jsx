@@ -3,47 +3,47 @@ import React, { useMemo, useState } from "react";
 export default function ChooseWords() {
 
 const categories = [
-  {
-    id: "house",
-    title: " خانه",
-    words: [
-  { id: 1, word: "خانه", english: "House", image: "https://thumbs.dreamstime.com/b/bring-touch-playful-charm-to-any-space-delightful-cartoon-house-illustration-ideal-kids-rooms-vibrant-377160933.jpg" },
-  { id: 2, word: "دَر", english: "Door", image: "https://thumbs.dreamstime.com/b/inviting-cartoon-door-sparkling-stars-greenery-front-entrance-ai-generated-412736379.jpg" },
-  { id: 3, word: "پَنجَرِه", english: "Window", image: "https://png.pngtree.com/png-clipart/20241231/original/pngtree-window-clipart-png-image_18423026.png" },
-  { id: 4, word: "دیوار", english: "Wall", image: "https://t3.ftcdn.net/jpg/07/61/48/92/360_F_761489217_DFALX8AIvnlgNUUnVdyIKt3rZGjcU95f.jpg" },
-  { id: 5, word: "سَقف", english: "Roof", image: "https://thumbs.dreamstime.com/b/image-shows-red-roof-chimney-brown-siding-vector-illustration-design-house-clipart-370036757.jpg" },
-  { id: 6, word: "اُتاق", english: "Room", image: "https://t4.ftcdn.net/jpg/08/92/33/15/360_F_892331542_FtSSfHwOQo8nFhHANjy8Lka7V9BVQxCU.jpg" },
-  { id: 7, word: "میز", english: "Table", image: "https://cdn.vectorstock.com/i/1000v/03/82/cartoon-wooden-tables-isola-vector-21650382.jpg" },
-  { id: 8, word: "صَندَلی", english: "Chair", image: "https://t4.ftcdn.net/jpg/00/54/26/03/360_F_54260333_QQ40rdrUKnnyjDPi8Lkt2jYIZNYlZnxq.jpg" },
-  { id: 9, word: "کاناپِه", english: "Sofa", image: "https://img.magnific.com/free-vector/green-two-seater-sofa-isolated-white-background_1308-77164.jpg?semt=ais_hybrid&w=740&q=80" },
-  { id: 10, word: "تِلِویزیون", english: "TV", image: "https://www.shutterstock.com/image-vector/tv-illustration-isolated-icon-cartoon-260nw-1341508154.jpg" },
-  { id: 11, word: "کولِر", english: "Air Conditioner", image: "https://static.vecteezy.com/system/resources/previews/004/595/196/non_2x/air-conditioner-with-remote-control-electronic-home-concept-in-cartoon-illustration-vector.jpg" },
-  { id: 12, word: "لامپ", english: "Lamp", image: "https://png.pngtree.com/png-clipart/20240719/original/pngtree-gradient-cartoon-doodle-of-a-bed-side-lamp-png-image_15593015.png" },
-  { id: 13, word: "فَرش", english: "Carpet", image: "https://img.magnific.com/premium-vector/colorful-cartoon-indoor-rug-icon-floor-carpet_1310786-24907.jpg" },
-  { id: 14, word: "کابینِت", english: "Cabinet", image: "https://img.freepik.com/premium-photo/cabinet-2d-cartoon-illustraton-white-background-high-qu_889056-32396.jpg" },
-  { id: 15, word: "آیینِه", english: "Mirror", image: "https://png.pngtree.com/png-clipart/20240719/original/pngtree-cartoon-framed-old-mirror-png-image_15590026.png" }
-]
-  },
-// احساسات
 //   {
-//     id: "emotions",
-//     title: "احساسات",
+//     id: "house",
+//     title: " خانه",
 //     words: [
-//   { id: 1, word: "خوشحال", english: "Happy", image: "https://img.magnific.com/premium-vector/joyful-cartoon-girl-with-pigtails-bright-outfit_1308-182684.jpg?semt=ais_hybrid&w=740&q=80" },
-//   { id: 2, word: "ناراحَت", english: "Sad", image: "https://t3.ftcdn.net/jpg/01/77/92/22/360_F_177922297_xRVO9hTpQojF64TH4CZkaRCBupk0PDfC.jpg" },
-//   { id: 3, word: "عَصَبانی", english: "Angry", image: "https://static.vecteezy.com/system/resources/previews/055/408/082/non_2x/angry-cartoon-boy-vector.jpg" },
-//   { id: 4, word: "تَرسیدِه", english: "Scared", image: "https://t3.ftcdn.net/jpg/05/33/20/94/360_F_533209438_M0bMmZZlWkHcetQyTTGz8W2wzjoqMQms.jpg" },
-//   { id: 5, word: "خَستِه", english: "Tired", image: "https://thumbs.dreamstime.com/b/fat-man-jogging-tired-vector-illustration-31019325.jpg" },
-//   { id: 6, word: "هَیَجان‌زَدِه", english: "Excited", image: "https://img.magnific.com/premium-vector/boy-burst-out-laughing-cartoon-vector-illustration_1080480-152670.jpg?semt=ais_hybrid&w=740&q=80" },
-//   { id: 7, word: "آرام", english: "Calm", image: "https://png.pngtree.com/png-vector/20230728/ourlarge/pngtree-calm-clipart-girl-calm-in-meditation-to-find-peace-and-calm-vector-png-image_6800967.png" },
-//   { id: 8, word: "خَجالَتی", english: "Shy", image: "https://thumbs.dreamstime.com/b/cute-shy-cheerful-little-girl-blue-dress-cartoon-illustration-42433598.jpg" },
-//   { id: 9, word: "مِهرَبان", english: "Kind", image: "https://static.vecteezy.com/system/resources/previews/001/330/343/non_2x/be-kind-slogan-with-cartoon-girl-with-little-deer-vector.jpg" },
-//   { id: 10, word: "نِگَران", english: "Worried", image: "https://c8.alamy.com/comp/R1K7PB/english-vocabulary-of-worried-illustration-R1K7PB.jpg" },
-//   { id: 12, word: "غُرور", english: "Proud", image: "https://thumbs.dreamstime.com/b/smiling-person-holding-be-proud-sign-placard-vector-cartoon-stick-figure-illustration-banner-character-221621893.jpg" },
-//   { id: 13, word: "دوست‌داشتَنی", english: "Lovely", image: "https://img.magnific.com/free-vector/cute-valentines-day-animal-couple_52683-53993.jpg?semt=ais_hybrid&w=740&q=80" },
-//   { id: 15, word: "مُتِعَجِب", english: "Surprised", image: "https://static.vecteezy.com/system/resources/previews/055/758/221/non_2x/surprised-girl-cartoon-illustration-shocked-transparent-background-free-png.png" }
+//   { id: 1, word: "خانه", english: "House", image: "https://thumbs.dreamstime.com/b/bring-touch-playful-charm-to-any-space-delightful-cartoon-house-illustration-ideal-kids-rooms-vibrant-377160933.jpg" },
+//   { id: 2, word: "دَر", english: "Door", image: "https://thumbs.dreamstime.com/b/inviting-cartoon-door-sparkling-stars-greenery-front-entrance-ai-generated-412736379.jpg" },
+//   { id: 3, word: "پَنجَرِه", english: "Window", image: "https://png.pngtree.com/png-clipart/20241231/original/pngtree-window-clipart-png-image_18423026.png" },
+//   { id: 4, word: "دیوار", english: "Wall", image: "https://t3.ftcdn.net/jpg/07/61/48/92/360_F_761489217_DFALX8AIvnlgNUUnVdyIKt3rZGjcU95f.jpg" },
+//   { id: 5, word: "سَقف", english: "Roof", image: "https://thumbs.dreamstime.com/b/image-shows-red-roof-chimney-brown-siding-vector-illustration-design-house-clipart-370036757.jpg" },
+//   { id: 6, word: "اُتاق", english: "Room", image: "https://t4.ftcdn.net/jpg/08/92/33/15/360_F_892331542_FtSSfHwOQo8nFhHANjy8Lka7V9BVQxCU.jpg" },
+//   { id: 7, word: "میز", english: "Table", image: "https://cdn.vectorstock.com/i/1000v/03/82/cartoon-wooden-tables-isola-vector-21650382.jpg" },
+//   { id: 8, word: "صَندَلی", english: "Chair", image: "https://t4.ftcdn.net/jpg/00/54/26/03/360_F_54260333_QQ40rdrUKnnyjDPi8Lkt2jYIZNYlZnxq.jpg" },
+//   { id: 9, word: "کاناپِه", english: "Sofa", image: "https://img.magnific.com/free-vector/green-two-seater-sofa-isolated-white-background_1308-77164.jpg?semt=ais_hybrid&w=740&q=80" },
+//   { id: 10, word: "تِلِویزیون", english: "TV", image: "https://www.shutterstock.com/image-vector/tv-illustration-isolated-icon-cartoon-260nw-1341508154.jpg" },
+//   { id: 11, word: "کولِر", english: "Air Conditioner", image: "https://static.vecteezy.com/system/resources/previews/004/595/196/non_2x/air-conditioner-with-remote-control-electronic-home-concept-in-cartoon-illustration-vector.jpg" },
+//   { id: 12, word: "لامپ", english: "Lamp", image: "https://png.pngtree.com/png-clipart/20240719/original/pngtree-gradient-cartoon-doodle-of-a-bed-side-lamp-png-image_15593015.png" },
+//   { id: 13, word: "فَرش", english: "Carpet", image: "https://img.magnific.com/premium-vector/colorful-cartoon-indoor-rug-icon-floor-carpet_1310786-24907.jpg" },
+//   { id: 14, word: "کابینِت", english: "Cabinet", image: "https://img.freepik.com/premium-photo/cabinet-2d-cartoon-illustraton-white-background-high-qu_889056-32396.jpg" },
+//   { id: 15, word: "آیینِه", english: "Mirror", image: "https://png.pngtree.com/png-clipart/20240719/original/pngtree-cartoon-framed-old-mirror-png-image_15590026.png" }
 // ]
 //   },
+// احساسات
+  {
+    id: "emotions",
+    title: "احساسات",
+    words: [
+  { id: 1, word: "خوشحال", english: "Happy", image: "https://img.magnific.com/premium-vector/joyful-cartoon-girl-with-pigtails-bright-outfit_1308-182684.jpg?semt=ais_hybrid&w=740&q=80" },
+  { id: 2, word: "ناراحَت", english: "Sad", image: "https://t3.ftcdn.net/jpg/01/77/92/22/360_F_177922297_xRVO9hTpQojF64TH4CZkaRCBupk0PDfC.jpg" },
+  { id: 3, word: "عَصَبانی", english: "Angry", image: "https://static.vecteezy.com/system/resources/previews/055/408/082/non_2x/angry-cartoon-boy-vector.jpg" },
+  { id: 4, word: "تَرسیدِه", english: "Scared", image: "https://t3.ftcdn.net/jpg/05/33/20/94/360_F_533209438_M0bMmZZlWkHcetQyTTGz8W2wzjoqMQms.jpg" },
+  { id: 5, word: "خَستِه", english: "Tired", image: "https://thumbs.dreamstime.com/b/fat-man-jogging-tired-vector-illustration-31019325.jpg" },
+  { id: 6, word: "هَیَجان‌زَدِه", english: "Excited", image: "https://img.magnific.com/premium-vector/boy-burst-out-laughing-cartoon-vector-illustration_1080480-152670.jpg?semt=ais_hybrid&w=740&q=80" },
+  { id: 7, word: "آرام", english: "Calm", image: "https://png.pngtree.com/png-vector/20230728/ourlarge/pngtree-calm-clipart-girl-calm-in-meditation-to-find-peace-and-calm-vector-png-image_6800967.png" },
+  { id: 8, word: "خَجالَتی", english: "Shy", image: "https://thumbs.dreamstime.com/b/cute-shy-cheerful-little-girl-blue-dress-cartoon-illustration-42433598.jpg" },
+  { id: 9, word: "مِهرَبان", english: "Kind", image: "https://static.vecteezy.com/system/resources/previews/001/330/343/non_2x/be-kind-slogan-with-cartoon-girl-with-little-deer-vector.jpg" },
+  { id: 10, word: "نِگَران", english: "Worried", image: "https://c8.alamy.com/comp/R1K7PB/english-vocabulary-of-worried-illustration-R1K7PB.jpg" },
+  { id: 12, word: "غُرور", english: "Proud", image: "https://thumbs.dreamstime.com/b/smiling-person-holding-be-proud-sign-placard-vector-cartoon-stick-figure-illustration-banner-character-221621893.jpg" },
+  { id: 13, word: "دوست‌داشتَنی", english: "Lovely", image: "https://img.magnific.com/free-vector/cute-valentines-day-animal-couple_52683-53993.jpg?semt=ais_hybrid&w=740&q=80" },
+  { id: 15, word: "مُتِعَجِب", english: "Surprised", image: "https://static.vecteezy.com/system/resources/previews/055/758/221/non_2x/surprised-girl-cartoon-illustration-shocked-transparent-background-free-png.png" }
+]
+  },
 // لباس ها
 //   {
 //     id: "clothes",
