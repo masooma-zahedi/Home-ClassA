@@ -20,7 +20,7 @@ import ChooseWords from "../sections/alphabet/ChooseWords";
 export default function Home() {
   return (<>
   <div >
-    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : جملات زیر را بخوانند و از روی 4 جمله آن بنویسند..  </div>
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی 4 جمله آن بنویسند..  </div>
     {/* <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی کلمات  آن دو بار با معنی بنویسند..  </div> */}
     {/* <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی 5 جمله آن بنویسند..  </div> */}
         {/* <VideoCard
@@ -39,7 +39,7 @@ export default function Home() {
         {/* <StoryPage3 groupKey="alefba" wantedTitle="زَنبورِ کوچَک و باغِ پُرگُل"/> */}
         {/* <SentenceObject/> */}
         {/* <MatchGame titleGame=""/> */}
-        <StoryPage3 groupKey="kalemat" wantedTitle="فیلِ مِهرَبان"/>
+        <StoryPage3 groupKey="kalemat" wantedTitle="پَرَندِه‌ی آبی و سنجاب"/>
         <ChooseWords/>
         {/* <TypingImageText srcImg="https://media.istockphoto.com/id/1204470108/vector/cute-kids-reading-book-and-librarian-in-library-flat-cartoon-illustration.jpg?s=612x612&w=0&k=20&c=NnfqdhoAmTMeNTBD6cvWHwc5pf8K3W-aCrbSOj9Plag="/> */}
 
@@ -56,9 +56,9 @@ export default function Home() {
     {/* <VideoWithCaptions/> */}
 {/* ****************************************************** */}
     <div>
-      {/* <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : داستان زیر را بخواند و از روی کلمات داستان  دو بار را بنویسد.  </h5> */}
+      <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : داستان زیر را بخواند و از روی کلمات داستان  دو بار را بنویسد.  </h5>
       {/* <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : جملات زیر را مرتب کند و از روی 5 جمله درست آن بنویسد.  </h5> */}
-        {/* <StoryPage3 groupKey="kalemat" wantedTitle="یِک بویِ خُوشمَزه"/> */}
+        <StoryPage3 groupKey="kalemat" wantedTitle="آراد و کیفِ قَهوِه‌ای"/>
           {/* <SortableSentencesApp/> */}
           {/* <StoryPage3 groupKey="dastan" wantedTitle="قورباغه آوازخوان"/> */}
           {/* <SentenceBuilder/> */}

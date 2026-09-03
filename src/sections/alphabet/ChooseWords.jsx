@@ -25,25 +25,25 @@ const categories = [
 // ]
 //   },
 // احساسات
-  {
-    id: "emotions",
-    title: "احساسات",
-    words: [
-  { id: 1, word: "خوشحال", english: "Happy", image: "https://img.magnific.com/premium-vector/joyful-cartoon-girl-with-pigtails-bright-outfit_1308-182684.jpg?semt=ais_hybrid&w=740&q=80" },
-  { id: 2, word: "ناراحَت", english: "Sad", image: "https://t3.ftcdn.net/jpg/01/77/92/22/360_F_177922297_xRVO9hTpQojF64TH4CZkaRCBupk0PDfC.jpg" },
-  { id: 3, word: "عَصَبانی", english: "Angry", image: "https://static.vecteezy.com/system/resources/previews/055/408/082/non_2x/angry-cartoon-boy-vector.jpg" },
-  { id: 4, word: "تَرسیدِه", english: "Scared", image: "https://t3.ftcdn.net/jpg/05/33/20/94/360_F_533209438_M0bMmZZlWkHcetQyTTGz8W2wzjoqMQms.jpg" },
-  { id: 5, word: "خَستِه", english: "Tired", image: "https://thumbs.dreamstime.com/b/fat-man-jogging-tired-vector-illustration-31019325.jpg" },
-  { id: 6, word: "هَیَجان‌زَدِه", english: "Excited", image: "https://img.magnific.com/premium-vector/boy-burst-out-laughing-cartoon-vector-illustration_1080480-152670.jpg?semt=ais_hybrid&w=740&q=80" },
-  { id: 7, word: "آرام", english: "Calm", image: "https://png.pngtree.com/png-vector/20230728/ourlarge/pngtree-calm-clipart-girl-calm-in-meditation-to-find-peace-and-calm-vector-png-image_6800967.png" },
-  { id: 8, word: "خَجالَتی", english: "Shy", image: "https://thumbs.dreamstime.com/b/cute-shy-cheerful-little-girl-blue-dress-cartoon-illustration-42433598.jpg" },
-  { id: 9, word: "مِهرَبان", english: "Kind", image: "https://static.vecteezy.com/system/resources/previews/001/330/343/non_2x/be-kind-slogan-with-cartoon-girl-with-little-deer-vector.jpg" },
-  { id: 10, word: "نِگَران", english: "Worried", image: "https://c8.alamy.com/comp/R1K7PB/english-vocabulary-of-worried-illustration-R1K7PB.jpg" },
-  { id: 12, word: "غُرور", english: "Proud", image: "https://thumbs.dreamstime.com/b/smiling-person-holding-be-proud-sign-placard-vector-cartoon-stick-figure-illustration-banner-character-221621893.jpg" },
-  { id: 13, word: "دوست‌داشتَنی", english: "Lovely", image: "https://img.magnific.com/free-vector/cute-valentines-day-animal-couple_52683-53993.jpg?semt=ais_hybrid&w=740&q=80" },
-  { id: 15, word: "مُتِعَجِب", english: "Surprised", image: "https://static.vecteezy.com/system/resources/previews/055/758/221/non_2x/surprised-girl-cartoon-illustration-shocked-transparent-background-free-png.png" }
-]
-  },
+//   {
+//     id: "emotions",
+//     title: "احساسات",
+//     words: [
+//   { id: 1, word: "خوشحال", english: "Happy", image: "https://img.magnific.com/premium-vector/joyful-cartoon-girl-with-pigtails-bright-outfit_1308-182684.jpg?semt=ais_hybrid&w=740&q=80" },
+//   { id: 2, word: "ناراحَت", english: "Sad", image: "https://t3.ftcdn.net/jpg/01/77/92/22/360_F_177922297_xRVO9hTpQojF64TH4CZkaRCBupk0PDfC.jpg" },
+//   { id: 3, word: "عَصَبانی", english: "Angry", image: "https://static.vecteezy.com/system/resources/previews/055/408/082/non_2x/angry-cartoon-boy-vector.jpg" },
+//   { id: 4, word: "تَرسیدِه", english: "Scared", image: "https://t3.ftcdn.net/jpg/05/33/20/94/360_F_533209438_M0bMmZZlWkHcetQyTTGz8W2wzjoqMQms.jpg" },
+//   { id: 5, word: "خَستِه", english: "Tired", image: "https://thumbs.dreamstime.com/b/fat-man-jogging-tired-vector-illustration-31019325.jpg" },
+//   { id: 6, word: "هَیَجان‌زَدِه", english: "Excited", image: "https://img.magnific.com/premium-vector/boy-burst-out-laughing-cartoon-vector-illustration_1080480-152670.jpg?semt=ais_hybrid&w=740&q=80" },
+//   { id: 7, word: "آرام", english: "Calm", image: "https://png.pngtree.com/png-vector/20230728/ourlarge/pngtree-calm-clipart-girl-calm-in-meditation-to-find-peace-and-calm-vector-png-image_6800967.png" },
+//   { id: 8, word: "خَجالَتی", english: "Shy", image: "https://thumbs.dreamstime.com/b/cute-shy-cheerful-little-girl-blue-dress-cartoon-illustration-42433598.jpg" },
+//   { id: 9, word: "مِهرَبان", english: "Kind", image: "https://static.vecteezy.com/system/resources/previews/001/330/343/non_2x/be-kind-slogan-with-cartoon-girl-with-little-deer-vector.jpg" },
+//   { id: 10, word: "نِگَران", english: "Worried", image: "https://c8.alamy.com/comp/R1K7PB/english-vocabulary-of-worried-illustration-R1K7PB.jpg" },
+//   { id: 12, word: "غُرور", english: "Proud", image: "https://thumbs.dreamstime.com/b/smiling-person-holding-be-proud-sign-placard-vector-cartoon-stick-figure-illustration-banner-character-221621893.jpg" },
+//   { id: 13, word: "دوست‌داشتَنی", english: "Lovely", image: "https://img.magnific.com/free-vector/cute-valentines-day-animal-couple_52683-53993.jpg?semt=ais_hybrid&w=740&q=80" },
+//   { id: 15, word: "مُتِعَجِب", english: "Surprised", image: "https://static.vecteezy.com/system/resources/previews/055/758/221/non_2x/surprised-girl-cartoon-illustration-shocked-transparent-background-free-png.png" }
+// ]
+// },
 // لباس ها
 //   {
 //     id: "clothes",
@@ -66,26 +66,26 @@ const categories = [
 // ]
 //   },
 // بهداشت
-//   {
-//     id: "hygiene",
-//     title: "بهداشت",
-//     words:  [
-//   { id: 1, word: "صابون", english: "Soap", image: "https://thumbs.dreamstime.com/z/soap-16057006.jpg" },
-//   { id: 2, word: "شامپو", english: "Shampoo", image: "https://thumbs.dreamstime.com/b/cartoon-shampoo-bottle-bubbles-text-dispenser-stylized-cartoon-illustration-shampoo-bottle-pump-dispenser-413090846.jpg" },
-//   { id: 3, word: "مسواک", english: "Toothbrush", image: "https://img.favpng.com/20/24/21/toothbrush-cartoon-tooth-brushing-clip-art-png-favpng-Cr1Q3GEwAJGciiC2R0ZgFkMAZ.jpg" },
-//   { id: 4, word: "خمیر دندان", english: "Toothpaste", image: "https://png.pngtree.com/png-clipart/20230307/ourmid/pngtree-toothpaste-cartoon-png-image_6635972.png" },
-//   { id: 5, word: "حوله", english: "Towel", image: "https://static.vecteezy.com/system/resources/previews/039/096/042/non_2x/towel-cartoon-doodle-png.png" },
-//   { id: 6, word: "شانه", english: "Comb", image: "https://thumbs.dreamstime.com/b/cute-vector-illustration-hair-comb-cartoon-style-girl-243486338.jpg" },
-//   { id: 8, word: "حمام", english: "Bath", image: "https://t3.ftcdn.net/jpg/02/72/87/10/360_F_272871089_YDpDhBLwFYqR2xHmXN6otpW0X5uiWvFu.jpg" },
-//   { id: 9, word: "دستشویی", english: "Toilet", image: "https://cdn.vectorstock.com/i/1000v/26/14/interior-toilet-room-in-minimalist-style-cartoon-vector-25902614.jpg" },
-//   { id: 10, word: "آینه", english: "Mirror", image: "https://static.vecteezy.com/system/resources/previews/068/246/280/non_2x/cartoon-illustration-of-an-ornate-mirror-free-vector.jpg" },
-//   { id: 11, word: "دستمال", english: "Tissue", image: "https://thumbs.dreamstime.com/b/cartoon-tissue-box-10308496.jpg" },
-//   { id: 12, word: "دوش", english: "Shower", image: "https://png.pngtree.com/png-vector/20241213/ourmid/pngtree-shower-clipart-hd-png-image_14746810.png" },
-//   { id: 13, word: "آب‌کشی", english: "Rinse", image: "https://thumbs.dreamstime.com/b/vector-illustration-proper-hand-washing-procedures-step-rinse-thoroughly-water-flat-procedure-individual-version-186825665.jpg" },
-//   { id: 14, word: "تمیز", english: "Clean", image: "https://c8.alamy.com/comp/2PT10K7/cartoon-little-boy-cleaning-a-mirror-2PT10K7.jpg" },
-//   { id: 15, word: "کثیف", english: "Dirty", image: "https://t4.ftcdn.net/jpg/13/37/20/63/360_F_1337206304_zVNzrX9DUc07UG21xqCjOwHBoPegnpQk.jpg" }
-// ]
-//   },
+  {
+    id: "hygiene",
+    title: "بهداشت",
+    words:  [
+  { id: 1, word: "صابون", english: "Soap", image: "https://thumbs.dreamstime.com/z/soap-16057006.jpg" },
+  { id: 2, word: "شامپو", english: "Shampoo", image: "https://thumbs.dreamstime.com/b/cartoon-shampoo-bottle-bubbles-text-dispenser-stylized-cartoon-illustration-shampoo-bottle-pump-dispenser-413090846.jpg" },
+  { id: 3, word: "مسواک", english: "Toothbrush", image: "https://img.favpng.com/20/24/21/toothbrush-cartoon-tooth-brushing-clip-art-png-favpng-Cr1Q3GEwAJGciiC2R0ZgFkMAZ.jpg" },
+  { id: 4, word: "خمیر دندان", english: "Toothpaste", image: "https://png.pngtree.com/png-clipart/20230307/ourmid/pngtree-toothpaste-cartoon-png-image_6635972.png" },
+  { id: 5, word: "حوله", english: "Towel", image: "https://static.vecteezy.com/system/resources/previews/039/096/042/non_2x/towel-cartoon-doodle-png.png" },
+  { id: 6, word: "شانه", english: "Comb", image: "https://thumbs.dreamstime.com/b/cute-vector-illustration-hair-comb-cartoon-style-girl-243486338.jpg" },
+  { id: 8, word: "حمام", english: "Bath", image: "https://t3.ftcdn.net/jpg/02/72/87/10/360_F_272871089_YDpDhBLwFYqR2xHmXN6otpW0X5uiWvFu.jpg" },
+  { id: 9, word: "دستشویی", english: "Toilet", image: "https://cdn.vectorstock.com/i/1000v/26/14/interior-toilet-room-in-minimalist-style-cartoon-vector-25902614.jpg" },
+  { id: 10, word: "آینه", english: "Mirror", image: "https://static.vecteezy.com/system/resources/previews/068/246/280/non_2x/cartoon-illustration-of-an-ornate-mirror-free-vector.jpg" },
+  { id: 11, word: "دستمال", english: "Tissue", image: "https://thumbs.dreamstime.com/b/cartoon-tissue-box-10308496.jpg" },
+  { id: 12, word: "دوش", english: "Shower", image: "https://png.pngtree.com/png-vector/20241213/ourmid/pngtree-shower-clipart-hd-png-image_14746810.png" },
+  { id: 13, word: "آب‌کشی", english: "Rinse", image: "https://thumbs.dreamstime.com/b/vector-illustration-proper-hand-washing-procedures-step-rinse-thoroughly-water-flat-procedure-individual-version-186825665.jpg" },
+  { id: 14, word: "تمیز", english: "Clean", image: "https://c8.alamy.com/comp/2PT10K7/cartoon-little-boy-cleaning-a-mirror-2PT10K7.jpg" },
+  { id: 15, word: "کثیف", english: "Dirty", image: "https://t4.ftcdn.net/jpg/13/37/20/63/360_F_1337206304_zVNzrX9DUc07UG21xqCjOwHBoPegnpQk.jpg" }
+]
+  },
 // غذاها
 //   {
 //     id: "food",
