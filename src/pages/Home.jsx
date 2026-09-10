@@ -39,7 +39,7 @@ export default function Home() {
         {/* <StoryPage3 groupKey="alefba" wantedTitle="زَنبورِ کوچَک و باغِ پُرگُل"/> */}
         {/* <SentenceObject/> */}
         {/* <MatchGame titleGame=""/> */}
-        <StoryPage3 groupKey="kalemat" wantedTitle="پَرَندِه‌ی آبی و سنجاب"/>
+        <StoryPage3 groupKey="kalemat" wantedTitle="کِتابِ گُم‌شُدِه‌"/>
         <ChooseWords/>
         {/* <TypingImageText srcImg="https://media.istockphoto.com/id/1204470108/vector/cute-kids-reading-book-and-librarian-in-library-flat-cartoon-illustration.jpg?s=612x612&w=0&k=20&c=NnfqdhoAmTMeNTBD6cvWHwc5pf8K3W-aCrbSOj9Plag="/> */}
 
@@ -48,9 +48,9 @@ export default function Home() {
           {/* <SpellingGame/> */}
           {/* <TypingQAImageSlider/> */}
           {/* <MatchingLettersPicturs/> */}
-    {/* <div className="container  mt-4" dir="rtl">
-      <DragWriteBoxWithGuides textTitle="ما دَر مَدرِسه چیزهای زیادی یاد می گیریم" width={840} height={520} showGuides={true} downloadName="persian_practice.png"/>
-    </div> */}
+    <div className="container  mt-4" dir="rtl">
+      <DragWriteBoxWithGuides textTitle="بچه ها نوشتن اسم و فامیل خود را یاد بگیرند." width={840} height={520} showGuides={true} downloadName="persian_practice.png"/>
+    </div>
         {/* <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-success text-light rounded">کلمات زمستانی </div>*/}
     {/* <ObjectSentenceGame/> */}
     {/* <VideoWithCaptions/> */}
@@ -58,7 +58,7 @@ export default function Home() {
     <div>
       <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : داستان زیر را بخواند و از روی کلمات داستان  دو بار را بنویسد.  </h5>
       {/* <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : جملات زیر را مرتب کند و از روی 5 جمله درست آن بنویسد.  </h5> */}
-        <StoryPage3 groupKey="kalemat" wantedTitle="آراد و کیفِ قَهوِه‌ای"/>
+        <StoryPage3 groupKey="kalemat" wantedTitle="پِروژِه‌یِ مَنظومه خُورشیدی"/>
           {/* <SortableSentencesApp/> */}
           {/* <StoryPage3 groupKey="dastan" wantedTitle="قورباغه آوازخوان"/> */}
           {/* <SentenceBuilder/> */}
