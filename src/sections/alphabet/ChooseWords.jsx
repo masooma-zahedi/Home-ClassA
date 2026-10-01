@@ -66,26 +66,26 @@ const categories = [
 // ]
 //   },
 // بهداشت
-  {
-    id: "hygiene",
-    title: "بهداشت",
-    words:  [
-  { id: 1, word: "صابون", english: "Soap", image: "https://thumbs.dreamstime.com/z/soap-16057006.jpg" },
-  { id: 2, word: "شامپو", english: "Shampoo", image: "https://thumbs.dreamstime.com/b/cartoon-shampoo-bottle-bubbles-text-dispenser-stylized-cartoon-illustration-shampoo-bottle-pump-dispenser-413090846.jpg" },
-  { id: 3, word: "مسواک", english: "Toothbrush", image: "https://img.favpng.com/20/24/21/toothbrush-cartoon-tooth-brushing-clip-art-png-favpng-Cr1Q3GEwAJGciiC2R0ZgFkMAZ.jpg" },
-  { id: 4, word: "خمیر دندان", english: "Toothpaste", image: "https://png.pngtree.com/png-clipart/20230307/ourmid/pngtree-toothpaste-cartoon-png-image_6635972.png" },
-  { id: 5, word: "حوله", english: "Towel", image: "https://static.vecteezy.com/system/resources/previews/039/096/042/non_2x/towel-cartoon-doodle-png.png" },
-  { id: 6, word: "شانه", english: "Comb", image: "https://thumbs.dreamstime.com/b/cute-vector-illustration-hair-comb-cartoon-style-girl-243486338.jpg" },
-  { id: 8, word: "حمام", english: "Bath", image: "https://t3.ftcdn.net/jpg/02/72/87/10/360_F_272871089_YDpDhBLwFYqR2xHmXN6otpW0X5uiWvFu.jpg" },
-  { id: 9, word: "دستشویی", english: "Toilet", image: "https://cdn.vectorstock.com/i/1000v/26/14/interior-toilet-room-in-minimalist-style-cartoon-vector-25902614.jpg" },
-  { id: 10, word: "آینه", english: "Mirror", image: "https://static.vecteezy.com/system/resources/previews/068/246/280/non_2x/cartoon-illustration-of-an-ornate-mirror-free-vector.jpg" },
-  { id: 11, word: "دستمال", english: "Tissue", image: "https://thumbs.dreamstime.com/b/cartoon-tissue-box-10308496.jpg" },
-  { id: 12, word: "دوش", english: "Shower", image: "https://png.pngtree.com/png-vector/20241213/ourmid/pngtree-shower-clipart-hd-png-image_14746810.png" },
-  { id: 13, word: "آب‌کشی", english: "Rinse", image: "https://thumbs.dreamstime.com/b/vector-illustration-proper-hand-washing-procedures-step-rinse-thoroughly-water-flat-procedure-individual-version-186825665.jpg" },
-  { id: 14, word: "تمیز", english: "Clean", image: "https://c8.alamy.com/comp/2PT10K7/cartoon-little-boy-cleaning-a-mirror-2PT10K7.jpg" },
-  { id: 15, word: "کثیف", english: "Dirty", image: "https://t4.ftcdn.net/jpg/13/37/20/63/360_F_1337206304_zVNzrX9DUc07UG21xqCjOwHBoPegnpQk.jpg" }
-]
-  },
+//   {
+//     id: "hygiene",
+//     title: "بهداشت",
+//     words:  [
+//   { id: 1, word: "صابون", english: "Soap", image: "https://thumbs.dreamstime.com/z/soap-16057006.jpg" },
+//   { id: 2, word: "شامپو", english: "Shampoo", image: "https://thumbs.dreamstime.com/b/cartoon-shampoo-bottle-bubbles-text-dispenser-stylized-cartoon-illustration-shampoo-bottle-pump-dispenser-413090846.jpg" },
+//   { id: 3, word: "مسواک", english: "Toothbrush", image: "https://img.favpng.com/20/24/21/toothbrush-cartoon-tooth-brushing-clip-art-png-favpng-Cr1Q3GEwAJGciiC2R0ZgFkMAZ.jpg" },
+//   { id: 4, word: "خمیر دندان", english: "Toothpaste", image: "https://png.pngtree.com/png-clipart/20230307/ourmid/pngtree-toothpaste-cartoon-png-image_6635972.png" },
+//   { id: 5, word: "حوله", english: "Towel", image: "https://static.vecteezy.com/system/resources/previews/039/096/042/non_2x/towel-cartoon-doodle-png.png" },
+//   { id: 6, word: "شانه", english: "Comb", image: "https://thumbs.dreamstime.com/b/cute-vector-illustration-hair-comb-cartoon-style-girl-243486338.jpg" },
+//   { id: 8, word: "حمام", english: "Bath", image: "https://t3.ftcdn.net/jpg/02/72/87/10/360_F_272871089_YDpDhBLwFYqR2xHmXN6otpW0X5uiWvFu.jpg" },
+//   { id: 9, word: "دستشویی", english: "Toilet", image: "https://cdn.vectorstock.com/i/1000v/26/14/interior-toilet-room-in-minimalist-style-cartoon-vector-25902614.jpg" },
+//   { id: 10, word: "آینه", english: "Mirror", image: "https://static.vecteezy.com/system/resources/previews/068/246/280/non_2x/cartoon-illustration-of-an-ornate-mirror-free-vector.jpg" },
+//   { id: 11, word: "دستمال", english: "Tissue", image: "https://thumbs.dreamstime.com/b/cartoon-tissue-box-10308496.jpg" },
+//   { id: 12, word: "دوش", english: "Shower", image: "https://png.pngtree.com/png-vector/20241213/ourmid/pngtree-shower-clipart-hd-png-image_14746810.png" },
+//   { id: 13, word: "آب‌کشی", english: "Rinse", image: "https://thumbs.dreamstime.com/b/vector-illustration-proper-hand-washing-procedures-step-rinse-thoroughly-water-flat-procedure-individual-version-186825665.jpg" },
+//   { id: 14, word: "تمیز", english: "Clean", image: "https://c8.alamy.com/comp/2PT10K7/cartoon-little-boy-cleaning-a-mirror-2PT10K7.jpg" },
+//   { id: 15, word: "کثیف", english: "Dirty", image: "https://t4.ftcdn.net/jpg/13/37/20/63/360_F_1337206304_zVNzrX9DUc07UG21xqCjOwHBoPegnpQk.jpg" }
+// ]
+//   },
 // غذاها
 //   {
 //     id: "food",
@@ -108,28 +108,28 @@ const categories = [
 // ]
 //   },
 // افعال
-//   {
-//     id: "verbs",
-//     title: "افعال",
-//     words:  [
-//   { id: 1, word: "رفتن", english: "Go", image: "https://thumbs.dreamstime.com/b/bussinesman-go-to-work-cartoon-illustration-vector-67914161.jpg" },
-//   { id: 2, word: "آمدن", english: "Come", image: "https://img.magnific.com/premium-vector/vocabulary-flash-card-kids-come-with-picture-come_51635-6497.jpg" },
-//   { id: 3, word: "خوردن", english: "Eat", image: "https://png.pngtree.com/png-clipart/20190115/ourmid/pngtree-girl-eating-goods-eating-cartoon-cartoon-png-image_364650.jpg" },
-//   { id: 4, word: "نوشیدن", english: "Drink", image: "https://static.vecteezy.com/system/resources/previews/048/918/710/non_2x/boy-drinking-juice-cartoon-illustration-vector.jpg" },
-//   { id: 5, word: "خوابیدن", english: "Sleep", image: "https://i.pinimg.com/1200x/8c/4c/32/8c4c328ddbed0d770bbbb8dc065f7927.jpg" },
-//   { id: 6, word: "بازی کردن", english: "Play", image: "https://png.pngtree.com/png-clipart/20240622/original/pngtree-happy-cartoon-kids-playing-vector-illustration-children-playful-moment-png-image_15386102.png" },
-//   { id: 7, word: "خواندن", english: "Read", image: "https://t4.ftcdn.net/jpg/00/53/28/85/360_F_53288559_asesBQuUxBlEVLPX2vfZ0mmgKO8fDxle.jpg" },
-//   { id: 8, word: "نوشتن", english: "Write", image: "https://png.pngtree.com/png-clipart/20240830/original/pngtree-cartoon-boy-writing-a-book-with-pencil-and-paper-png-image_15894986.png" },
-//   { id: 9, word: "دیدن", english: "See", image: "https://previews.123rf.com/images/julinzy/julinzy1305/julinzy130500003/19622623-business-girl-searching.jpg" },
-//   { id: 10, word: "شنیدن", english: "Hear", image: "https://img3.stockfresh.com/files/l/lenm/m/20/4339368_stock-vector-listening-girl.jpg" },
-//   { id: 11, word: "دویدن", english: "Run", image: "https://png.pngtree.com/png-vector/20250605/ourmid/pngtree-happy-boy-running-png-image_16462741.png" },
-//   { id: 12, word: "پریدن", english: "Jump", image: "https://c8.alamy.com/comp/2GPG35K/trampoline-jumping-children-sport-games-happy-cartoon-kids-have-fun-isolated-boy-girl-playing-vector-illustration-2GPG35K.jpg" },
-//   { id: 13, word: "نشستن", english: "Sit", image: "https://img.magnific.com/premium-vector/cartoon-vector-illustration-boy-sitting-chair_1080480-146520.jpg" },
-//   { id: 14, word: "ایستادن", english: "Stand", image: "" },
-//   { id: 15, word: "فکر کردن", english: "Think", image: "" }
-// ]
-//   },
-// طبیعت
+  {
+    id: "verbs",
+    title: "افعال",
+    words:  [
+  { id: 1, word: "رفتن", english: "Go", image: "https://thumbs.dreamstime.com/b/bussinesman-go-to-work-cartoon-illustration-vector-67914161.jpg" },
+  { id: 2, word: "آمدن", english: "Come", image: "https://img.magnific.com/premium-vector/vocabulary-flash-card-kids-come-with-picture-come_51635-6497.jpg" },
+  { id: 3, word: "خوردن", english: "Eat", image: "https://png.pngtree.com/png-clipart/20190115/ourmid/pngtree-girl-eating-goods-eating-cartoon-cartoon-png-image_364650.jpg" },
+  { id: 4, word: "نوشیدن", english: "Drink", image: "https://static.vecteezy.com/system/resources/previews/048/918/710/non_2x/boy-drinking-juice-cartoon-illustration-vector.jpg" },
+  { id: 5, word: "خوابیدن", english: "Sleep", image: "https://i.pinimg.com/1200x/8c/4c/32/8c4c328ddbed0d770bbbb8dc065f7927.jpg" },
+  { id: 6, word: "بازی کردن", english: "Play", image: "https://png.pngtree.com/png-clipart/20240622/original/pngtree-happy-cartoon-kids-playing-vector-illustration-children-playful-moment-png-image_15386102.png" },
+  { id: 7, word: "خواندن", english: "Read", image: "https://t4.ftcdn.net/jpg/00/53/28/85/360_F_53288559_asesBQuUxBlEVLPX2vfZ0mmgKO8fDxle.jpg" },
+  { id: 8, word: "نوشتن", english: "Write", image: "https://png.pngtree.com/png-clipart/20240830/original/pngtree-cartoon-boy-writing-a-book-with-pencil-and-paper-png-image_15894986.png" },
+  { id: 9, word: "دیدن", english: "See", image: "https://previews.123rf.com/images/julinzy/julinzy1305/julinzy130500003/19622623-business-girl-searching.jpg" },
+  { id: 10, word: "شنیدن", english: "Hear", image: "https://img3.stockfresh.com/files/l/lenm/m/20/4339368_stock-vector-listening-girl.jpg" },
+  { id: 11, word: "دویدن", english: "Run", image: "https://png.pngtree.com/png-vector/20250605/ourmid/pngtree-happy-boy-running-png-image_16462741.png" },
+  { id: 12, word: "پریدن", english: "Jump", image: "https://c8.alamy.com/comp/2GPG35K/trampoline-jumping-children-sport-games-happy-cartoon-kids-have-fun-isolated-boy-girl-playing-vector-illustration-2GPG35K.jpg" },
+  { id: 13, word: "نشستن", english: "Sit", image: "https://img.magnific.com/premium-vector/cartoon-vector-illustration-boy-sitting-chair_1080480-146520.jpg" },
+  { id: 14, word: "ایستادن", english: "Stand", image: "https://static.vecteezy.com/system/resources/thumbnails/043/048/429/small/cute-baby-boy-watercolor-boy-watercolor-child-standing-at-full-height-vector.jpg" },
+  { id: 15, word: "فکر کردن", english: "Think", image: "https://thumbs.dreamstime.com/b/child-thinking-28916957.jpg" }
+]
+  },
+  // طبیعت
 //   {
 //     id: "nature",
 //     title: "طَبیعَت",
