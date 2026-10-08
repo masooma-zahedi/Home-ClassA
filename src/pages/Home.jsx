@@ -36,11 +36,11 @@ export default function Home() {
         {/* <StoryPage3 groupKey="alefba" wantedTitle="کِیفِ مَدرِسِه"/> */}
           {/* <SentenceBuilder/> */}
         {/* <WordGameWithCategories initialCategory="وسایل مدرسه" />  */}
-        {/* <StoryPage3 groupKey="alefba" wantedTitle="بوی آش سبزی"/> */}
+        <StoryPage3 groupKey="alefba" wantedTitle="زِندگی مَن"/>
         {/* <SentenceObject/> */}
         {/* <MatchGame titleGame=""/> */}
        {/* <SentenceBuilder/> */}
-        <StoryPage3 groupKey="kalemat" wantedTitle="بوی آش سبزی"/>
+        {/* <StoryPage3 groupKey="kalemat" wantedTitle="بوی آش سبزی"/> */}
         <ChooseWords/>
         {/* <TypingImageText srcImg="https://media.istockphoto.com/id/1204470108/vector/cute-kids-reading-book-and-librarian-in-library-flat-cartoon-illustration.jpg?s=612x612&w=0&k=20&c=NnfqdhoAmTMeNTBD6cvWHwc5pf8K3W-aCrbSOj9Plag="/> */}
 
@@ -61,7 +61,7 @@ export default function Home() {
       {/* <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : جملات زیر را مرتب کند و از روی 5 جمله درست آن بنویسد.  </h5> */}
         {/* <StoryPage3 groupKey="kalemat" wantedTitle="اَمیر و خَط‌کِشیِ خیابان"/> */}
           {/* <SortableSentencesApp/> */}
-          <StoryPage3 groupKey="dastan" wantedTitle="بَرگِ زیبایِ پاییزی"/>
+          <StoryPage3 groupKey="dastan" wantedTitle="عَلی و کِتاب خوانی"/>
 
     </div>
   </div>
