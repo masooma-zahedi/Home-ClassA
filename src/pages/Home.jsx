@@ -34,14 +34,14 @@ export default function Home() {
   colors={["#ff0000", "#00ccff", "#ffaa00", "#8800ff","#10902eff", "#ff9500", "#ffcc00", "#34c759", "#0c09b7ff", "#5856d6", "#a0364aff"]}
 /> */}
         {/* <StoryPage3 groupKey="alefba" wantedTitle="کِیفِ مَدرِسِه"/> */}
-          {/* <SentenceBuilder/> */}
         {/* <WordGameWithCategories initialCategory="وسایل مدرسه" />  */}
-        <StoryPage3 groupKey="alefba" wantedTitle="زِندگی مَن"/>
+        <StoryPage3 groupKey="alefba" wantedTitle="مُورچِه و غَذا"/>
+          <SentenceBuilder/>
         {/* <SentenceObject/> */}
         {/* <MatchGame titleGame=""/> */}
        {/* <SentenceBuilder/> */}
         {/* <StoryPage3 groupKey="kalemat" wantedTitle="بوی آش سبزی"/> */}
-        <ChooseWords/>
+        {/* <ChooseWords/> */}
         {/* <TypingImageText srcImg="https://media.istockphoto.com/id/1204470108/vector/cute-kids-reading-book-and-librarian-in-library-flat-cartoon-illustration.jpg?s=612x612&w=0&k=20&c=NnfqdhoAmTMeNTBD6cvWHwc5pf8K3W-aCrbSOj9Plag="/> */}
 
           {/* <StoryPage3 groupKey="kalemat" wantedTitle="دُکمه‌ی گُمشُده"/> */}
@@ -59,9 +59,9 @@ export default function Home() {
     <div>
       <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : داستان زیر را بخواند و از روی کلمات داستان  دو بار را بنویسد.  </h5>
       {/* <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : جملات زیر را مرتب کند و از روی 5 جمله درست آن بنویسد.  </h5> */}
-        {/* <StoryPage3 groupKey="kalemat" wantedTitle="اَمیر و خَط‌کِشیِ خیابان"/> */}
+        <StoryPage3 groupKey="kalemat" wantedTitle="بازی با خواهَر"/>
           {/* <SortableSentencesApp/> */}
-          <StoryPage3 groupKey="dastan" wantedTitle="عَلی و کِتاب خوانی"/>
+          {/* <StoryPage3 groupKey="dastan" wantedTitle="بازی با خواهَر"/> */}
 
     </div>
   </div>
