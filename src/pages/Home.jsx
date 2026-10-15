@@ -21,7 +21,7 @@ export default function Home() {
   return (<>
   <div >
     {/* <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی 4 جمله آن بنویسند..  </div> */}
-    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی کلمات  آن دو بار با معنی بنویسند..  </div>
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی قسمت بالای عکس اول یک بار بنویسند..  </div>
     {/* <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی 5 جمله آن بنویسند..  </div> */}
         {/* <VideoCard
       title="قصه کوتاه امروز"
