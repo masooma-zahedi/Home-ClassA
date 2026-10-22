@@ -21,8 +21,8 @@ export default function Home() {
   return (<>
   <div >
     {/* <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی 4 جمله آن بنویسند..  </div> */}
-    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی قسمت بالای عکس اول یک بار بنویسند..  </div>
-    {/* <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی 5 جمله آن بنویسند..  </div> */}
+    {/* <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی قسمت بالای عکس اول یک بار بنویسند..  </div> */}
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی کلمات آن با معنی دو بار بنویسند..  </div>
         {/* <VideoCard
       title="قصه کوتاه امروز"
       description="متن فارسی داستان زیر را بخوانید."
@@ -35,7 +35,7 @@ export default function Home() {
 /> */}
         {/* <StoryPage3 groupKey="alefba" wantedTitle="کِیفِ مَدرِسِه"/> */}
         {/* <WordGameWithCategories initialCategory="وسایل مدرسه" />  */}
-        <StoryPage3 groupKey="alefba" wantedTitle="مُورچِه و غَذا"/>
+        <StoryPage3 groupKey="alefba" wantedTitle="مینا و پَروانِه"/>
           <SentenceBuilder/>
         {/* <SentenceObject/> */}
         {/* <MatchGame titleGame=""/> */}
@@ -59,7 +59,7 @@ export default function Home() {
     <div>
       <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : داستان زیر را بخواند و از روی کلمات داستان  دو بار را بنویسد.  </h5>
       {/* <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : جملات زیر را مرتب کند و از روی 5 جمله درست آن بنویسد.  </h5> */}
-        <StoryPage3 groupKey="kalemat" wantedTitle="بازی با خواهَر"/>
+        <StoryPage3 groupKey="kalemat" wantedTitle="سینا و چالِه‌یِ آب"/>
           {/* <SortableSentencesApp/> */}
           {/* <StoryPage3 groupKey="dastan" wantedTitle="بازی با خواهَر"/> */}
 
