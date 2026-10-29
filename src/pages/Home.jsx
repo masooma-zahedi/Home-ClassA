@@ -35,7 +35,9 @@ export default function Home() {
 /> */}
         {/* <StoryPage3 groupKey="alefba" wantedTitle="کِیفِ مَدرِسِه"/> */}
         {/* <WordGameWithCategories initialCategory="وسایل مدرسه" />  */}
-        <StoryPage3 groupKey="kalemat" wantedTitle="مینا و پَروانِه"/>
+        {/* <StoryPage3 groupKey="kalemat" wantedTitle="مینا و پَروانِه"/> */}
+        <StoryPage3 groupKey="dastan" wantedTitle="اَمیر در فُروشگاه"/>
+
           {/* <SentenceBuilder/> */}
         {/* <SentenceObject/> */}
         {/* <MatchGame titleGame=""/> */}
@@ -57,11 +59,12 @@ export default function Home() {
     {/* <VideoWithCaptions/> */}
 {/* ****************************************************** */}
     <div>
-      <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : داستان زیر را بخواند و از روی کلمات داستان  دو بار را بنویسد.  </h5>
+      <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : داستان بالا را بخواند و از روی کلمات داستان  دو بار را بنویسد.  </h5>
+      {/* <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : داستان زیر را بخواند و از روی کلمات داستان  دو بار را بنویسد.  </h5> */}
       {/* <h5 className="bg-warning p-4 m-4 rounded text-center">برای احسان : جملات زیر را مرتب کند و از روی 5 جمله درست آن بنویسد.  </h5> */}
         {/* <StoryPage3 groupKey="kalemat" wantedTitle="سینا و چالِه‌یِ آب"/> */}
           {/* <SortableSentencesApp/> */}
-          <StoryPage3 groupKey="dastan" wantedTitle="سینا و چالِه‌یِ آب"/>
+          {/* <StoryPage3 groupKey="dastan" wantedTitle="اَمیر در فُروشگاه"/> */}
 
     </div>
   </div>
