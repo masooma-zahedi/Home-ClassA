@@ -21,8 +21,8 @@ import PersianMahjong from "../sections/alphabet/PersianMahjong";
 export default function Home() {
   return (<>
   <div >
-    {/* <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی 4 جمله آن بنویسند..  </div> */}
-    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی قسمت بالای عکس  یک بار بنویسند..  </div>
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : جملات زیر را بخوانند و از روی ۵ جمله آن بنویسند..  </div>
+    {/* <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی قسمت بالای عکس  یک بار بنویسند..  </div> */}
     {/* <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی کلمات آن با معنی دو بار بنویسند..  </div> */}
         {/* <VideoCard
       title="قصه کوتاه امروز"
@@ -34,18 +34,18 @@ export default function Home() {
   // imageSrc={`${process.env.PUBLIC_URL}/images/assetWord/designPage/girlSitting.png`}
   colors={["#ff0000", "#00ccff", "#ffaa00", "#8800ff","#10902eff", "#ff9500", "#ffcc00", "#34c759", "#0c09b7ff", "#5856d6", "#a0364aff"]}
 /> */}
-        <StoryPage3 groupKey="alefba" wantedTitle="وَقتِ خواب"/>
+        {/* <StoryPage3 groupKey="alefba" wantedTitle="وَقتِ خواب"/> */}
         {/* <WordGameWithCategories initialCategory="وسایل مدرسه" />  */}
         {/* <StoryPage3 groupKey="kalemat" wantedTitle="مینا و پَروانِه"/> */}
         {/* <StoryPage3 groupKey="dastan" wantedTitle="اَمیر در فُروشگاه"/> */}
-        <PersianMahjong/>
+        {/* <PersianMahjong/> */}
           {/* <SentenceBuilder/> */}
         {/* <SentenceObject/> */}
         {/* <MatchGame titleGame=""/> */}
        {/* <SentenceBuilder/> */}
         {/* <StoryPage3 groupKey="kalemat" wantedTitle="بوی آش سبزی"/> */}
         {/* <ChooseWords/> */}
-        {/* <TypingImageText srcImg="https://media.istockphoto.com/id/1204470108/vector/cute-kids-reading-book-and-librarian-in-library-flat-cartoon-illustration.jpg?s=612x612&w=0&k=20&c=NnfqdhoAmTMeNTBD6cvWHwc5pf8K3W-aCrbSOj9Plag="/> */}
+        <TypingImageText srcImg="https://media.istockphoto.com/id/1204470108/vector/cute-kids-reading-book-and-librarian-in-library-flat-cartoon-illustration.jpg?s=612x612&w=0&k=20&c=NnfqdhoAmTMeNTBD6cvWHwc5pf8K3W-aCrbSOj9Plag="/>
 
           {/* <StoryPage3 groupKey="kalemat" wantedTitle="دُکمه‌ی گُمشُده"/> */}
         {/* <DragDropQuiz/> */}
