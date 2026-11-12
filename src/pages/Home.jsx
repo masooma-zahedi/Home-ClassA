@@ -21,7 +21,7 @@ import PersianMahjong from "../sections/alphabet/PersianMahjong";
 export default function Home() {
   return (<>
   <div >
-    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : جملات زیر را بخوانند و از روی ۵ جمله آن بنویسند..  </div>
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : جملات زیر را بخوانند و از روی 4 جمله آن بنویسند..  </div>
     {/* <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی قسمت بالای عکس  یک بار بنویسند..  </div> */}
     {/* <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی کلمات آن با معنی دو بار بنویسند..  </div> */}
         {/* <VideoCard
