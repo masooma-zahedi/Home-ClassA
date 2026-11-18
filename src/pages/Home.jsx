@@ -40,12 +40,12 @@ export default function Home() {
         {/* <StoryPage3 groupKey="dastan" wantedTitle="اَمیر در فُروشگاه"/> */}
         {/* <PersianMahjong/> */}
           {/* <SentenceBuilder/> */}
-        {/* <SentenceObject/> */}
+        <SentenceObject/>
         {/* <MatchGame titleGame=""/> */}
        {/* <SentenceBuilder/> */}
         {/* <StoryPage3 groupKey="kalemat" wantedTitle="بوی آش سبزی"/> */}
         {/* <ChooseWords/> */}
-        <TypingImageText srcImg="https://media.istockphoto.com/id/1204470108/vector/cute-kids-reading-book-and-librarian-in-library-flat-cartoon-illustration.jpg?s=612x612&w=0&k=20&c=NnfqdhoAmTMeNTBD6cvWHwc5pf8K3W-aCrbSOj9Plag="/>
+        {/* <TypingImageText srcImg="https://media.istockphoto.com/id/1204470108/vector/cute-kids-reading-book-and-librarian-in-library-flat-cartoon-illustration.jpg?s=612x612&w=0&k=20&c=NnfqdhoAmTMeNTBD6cvWHwc5pf8K3W-aCrbSOj9Plag="/> */}
 
           {/* <StoryPage3 groupKey="kalemat" wantedTitle="دُکمه‌ی گُمشُده"/> */}
         {/* <DragDropQuiz/> */}

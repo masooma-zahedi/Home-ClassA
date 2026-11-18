@@ -696,73 +696,232 @@ const lessonGroups = [
 // },
 
 // احساس غذا
+// {
+//   title: "اِحساس دَر باره‌یِ غذا",
+//   imgSide: "https://i.etsystatic.com/17675358/r/il/4f6b82/3333354780/il_570xN.3333354780_m3eu.jpg",
+//   slides: [
+//     {
+//       sentence: "بچه ها بَعد اَز خُوردَنِ یِک تِکه پیتزا خِیلی خوشحال شُدند.",
+//       words: [
+//         { text: "خوشحال", pronunciation: "khoshhāl", image: "https://thumbs.dreamstime.com/b/illustration-cartoon-kids-eating-pizza-together-cartoon-kids-eating-pizza-together-110663012.jpg", translation: "Happy" }
+//       ]
+//     },
+//     {
+//       sentence: "پِسَر خِیلی گُرسنه بود و نَمِی‌توانِست صَبر کُنَد.",
+//       words: [
+//         { text: "گُرسنه", pronunciation: "gorosne", image: "https://img.magnific.com/premium-vector/cute-boy-was-thinking-choosing-junk-food-healthy-food-vector-illustration_723224-4029.jpg?w=360",translation: "Hungry" }
+//       ]
+//     },
+//     {
+//       sentence: "پِسَر بَعد اَز ناهار خُوردَن سیر شُد.",
+//       words: [
+//         { text: "سیر", pronunciation: "sir", image: "https://thumb.ac-illust.com/60/60198944d426d7f83dc2418413ff7390_w.jpeg", translation: "Full" }
+//       ]
+//     },
+//     {
+//       sentence: " دُختَر کوچَک گُفت : کِیک خِیلی لَذیذ و خوشمَزه هَست.",
+//       words: [
+//         { text: "لَذیذ", pronunciation: "laziz", image: "https://img.magnific.com/free-photo/people-eating-sweet-delicious-cake_23-2151534316.jpg?semt=ais_hybrid&w=740&q=80", translation: "Delicious" }
+//       ]
+//     },
+//     {
+//       sentence: "پِسَر از طَعمِ تُندِ غَذا صورَتَش سُرخ شَد و آبِ زیادی خورد.",
+//       words: [
+//         { text: "تند", pronunciation: "tond", image: "https://en.pimg.jp/080/738/220/1/80738220.jpg", translation: "Spicy" }
+//       ]
+//     },
+//     {
+//       sentence: "دُختَر بَعد اَز خوردنِ غَذایِ شور خیلی تِشنِه شُد.",
+//       words: [
+//         { text: "تشنه", pronunciation: "tashne", image: "https://thumbs.dreamstime.com/b/boy-drinking-water-21936024.jpg" , translation: "Thirsty" }
+//       ]
+//     },
+//     {
+//       sentence: "بَچِّه اَز این غَذا بَدَش آمَد و ناراحَت شُد.",
+//       words: [
+//         { text: "بدش آمد", pronunciation: "badash āmad", image: "https://thumbs.dreamstime.com/b/vector-illustration-boy-refuse-to-eat-broccoli-tomatoes-fried-eggs-233556931.jpg", translation: "Dislike" }
+//       ]
+//     },
+//     {
+//       sentence: "کودَک بَعد اَز خوردنِ زیاد دُچارِ دِل‌دَرد شُد.",
+//       words: [
+//         { text: "دل‌درد", pronunciation: "del-dard", image: "https://media.istockphoto.com/id/2245916257/vector/child-suffering-after-eating-junk-food-vector-illustration.jpg?s=612x612&w=0&k=20&c=EiazgMJOiDMeyeIhAPSfEVNUyu1BWXNZl7HZvSxb5QI=", translation: "Stomach ache" }
+//       ]
+//     },
+//     {
+//       sentence: "دُختَر اَز خُوردنِ سوپِ خوش‌طَعم لِذَّت بُرد.",
+//       words: [
+//         { text: "لِذَت", pronunciation: "lezat", image: "https://thumbs.dreamstime.com/b/girl-eating-soup-spoon-cheerful-young-enjoys-bowl-green-displaying-happy-expression-seated-table-perfect-419464250.jpg", translation: "Enjoyment" }
+//       ]
+//     },
+//     {
+//       sentence: "پِسَر بَچّه اَز آمادِه کَردَن ناهار با مادَرَش خُوشحال بود.",
+//       words: [
+//         { text: "خوشحال", pronunciation: "khoshhāl", image: "https://media.istockphoto.com/id/1327389819/vector/mother-and-son-cooking-in-the-kitchen.jpg?s=612x612&w=0&k=20&c=TNibgC7TXVsKcACToxFt8O9YOfJdHfL0HnNDOAOml00=", translation: "Happy" }
+//       ]
+//     }
+//   ]
+// },
 {
-  title: "اِحساس دَر باره‌یِ غذا",
+  title: "اِحساس دوست داشتن چیزها",
   imgSide: "https://i.etsystatic.com/17675358/r/il/4f6b82/3333354780/il_570xN.3333354780_m3eu.jpg",
   slides: [
     {
-      sentence: "بچه ها بَعد اَز خُوردَنِ یِک تِکه پیتزا خِیلی خوشحال شُدند.",
+      sentence: "مَن بَستَنی دوست دارَم چون سَرد و خُوشمَزِه اَست.",
       words: [
-        { text: "خوشحال", pronunciation: "khoshhāl", image: "https://thumbs.dreamstime.com/b/illustration-cartoon-kids-eating-pizza-together-cartoon-kids-eating-pizza-together-110663012.jpg", translation: "Happy" }
+        {
+          text: "بستنی",
+          pronunciation: "bastani",
+          image: "https://t3.ftcdn.net/jpg/16/61/23/98/360_F_1661239812_0kVT1F4OOTQKtER5aeUm5E3shmyH4rZX.jpg",
+          translation: "ice cream"
+        }
       ]
     },
     {
-      sentence: "پِسَر خِیلی گُرسنه بود و نَمِی‌توانِست صَبر کُنَد.",
+      sentence: "مَن پیتزا را بیشتَر اَز هَمبِرگِر دوست دارَم چون خِیلی خُوشمَزِه اَست.",
       words: [
-        { text: "گُرسنه", pronunciation: "gorosne", image: "https://img.magnific.com/premium-vector/cute-boy-was-thinking-choosing-junk-food-healthy-food-vector-illustration_723224-4029.jpg?w=360",translation: "Hungry" }
+        {
+          text: "پیتزا",
+          pronunciation: "pizza",
+          image: "https://thumbs.dreamstime.com/b/cheerful-cartoon-pepperoni-pizza-slice-animated-face-kitchen-image-generated-using-ai-367277425.jpg",
+          translation: "pizza"
+        }
       ]
     },
     {
-      sentence: "پِسَر بَعد اَز ناهار خُوردَن سیر شُد.",
+      sentence: "مَن کِیک دوست دارَم، مُخصوصاً کِیکِ شُکُلاتی را خِیلی دوست دارَم.",
       words: [
-        { text: "سیر", pronunciation: "sir", image: "https://thumb.ac-illust.com/60/60198944d426d7f83dc2418413ff7390_w.jpeg", translation: "Full" }
+        {
+          text: "کیک",
+          pronunciation: "cake",
+          image: "https://c8.alamy.com/comp/2PWHX9X/birthday-cake-with-cream-chocolate-and-candles-cartoon-vector-illustration-delicious-chocolate-cake-or-pie-isolated-on-white-background-2PWHX9X.jpg",
+          translation: "cake"
+        }
       ]
     },
     {
-      sentence: " دُختَر کوچَک گُفت : کِیک خِیلی لَذیذ و خوشمَزه هَست.",
+      sentence: "مَن شُکُلات دوست دارَم، وَلی زیاد نِمی‌خورَم.",
       words: [
-        { text: "لَذیذ", pronunciation: "laziz", image: "https://img.magnific.com/free-photo/people-eating-sweet-delicious-cake_23-2151534316.jpg?semt=ais_hybrid&w=740&q=80", translation: "Delicious" }
+        {
+          text: "شکلات",
+          pronunciation: "chocolate",
+          image: "https://png.pngtree.com/png-clipart/20250127/original/pngtree-cheerful-chocolate-bar-cartoon-png-image_20055294.png",
+          translation: "chocolate"
+        }
       ]
     },
     {
-      sentence: "پِسَر از طَعمِ تُندِ غَذا صورَتَش سُرخ شَد و آبِ زیادی خورد.",
+      sentence: "مَن سیب دوست دارَم، چون سیب سالِم و شیرین اَست.",
       words: [
-        { text: "تند", pronunciation: "tond", image: "https://en.pimg.jp/080/738/220/1/80738220.jpg", translation: "Spicy" }
+        {
+          text: "سیب",
+          pronunciation: "sib",
+          image: "https://static.vecteezy.com/system/resources/previews/039/656/779/non_2x/ai-generated-red-apple-cartoon-clip-art-free-png.png",
+          translation: "apple"
+        }
       ]
     },
     {
-      sentence: "دُختَر بَعد اَز خوردنِ غَذایِ شور خیلی تِشنِه شُد.",
+      sentence: "مَن خوردَنِ شیر را صُبح‌ها دوست دارَم، وَلی هَر روز شیر نِمی‌خورَم.",
       words: [
-        { text: "تشنه", pronunciation: "tashne", image: "https://thumbs.dreamstime.com/b/boy-drinking-water-21936024.jpg" , translation: "Thirsty" }
+        {
+          text: "شیر",
+          pronunciation: "shir",
+          image: "https://static.vecteezy.com/system/resources/thumbnails/008/390/389/small/cartoon-milk-box-holding-a-glass-of-milk-free-vector.jpg",
+          translation: "milk"
+        }
       ]
     },
     {
-      sentence: "بَچِّه اَز این غَذا بَدَش آمَد و ناراحَت شُد.",
+      sentence: "مَن بُروکلی را زیاد دوست نَدارَم، چون مَزِه‌اَش خوب نیست.",
       words: [
-        { text: "بدش آمد", pronunciation: "badash āmad", image: "https://thumbs.dreamstime.com/b/vector-illustration-boy-refuse-to-eat-broccoli-tomatoes-fried-eggs-233556931.jpg", translation: "Dislike" }
+        {
+          text: "بروکلی",
+          pronunciation: "broccoli",
+          image: "https://www.publicdomainpictures.net/pictures/660000/nahled/happy-broccoli-cartoon-art-1734255633uOJ.jpg",
+          translation: "broccoli"
+        }
       ]
     },
     {
-      sentence: "کودَک بَعد اَز خوردنِ زیاد دُچارِ دِل‌دَرد شُد.",
+      sentence: "مَن گُربه دوست دارَم چون نَرم و بامَزِه اَست.",
       words: [
-        { text: "دل‌درد", pronunciation: "del-dard", image: "https://media.istockphoto.com/id/2245916257/vector/child-suffering-after-eating-junk-food-vector-illustration.jpg?s=612x612&w=0&k=20&c=EiazgMJOiDMeyeIhAPSfEVNUyu1BWXNZl7HZvSxb5QI=", translation: "Stomach ache" }
+        {
+          text: "گربه",
+          pronunciation: "gorbe",
+          image: "https://i.pinimg.com/736x/79/9a/46/799a46214f9c001449da0c4d13545476.jpg",
+          translation: "cat"
+        }
       ]
     },
     {
-      sentence: "دُختَر اَز خُوردنِ سوپِ خوش‌طَعم لِذَّت بُرد.",
+      sentence: "مَن فوتبال را بیشتَر اَز بَسکِتبال دوست دارَم چون هَیَجان‌اَنگیز اَست.",
       words: [
-        { text: "لِذَت", pronunciation: "lezat", image: "https://thumbs.dreamstime.com/b/girl-eating-soup-spoon-cheerful-young-enjoys-bowl-green-displaying-happy-expression-seated-table-perfect-419464250.jpg", translation: "Enjoyment" }
+        {
+          text: "فوتبال",
+          pronunciation: "football / soccer",
+          image: "https://thumbs.dreamstime.com/z/two-soccer-players-playing-field-scoring-goal-vector-cartoon-illustration-children-sports-theme-224882235.jpg",
+          translation: "soccer / football"
+        }
       ]
     },
     {
-      sentence: "پِسَر بَچّه اَز آمادِه کَردَن ناهار با مادَرَش خُوشحال بود.",
+      sentence: "مَن شِنا دوست دارَم، چون دَر آب بازی کَردَن، لِذَّت‌بَخش اَست.",
       words: [
-        { text: "خوشحال", pronunciation: "khoshhāl", image: "https://media.istockphoto.com/id/1327389819/vector/mother-and-son-cooking-in-the-kitchen.jpg?s=612x612&w=0&k=20&c=TNibgC7TXVsKcACToxFt8O9YOfJdHfL0HnNDOAOml00=", translation: "Happy" }
+        {
+          text: "شنا",
+          pronunciation: "shenā",
+          image: "https://thumbs.dreamstime.com/b/cheerful-active-kids-swimming-pool-sport-team-vector-illustration-136015280.jpg",
+          translation: "swimming"
+        }
+      ]
+    },
+    {
+      sentence: "مَن نَقّاشی کَردَن را دوست دارَم چون می‌تَوانَم چیزهایِ قَشَنگ بِکِشَم.",
+      words: [
+        {
+          text: "نقاشی",
+          pronunciation: "naghashi",
+          image: "https://img.pikbest.com/wp/202406/drawing-cartoon-how-to-draw-a-using-basic-techniques_9603866.jpg!sw800",
+          translation: "drawing"
+        }
+      ]
+    },
+    {
+      sentence: "مَن کارتون دیدَن را دوست دارَم، مَخصوصاً وَقتی مَن خَستِه‌اَم.",
+      words: [
+        {
+          text: "کارتون",
+          pronunciation: "cartoon",
+          image: "https://images.stockcake.com/public/f/e/2/fe21ba76-b882-4532-8990-99a06d29f064/magical-screen-time-stockcake.jpg",
+          translation: "cartoons"
+        }
+      ]
+    },
+    {
+      sentence: "مَن پارک را دوست دارَم چون می‌تَوانَم بِدَوَم و بَازی کُنَم.",
+      words: [
+        {
+          text: "پارک",
+          pronunciation: "park",
+          image: "https://media.easy-peasy.ai/7cb9f18d-0739-42cc-b247-efeab6420e48/bb3e26c2-e661-4277-af37-fccb1fe328b6.png",
+          translation: "park"
+        }
+      ]
+    },
+    {
+      sentence: "مَن مَدرَسه را دوست دارَم چون دوستانَم را آنجا می بینَم.",
+      words: [
+        {
+          text: "مدرسه",
+          pronunciation: "madrese",
+          image: "https://images.unsplash.com/photo-1509062522246-3755977927d7",
+          translation: "school"
+        }
       ]
     }
   ]
-},
-
+}
 
 
 ];
