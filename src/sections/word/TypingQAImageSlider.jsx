@@ -4,83 +4,83 @@ import TypingImageText from './TypingImageText';
 
 // ✅ داده‌های دسته‌بندی‌شده
 const categories = {
-  //  "خرید و فروش":[
-  //       {
-  //         "image": "https://www.shutterstock.com/image-vector/green-grocer-shop-various-fruits-600nw-1736669012.jpg",
-  //         "question": "تو بازار چی می‌خَری؟",
-  //         "answer": "مَن میوه می‌خَرم."
-  //       },
-  //       {
-  //         "image": "https://www.shutterstock.com/image-vector/toys-seller-street-illustration-260nw-2283941305.jpg",
-  //         "question": "او چی می‌فُروشه؟",
-  //         "answer": "او اسباب‌بازی می‌فُروشه."
-  //       },
-  //       {
-  //         "image": "https://media.istockphoto.com/id/1288819807/vector/buying-clothes-girl-and-dress-clothes-rack-cartoon-child-in-fashion-store-choosing-new-look.jpg?s=612x612&w=0&k=20&c=uJjPuV_tm1C-v3rAaDzCludeF_zwAtG_l1Z03tQiBxc=",
-  //         "question": "مَن از کُجا لِباس می‌خَرم؟",
-  //         "answer": "تو مَغازه لِباس می‌خَری."
-  //       },
-  //       {
-  //         "image": "https://thumbs.dreamstime.com/b/cartoon-baker-selling-bread-buns-bakery-colorful-drawing-172930431.jpg",
-  //         "question": "نانوایی چی می‌فُروشه؟",
-  //         "answer": "او نان می‌فُروشه."
-  //       },
-  //       {
-  //         "image": "https://thumb.ac-illust.com/dc/dcbf5a403e03001e645444393f7ad8c1_w.jpeg",
-  //         "question": "تو کِی کفش می‌خَری؟",
-  //         "answer": "مَن روز جمعه کفش می‌خَرم."
-  //       },
-  //       {
-  //         "image": "https://img.freepik.com/premium-photo/cartoon-illustration-farmers-market-with-people-shopping-fresh-produce_36682-244933.jpg",
-  //         "question": "بازار میوه کُجاست؟",
-  //         "answer": "بازار میوه نَزدیک خونه ماست."
-  //       },
-  //       {
-  //         "image": "https://t4.ftcdn.net/jpg/02/78/37/33/360_F_278373358_25gUoss2GtX0KJa8kJQmNcp872u6dTxW.jpg",
-  //         "question": "مَن چی از بقالی می‌خَرم؟",
-  //         "answer": "تو شیر و تخم‌مرغ می‌خَری."
-  //       },
-  //       {
-  //         "image": "https://www.shutterstock.com/image-vector/buying-books-shop-students-library-260nw-2286949429.jpg",
-  //         "question": "کِتاب‌فُروش چی داره؟",
-  //         "answer": "او کِتاب و دَفتَر داره."
-  //       },
-  //       {
-  //         "image": "https://thumbs.dreamstime.com/b/candy-stall-kids-buying-sweets-festive-42703019.jpg",
-  //         "question": "بَچه‌ها چی دوست دارن بِخَرن؟",
-  //         "answer": "آنها شیرینی و شکلات دوست دارن."
-  //       },
-  //       {
-  //         "image": "https://thumbs.dreamstime.com/b/cute-girly-farmer-market-stand-sell-fruit-veggies-produce-doodle-hand-drawn-cute-girly-farmer-market-stand-sell-fruit-veggies-380216776.jpg",
-  //         "question": "مَرد تو بازار چی می‌فُروشه؟",
-  //         "answer": "او سبزی و میوه می‌فُروشه."
-  //       },
-  //       {
-  //         "image": "https://thumbs.dreamstime.com/b/d-cartoon-customer-buying-milk-small-shop-ai-generated-d-cartoon-illustration-shows-customer-buying-milk-cheerful-343553900.jpg",
-  //         "question": "مَن صُبح چی می‌خَرم؟",
-  //         "answer": "تو صُبح شیر می‌خَری."
-  //       },
-  //       {
-  //         "image": "https://thumb.ac-illust.com/b7/b718b3063816b28ab392cea84cc92456_t.jpeg",
-  //         "question": "او تو مَغازه چی می‌فُروشه؟",
-  //         "answer": "او لِباس می‌فُروشه."
-  //       },
-  //       {
-  //         "image": "https://www.shutterstock.com/shutterstock/photos/353749007/display_1500/stock-vector-cartoon-shopping-cart-full-of-groceries-vector-illustration-isolated-on-white-353749007.jpg",
-  //         "question": "مَن با چِی خرید می‌کنم؟",
-  //         "answer": "تو با چَرخ خرید می‌کُنی."
-  //       },
-  //       {
-  //         "image": "https://media.istockphoto.com/id/1707345367/vector/empty-toy-store-interior-with-shelves-cartoon.jpg?s=612x612&w=0&k=20&c=xXastjKzSCqPhxA1FGv1XJhB4EFC_286SF7DMwS11SA=",
-  //         "question": "اَسباب‌بازی‌ فُروشی کُجاست؟",
-  //         "answer": "اِسباب‌بازی‌فُروشی تو بازار است."
-  //       },
-  //       {
-  //         "image": "https://media.istockphoto.com/id/450654623/vector/buying-vegetables.jpg?s=612x612&w=0&k=20&c=swi--ephBC0xn8RP--ka0BU5VJ_nwEdD_LgbEkPyPAo=",
-  //         "question": "مادَر چی می‌خَره؟",
-  //         "answer": "او سبزی و گوجه می‌خَره."
-  //       }
-  //    ],
+   "خرید و فروش":[
+        {
+          "image": "https://www.shutterstock.com/image-vector/green-grocer-shop-various-fruits-600nw-1736669012.jpg",
+          "question": "تو بازار چی می‌خَری؟",
+          "answer": "مَن میوه می‌خَرم."
+        },
+        {
+          "image": "https://www.shutterstock.com/image-vector/toys-seller-street-illustration-260nw-2283941305.jpg",
+          "question": "او چی می‌فُروشه؟",
+          "answer": "او اسباب‌بازی می‌فُروشه."
+        },
+        {
+          "image": "https://media.istockphoto.com/id/1288819807/vector/buying-clothes-girl-and-dress-clothes-rack-cartoon-child-in-fashion-store-choosing-new-look.jpg?s=612x612&w=0&k=20&c=uJjPuV_tm1C-v3rAaDzCludeF_zwAtG_l1Z03tQiBxc=",
+          "question": "مَن از کُجا لِباس می‌خَرم؟",
+          "answer": "تو مَغازه لِباس می‌خَری."
+        },
+        {
+          "image": "https://thumbs.dreamstime.com/b/cartoon-baker-selling-bread-buns-bakery-colorful-drawing-172930431.jpg",
+          "question": "نانوایی چی می‌فُروشه؟",
+          "answer": "او نان می‌فُروشه."
+        },
+        {
+          "image": "https://thumb.ac-illust.com/dc/dcbf5a403e03001e645444393f7ad8c1_w.jpeg",
+          "question": "تو کِی کفش می‌خَری؟",
+          "answer": "مَن روز جمعه کفش می‌خَرم."
+        },
+        {
+          "image": "https://img.freepik.com/premium-photo/cartoon-illustration-farmers-market-with-people-shopping-fresh-produce_36682-244933.jpg",
+          "question": "بازار میوه کُجاست؟",
+          "answer": "بازار میوه نَزدیک خونه ماست."
+        },
+        {
+          "image": "https://t4.ftcdn.net/jpg/02/78/37/33/360_F_278373358_25gUoss2GtX0KJa8kJQmNcp872u6dTxW.jpg",
+          "question": "مَن چی از بقالی می‌خَرم؟",
+          "answer": "تو شیر و تخم‌مرغ می‌خَری."
+        },
+        {
+          "image": "https://www.shutterstock.com/image-vector/buying-books-shop-students-library-260nw-2286949429.jpg",
+          "question": "کِتاب‌فُروش چی داره؟",
+          "answer": "او کِتاب و دَفتَر داره."
+        },
+        {
+          "image": "https://thumbs.dreamstime.com/b/candy-stall-kids-buying-sweets-festive-42703019.jpg",
+          "question": "بَچه‌ها چی دوست دارن بِخَرن؟",
+          "answer": "آنها شیرینی و شکلات دوست دارن."
+        },
+        {
+          "image": "https://thumbs.dreamstime.com/b/cute-girly-farmer-market-stand-sell-fruit-veggies-produce-doodle-hand-drawn-cute-girly-farmer-market-stand-sell-fruit-veggies-380216776.jpg",
+          "question": "مَرد تو بازار چی می‌فُروشه؟",
+          "answer": "او سبزی و میوه می‌فُروشه."
+        },
+        {
+          "image": "https://thumbs.dreamstime.com/b/d-cartoon-customer-buying-milk-small-shop-ai-generated-d-cartoon-illustration-shows-customer-buying-milk-cheerful-343553900.jpg",
+          "question": "مَن صُبح چی می‌خَرم؟",
+          "answer": "تو صُبح شیر می‌خَری."
+        },
+        {
+          "image": "https://thumb.ac-illust.com/b7/b718b3063816b28ab392cea84cc92456_t.jpeg",
+          "question": "او تو مَغازه چی می‌فُروشه؟",
+          "answer": "او لِباس می‌فُروشه."
+        },
+        {
+          "image": "https://www.shutterstock.com/shutterstock/photos/353749007/display_1500/stock-vector-cartoon-shopping-cart-full-of-groceries-vector-illustration-isolated-on-white-353749007.jpg",
+          "question": "مَن با چِی خرید می‌کنم؟",
+          "answer": "تو با چَرخ خرید می‌کُنی."
+        },
+        {
+          "image": "https://media.istockphoto.com/id/1707345367/vector/empty-toy-store-interior-with-shelves-cartoon.jpg?s=612x612&w=0&k=20&c=xXastjKzSCqPhxA1FGv1XJhB4EFC_286SF7DMwS11SA=",
+          "question": "اَسباب‌بازی‌ فُروشی کُجاست؟",
+          "answer": "اِسباب‌بازی‌فُروشی تو بازار است."
+        },
+        {
+          "image": "https://media.istockphoto.com/id/450654623/vector/buying-vegetables.jpg?s=612x612&w=0&k=20&c=swi--ephBC0xn8RP--ka0BU5VJ_nwEdD_LgbEkPyPAo=",
+          "question": "مادَر چی می‌خَره؟",
+          "answer": "او سبزی و گوجه می‌خَره."
+        }
+     ],
     // "حیوانات":[
     //     {
     //       "image": "http://img.freepik.com/free-vector/cute-kitten-sofa-cartoon_1308-146475.jpg?semt=ais_hybrid&w=740&q=80",
@@ -335,83 +335,83 @@ const categories = {
     //       "answer": "بله، کیفم را آماده کردم."
     //     }
     //   ],
-"در مَدرَسه": [
-  {
-    "image": "https://www.shutterstock.com/shutterstock/photos/682866226/display_1500/stock-vector-students-in-front-of-school-cartoon-vector-illustration-682866226.jpg",
-    "question": "کُجا هَستی؟",
-    "answer": "مَن دَر مَدرَسه هَستَم."
-  },
-  {
-    "image": "https://us.123rf.com/450wm/yusufdemirci/yusufdemirci2307/yusufdemirci230700008/209891892-kids-and-teacher-at-kindergarten.jpg?ver=6",
-    "question": "دَر کُدام کِلاس هَستی؟",
-    "answer": "مَن دَر کِلاس اَوَّل هَستَم."
-  },
-  {
-    "image": "https://img.freepik.com/free-vector/teacher-teaching-students-classroom-scene_1308-67531.jpg",
-    "question": "مُعَلِّمِ تو کیست؟",
-    "answer": "خانُم ... مُعَلِّمِ مَن اَست."
-  },
-  {
-    "image": "https://classroomclipart.com/image/static7/preview2/three-school-friends-in-the-classroom-cartoon-style-60049.jpg",
-    "question": "دو‌ستَت دَر مَدرَسه کیست؟",
-    "answer": "دو‌ستِ مَن ... اَست."
-  },
-  {
-    "image": "https://static.vecteezy.com/system/resources/previews/001/436/916/non_2x/student-at-school-playground-free-vector.jpg",
-    "question": "دَر زَنگِ تِفرِیح چه می‌کُنی؟",
-    "answer": "با دو‌ستانَم بازی می‌کُنَم."
-  },
-  {
-    "image": "https://thumbs.dreamstime.com/b/cartoon-school-children-book-isolated-illustration-60524736.jpg",
-    "question": "چه کِتابی دو‌ست داری بِخونی؟",
-    "answer": "مَن کِتابِ ... را دو‌ست دارَم بِخونَم."
-  },
-  {
-    "image": "https://thumbs.dreamstime.com/b/schoolboy-interactive-whiteboard-elementary-school-student-writing-39631129.jpg",
-    "question": "رویِ تَختِه چه نِوش‍تِه؟",
-    "answer": "رویِ تَختِه ... نِوش‍تِه اَست."
-  },
-  {
-    "image": "https://media.istockphoto.com/id/578573356/vector/child-writing-big-pencil.jpg?s=612x612&w=0&k=20&c=dyolE5RMA6f9n-CW5VmogJ2LFwH52sy0mTJ1j8aYJjY=",
-    "question": "با چی می‌نِویسی؟",
-    "answer": "با مِداد می‌نِویسَم."
-  },
-  {
-    "image": "https://static7.depositphotos.com/1007989/750/i/950/depositphotos_7507486-stock-illustration-kids-drawing.jpg",
-    "question": "دَر کِلاسِ هُنَر چه کار می‌کُنی؟",
-    "answer": "مَن نَقّاشی می‌کِشَم."
-  },
-  {
-    "image": "https://img.favpng.com/20/17/15/physical-education-clip-art-png-favpng-sqVb9fT8SyhYCZRRdBndDy0F1.jpg",
-    "question": "کِلاسِ وَرزِش را دو‌ست داری؟",
-    "answer": "بَله، کِلاسِ وَرزِش را خِیلی دو‌ست دارَم."
-  },
-  {
-    "image": "https://static.vecteezy.com/system/resources/previews/000/300/516/non_2x/vector-many-kids-reading-books-in-library.jpg",
-    "question": "کِتاب‌خانِه کُجاست؟",
-    "answer": "کِتاب‌خانِه کِنارِ دَفتَر اَست."
-  },
-  {
-    "image": "https://media.istockphoto.com/id/466565297/vector/elementary-students-eating-lunch-in-cafeteria.jpg?s=612x612&w=0&k=20&c=HRSLck8pqadx2WUf1B8tmd1nZGchf1Pa4n9-2cbDIoY=",
-    "question": "نَاهار را کُجا می‌خوری؟",
-    "answer": "دَر سالُنِ غَذاخوری نَاهار می‌خورَم."
-  },
-  {
-    "image": "https://i.pinimg.com/736x/63/25/fa/6325faac6d388d8b2ca7679a7edbefab.jpg",
-    "question": "دَفتَرِ مَشقت کُجاست؟",
-    "answer": "دَر کیفَم اَست."
-  },
-  {
-    "image": "https://static7.depositphotos.com/1007989/773/i/950/depositphotos_7734154-stock-illustration-packing-school-bag.jpg",
-    "question": "چه چیز‌ی دَر کیفَت هَست؟",
-    "answer": "دَر کیفَم کِتاب، دَفتَر وَ مِداد اَست."
-  },
-  {
-    "image": "https://core-docs.s3.amazonaws.com/somerville_isd_ar/article/image/large_ec563ba0-55ff-4f1e-8278-272e394d2a14.png",
-    "question": "چه وَقت بِه خانِه می‌روی؟",
-    "answer": "بَعد اَز زَنگِ آخَر بِه خانِه می‌رَوَم."
-  }
-],
+// "در مَدرَسه": [
+//   {
+//     "image": "https://www.shutterstock.com/shutterstock/photos/682866226/display_1500/stock-vector-students-in-front-of-school-cartoon-vector-illustration-682866226.jpg",
+//     "question": "کُجا هَستی؟",
+//     "answer": "مَن دَر مَدرَسه هَستَم."
+//   },
+//   {
+//     "image": "https://us.123rf.com/450wm/yusufdemirci/yusufdemirci2307/yusufdemirci230700008/209891892-kids-and-teacher-at-kindergarten.jpg?ver=6",
+//     "question": "دَر کُدام کِلاس هَستی؟",
+//     "answer": "مَن دَر کِلاس اَوَّل هَستَم."
+//   },
+//   {
+//     "image": "https://img.freepik.com/free-vector/teacher-teaching-students-classroom-scene_1308-67531.jpg",
+//     "question": "مُعَلِّمِ تو کیست؟",
+//     "answer": "خانُم ... مُعَلِّمِ مَن اَست."
+//   },
+//   {
+//     "image": "https://classroomclipart.com/image/static7/preview2/three-school-friends-in-the-classroom-cartoon-style-60049.jpg",
+//     "question": "دو‌ستَت دَر مَدرَسه کیست؟",
+//     "answer": "دو‌ستِ مَن ... اَست."
+//   },
+//   {
+//     "image": "https://static.vecteezy.com/system/resources/previews/001/436/916/non_2x/student-at-school-playground-free-vector.jpg",
+//     "question": "دَر زَنگِ تِفرِیح چه می‌کُنی؟",
+//     "answer": "با دو‌ستانَم بازی می‌کُنَم."
+//   },
+//   {
+//     "image": "https://thumbs.dreamstime.com/b/cartoon-school-children-book-isolated-illustration-60524736.jpg",
+//     "question": "چه کِتابی دو‌ست داری بِخونی؟",
+//     "answer": "مَن کِتابِ ... را دو‌ست دارَم بِخونَم."
+//   },
+//   {
+//     "image": "https://thumbs.dreamstime.com/b/schoolboy-interactive-whiteboard-elementary-school-student-writing-39631129.jpg",
+//     "question": "رویِ تَختِه چه نِوش‍تِه؟",
+//     "answer": "رویِ تَختِه ... نِوش‍تِه اَست."
+//   },
+//   {
+//     "image": "https://media.istockphoto.com/id/578573356/vector/child-writing-big-pencil.jpg?s=612x612&w=0&k=20&c=dyolE5RMA6f9n-CW5VmogJ2LFwH52sy0mTJ1j8aYJjY=",
+//     "question": "با چی می‌نِویسی؟",
+//     "answer": "با مِداد می‌نِویسَم."
+//   },
+//   {
+//     "image": "https://static7.depositphotos.com/1007989/750/i/950/depositphotos_7507486-stock-illustration-kids-drawing.jpg",
+//     "question": "دَر کِلاسِ هُنَر چه کار می‌کُنی؟",
+//     "answer": "مَن نَقّاشی می‌کِشَم."
+//   },
+//   {
+//     "image": "https://img.favpng.com/20/17/15/physical-education-clip-art-png-favpng-sqVb9fT8SyhYCZRRdBndDy0F1.jpg",
+//     "question": "کِلاسِ وَرزِش را دو‌ست داری؟",
+//     "answer": "بَله، کِلاسِ وَرزِش را خِیلی دو‌ست دارَم."
+//   },
+//   {
+//     "image": "https://static.vecteezy.com/system/resources/previews/000/300/516/non_2x/vector-many-kids-reading-books-in-library.jpg",
+//     "question": "کِتاب‌خانِه کُجاست؟",
+//     "answer": "کِتاب‌خانِه کِنارِ دَفتَر اَست."
+//   },
+//   {
+//     "image": "https://media.istockphoto.com/id/466565297/vector/elementary-students-eating-lunch-in-cafeteria.jpg?s=612x612&w=0&k=20&c=HRSLck8pqadx2WUf1B8tmd1nZGchf1Pa4n9-2cbDIoY=",
+//     "question": "نَاهار را کُجا می‌خوری؟",
+//     "answer": "دَر سالُنِ غَذاخوری نَاهار می‌خورَم."
+//   },
+//   {
+//     "image": "https://i.pinimg.com/736x/63/25/fa/6325faac6d388d8b2ca7679a7edbefab.jpg",
+//     "question": "دَفتَرِ مَشقت کُجاست؟",
+//     "answer": "دَر کیفَم اَست."
+//   },
+//   {
+//     "image": "https://static7.depositphotos.com/1007989/773/i/950/depositphotos_7734154-stock-illustration-packing-school-bag.jpg",
+//     "question": "چه چیز‌ی دَر کیفَت هَست؟",
+//     "answer": "دَر کیفَم کِتاب، دَفتَر وَ مِداد اَست."
+//   },
+//   {
+//     "image": "https://core-docs.s3.amazonaws.com/somerville_isd_ar/article/image/large_ec563ba0-55ff-4f1e-8278-272e394d2a14.png",
+//     "question": "چه وَقت بِه خانِه می‌روی؟",
+//     "answer": "بَعد اَز زَنگِ آخَر بِه خانِه می‌رَوَم."
+//   }
+// ],
 
   // "لباس مهمانی": [ 
   //   {
