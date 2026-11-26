@@ -22,8 +22,8 @@ export default function Home() {
   return (<>
   <div >
     {/* <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : جملات زیر را بخوانند و از روی 4 جمله آن بنویسند..  </div> */}
-    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی قسمت بالای عکس  یک بار بنویسند..  </div>
-    {/* <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی کلمات آن با معنی دو بار بنویسند..  </div> */}
+    {/* <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی قسمت بالای عکس  یک بار بنویسند..  </div> */}
+    <div className="h5 m-5 border border-3 border-warning p-4 text-center bg-info rounded">بچه ها : داستان زیر را بخوانند و از روی کلمات آن با معنی دو بار بنویسند..  </div>
         {/* <VideoCard
       title="قصه کوتاه امروز"
       description="متن فارسی داستان زیر را بخوانید."
@@ -34,11 +34,11 @@ export default function Home() {
   // imageSrc={`${process.env.PUBLIC_URL}/images/assetWord/designPage/girlSitting.png`}
   colors={["#ff0000", "#00ccff", "#ffaa00", "#8800ff","#10902eff", "#ff9500", "#ffcc00", "#34c759", "#0c09b7ff", "#5856d6", "#a0364aff"]}
 /> */}
-        <StoryPage3 groupKey="alefba" wantedTitle="دوستِ جَدید"/>
+        {/* <StoryPage3 groupKey="alefba" wantedTitle="دوستِ جَدید"/> */}
         {/* <WordGameWithCategories initialCategory="وسایل مدرسه" />  */}
-        {/* <StoryPage3 groupKey="kalemat" wantedTitle="مینا و پَروانِه"/> */}
+        <StoryPage3 groupKey="kalemat" wantedTitle="بازی با خواهَر"/> 
         {/* <StoryPage3 groupKey="dastan" wantedTitle="اَمیر در فُروشگاه"/> */}
-        {/* <PersianMahjong/> */}
+        <PersianMahjong/>
           {/* <SentenceBuilder/> */}
         {/* <SentenceObject/> */}
         {/* <MatchGame titleGame=""/> */}

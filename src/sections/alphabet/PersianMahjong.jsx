@@ -34,30 +34,55 @@ import React, { useEffect, useMemo, useState } from "react";
 // `;
 
 // داستان امیر و فروشگاه
-const DEFAULT_WORDS = `فروشگاه | Store
-میوه | Fruit
-نان | Bread
-خوراکی | Food / Snack
-قفسه | Shelf
-تماشا کردن | To watch / Look at
-برگشتن | To return
-کُم شدن | To decrease
-قلب | Heart
-تند زدن | To beat fast
-اَشک | Tear
-کمک خواستن | To ask for help
-کنار | Beside / Next to
-ایستادن | To stand
-کارمند | Employee
-بلندگو | Loudspeaker
-اعلام کردن | To announce
-بخش اطلاعات | Information Desk
-منتظر | Waiting
-آغوش | Hug / Embrace
-بزرگ | Big
-مسئول | Person in charge
-همانجا | Right there
+// const DEFAULT_WORDS = `فروشگاه | Store
+// میوه | Fruit
+// نان | Bread
+// خوراکی | Food / Snack
+// قفسه | Shelf
+// تماشا کردن | To watch / Look at
+// برگشتن | To return
+// کُم شدن | To decrease
+// قلب | Heart
+// تند زدن | To beat fast
+// اَشک | Tear
+// کمک خواستن | To ask for help
+// کنار | Beside / Next to
+// ایستادن | To stand
+// کارمند | Employee
+// بلندگو | Loudspeaker
+// اعلام کردن | To announce
+// بخش اطلاعات | Information Desk
+// منتظر | Waiting
+// آغوش | Hug / Embrace
+// بزرگ | Big
+// مسئول | Person in charge
+// همانجا | Right there
+// `;
+
+// داستان بازی با خواهر
+const DEFAULT_WORDS = `خواهر | Sister
+برادر | Brother
+بعد از مدرسه | After school
+خانه | House / Home
+بازی کردن | To play
+با هم | Together
+ساختن | To build / To make
+سقف | Roof / Ceiling
+پنجره | Window
+نگاه کردن | To look / To watch
+اتاق | Room
+جعبه | Box
+دیوار | Wall
+خیاط | Tailor
+نوبت | Turn
+ناراحت | Sad / Upset
+کنار هم | Next to each other / Side by side
+لذت‌بخش | Enjoyable / Fun
+نتیجه | Result
+لحظه | Moment
 `;
+
+
 // داستان قهر کوچک
 // const DEFAULT_WORDS = `قَهر | Being upset / Quarrel
 // کُوچَک | Small / Little
@@ -252,7 +277,7 @@ export default function PersianMahjong() {
   const [showTeacherSettings, setShowTeacherSettings] = useState(true);
   const [mode, setMode] = useState("translation");
   const [difficulty, setDifficulty] = useState("medium");
-  const [pairCount, setPairCount] = useState(22);
+  const [pairCount, setPairCount] = useState(20);
   const [wordText, setWordText] = useState(DEFAULT_WORDS);
   const [board, setBoard] = useState([]);
   const [selected, setSelected] = useState(null);
